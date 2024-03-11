@@ -1,0 +1,11 @@
+[0.066s] Invoking command in '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/opt/ros/humble /usr/bin/cmake --build /workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target points_subscriber[0m
+[0.118s] [ 50%] [32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o[0m
+[0.341s] [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kglog: No such file or directory
+[0.341s]     8 | #include [01;31m[K<glog>[m[K
+[0.341s]       |          [01;31m[K^~~~~~[m[K
+[0.341s] compilation terminated.
+[0.343s] gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:76: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o] Error 1
+[0.344s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/points_subscriber.dir/all] Error 2
+[0.344s] gmake: *** [Makefile:146: all] Error 2
+[0.345s] Invoked command in '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/opt/ros/humble /usr/bin/cmake --build /workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12

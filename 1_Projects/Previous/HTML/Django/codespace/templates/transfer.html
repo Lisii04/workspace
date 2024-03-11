@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            background: #2c3e50;
+        }
+
+        .container {
+            /* background: url("otuai.png") no-repeat; */
+            /* background-position: center; */
+            height: 100%;
+            width: 100%;
+            /* background-size: 100% cover; */
+        }
+
+        .login-wrapper {
+            width: 360px;
+            height: fit-content;
+            border-radius: 15px;
+            padding: 20px 50px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            background-color: #3e566e;
+            backdrop-filter: blur(10px);
+            box-shadow: 10px 10px 20px rgba(33, 44, 55, .3);
+        }
+
+        .header {
+            font-family: sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 70px;
+            color: #ffffffd3;
+        }
+
+        .input-item {
+            color: #24304493;
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            border: 0;
+            padding: 10px;
+            font-size: 15px;
+            border-radius: 3px;
+            outline: rgb(255, 255, 255);
+        }
+
+        .input-item:placeholder {
+            text-transform: uppercase;
+        }
+
+
+        .jump {
+            width: 50%;
+            flex: 1 1 auto;
+            right: 30px;
+            padding: 5px;
+            border-radius: 5px;
+            text-align: center;
+            text-transform: uppercase;
+            position: absolute;
+            overflow: hidden;
+            transition: 0.3s;
+            background: #d5bdf5;
+            z-index: 0;
+            border: none;
+
+            animation-duration: 3s;
+            animation-name: slidein;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes slidein {
+            from {
+                position: absolute;
+                width: 0;
+                left: 5%;
+                bottom: 0;
+                height: 3px;
+                background: #d5bdf5;
+            }
+
+
+            25% {
+                position: absolute;
+                width: 50%;
+                left: 25%;
+                bottom: 0;
+                height: 3px;
+                background: #d5bdf5;
+            }
+
+            50% {
+                position: absolute;
+                width: 0;
+                left: 90%;
+                bottom: 0;
+                height: 3px;
+                background: #d5bdf5;
+            }
+
+            50.1% {
+                position: absolute;
+                width: 0;
+                left: 90%;
+                bottom: 0;
+                height: 3px;
+                background: #d5bdf5;
+            }
+
+
+            75% {
+                position: absolute;
+                width: 50%;
+                left: 25%;
+                bottom: 0;
+                height: 3px;
+                background: #d5bdf5;
+            }
+
+            to {
+                position: absolute;
+                width: 0;
+                left: 5%;
+                bottom: 0;
+                height: 3px;
+                background: #d5bdf5;
+            }
+        }
+    </style>
+</head>
+
+<body onload="jump()">
+    <div class="container">
+        <div class="login-wrapper">
+            <div class="header">Loading</div>
+            <div class="form-wrapper">
+                <button class="jump"></button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function jump() {
+            setTimeout("window.location.href='http://code.lisii.cn'", 2500);
+        }
+    </script>
+</body>
+
+</html>

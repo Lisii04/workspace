@@ -1,0 +1,62 @@
+[35m[1mConsolidate compiler generated dependencies of target points_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o[0m
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:[m[K In function ‘[01m[Kvoid remap(std::map<int, cv::Point_<float> >, Logger)[m[K’:
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:217:33:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [8][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator+[m[K’
+  217 |         logger.ERRORS([32m[K"[ERROR]"[m[K [01;31m[K+[m[K [34m[Ke.what()[m[K);
+      |                       [32m[K~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~[m[K
+      |                       [32m[K|[m[K                 [34m[K|[m[K
+      |                       [32m[Kconst char [8][m[K    [34m[Kconst char*[m[K
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:[m[K In member function ‘[01m[Kvoid Points_subscriber::command_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:241:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ was not declared in this scope; did you mean ‘[01m[KLogger[m[K’?
+  241 |             [01;31m[Klogger[m[K.INFO("[正在接收点坐标]");
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[KLogger[m[K
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:246:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  246 |                 for (int i = 0; [01;35m[Ki < msg->data.size() - 2[m[K; i += 3) {
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:277:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ was not declared in this scope; did you mean ‘[01m[KLogger[m[K’?
+  277 |             [01;31m[Klogger[m[K.ERRORS("[ERROR]" + e.what());
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[KLogger[m[K
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:277:37:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [8][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator+[m[K’
+  277 |             logger.ERRORS([32m[K"[ERROR]"[m[K [01;31m[K+[m[K [34m[Ke.what()[m[K);
+      |                           [32m[K~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~[m[K
+      |                           [32m[K|[m[K                 [34m[K|[m[K
+      |                           [32m[Kconst char [8][m[K    [34m[Kconst char*[m[K
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:313:33:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [8][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator+[m[K’
+  313 |         logger.ERRORS([32m[K"[ERROR]"[m[K [01;31m[K+[m[K [34m[Ke.what()[m[K);
+      |                       [32m[K~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~[m[K
+      |                       [32m[K|[m[K                 [34m[K|[m[K
+      |                       [32m[Kconst char [8][m[K    [34m[Kconst char*[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:2[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Points_subscriber; _Args = {const char (&)[18], Logger&}; _Tp = Points_subscriber][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Points_subscriber; _Args = {const char (&)[18], Logger&}; _Tp = Points_subscriber; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<Points_subscriber>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[18], Logger&}; _Tp = Points_subscriber; _Alloc = std::allocator<Points_subscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = Points_subscriber; _Alloc = std::allocator<Points_subscriber>; _Args = {const char (&)[18], Logger&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Points_subscriber>; _Args = {const char (&)[18], Logger&}; _Tp = Points_subscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Points_subscriber>; _Args = {const char (&)[18], Logger&}; _Tp = Points_subscriber][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = Points_subscriber; _Alloc = std::allocator<Points_subscriber>; _Args = {const char (&)[18], Logger&}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = Points_subscriber; _Args = {const char (&)[18], Logger&}][m[K’
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:330:52:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KLogger::Logger(const Logger&)[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:47:7:[m[K [01;36m[Knote: [m[K‘[01m[KLogger::Logger(const Logger&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+   47 | class [01;36m[KLogger[m[K
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:47:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kstd::basic_ofstream<_CharT, _Traits>::basic_ofstream(const std::basic_ofstream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:9[m[K:
+[01m[K/usr/include/c++/11/fstream:853:7:[m[K [01;36m[Knote: [m[Kdeclared here
+  853 |       [01;36m[Kbasic_ofstream[m[K(const basic_ofstream&) = delete;
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:226:47:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[KPoints_subscriber::Points_subscriber(std::string, Logger)[m[K’
+  226 |     Points_subscriber(std::string name,[01;36m[KLogger logger[m[K)
+      |                                        [01;36m[K~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:76: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/points_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,5 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp/CMakeCache.txt is different than the directory /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+/bin/sh: 第 1 行： cd: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp: 没有那个文件或目录
+gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:224：CMakeFiles/points_subscriber.dir/depend] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:136：CMakeFiles/points_subscriber.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

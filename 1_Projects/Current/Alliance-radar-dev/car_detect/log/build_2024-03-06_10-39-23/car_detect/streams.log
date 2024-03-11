@@ -1,0 +1,30 @@
+[0.027s] Invoking command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect -- -j16 -l16
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target car_detect[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/car_detect.dir/src/Yolov5.cpp.o[0m
+[2.248s] [01m[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:[m[K In member function ‘[01m[Kvoid YOLOv5Detector::detect(cv::Mat&, std::vector<DetectResult>&)[m[K’:
+[2.248s] [01m[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:61:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconfidence_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.248s]    61 |         float [01;35m[Kconfidence_threshold[m[K = 0.5;
+[2.249s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [100%] [32m[1mLinking CXX executable car_detect[0m
+[3.410s] [100%] Built target car_detect
+[3.423s] Invoked command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect -- -j16 -l16
+[3.456s] Invoking command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect
+[3.463s] -- Install configuration: ""
+[3.463s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/ament_index/resource_index/package_run_dependencies/car_detect
+[3.463s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/ament_index/resource_index/parent_prefix_path/car_detect
+[3.463s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/ament_prefix_path.sh
+[3.463s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/ament_prefix_path.dsv
+[3.463s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/path.sh
+[3.464s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/path.dsv
+[3.464s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.bash
+[3.464s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.sh
+[3.464s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.zsh
+[3.464s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.dsv
+[3.464s] -- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/package.dsv
+[3.464s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/ament_index/resource_index/packages/car_detect
+[3.464s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/cmake/car_detectConfig.cmake
+[3.464s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/cmake/car_detectConfig-version.cmake
+[3.464s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/package.xml
+[3.464s] -- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/lib/car_detect/car_detect
+[3.464s] -- Set runtime path of "/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/lib/car_detect/car_detect" to ""
+[3.466s] Invoked command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect

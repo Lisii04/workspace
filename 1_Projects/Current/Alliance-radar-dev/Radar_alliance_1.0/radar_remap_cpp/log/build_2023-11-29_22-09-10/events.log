@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (radar_remap_cpp) JobQueued: {'identifier': 'radar_remap_cpp', 'dependencies': OrderedDict()}
+[0.000311] (radar_remap_cpp) JobStarted: {'identifier': 'radar_remap_cpp'}
+[0.084473] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'cmake'}
+[0.085166] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'build'}
+[0.086272] (radar_remap_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp', '--', '-j12', '-l12'], 'cwd': '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/lisii-MS-7C83:@/tmp/.ICE-unix/1912,unix/lisii-MS-7C83:/tmp/.ICE-unix/1912'), ('QT_ACCESSIBILITY', '1'), ('COLORTERM', 'truecolor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('LANGUAGE', 'zh_CN:en'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_NAME', 'zh_CN.UTF-8'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('PWD', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LOGNAME', 'lisii'), ('XDG_SESSION_TYPE', 'x11'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('SYSTEMD_EXEC_PID', '1912'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('WINDOWPATH', '2'), ('HOME', '/home/lisii'), ('USERNAME', 'lisii'), ('LANG', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('VTE_VERSION', '6800'), ('AMENT_PREFIX_PATH', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp:/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/points_subscriber:/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/example_topic_rclcpp:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp:/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/points_subscriber:/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/example_topic_rclcpp:/opt/ros/humble'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/179ab22f_6adb_4354_8e56_324ebfe928ab'), ('COLCON_PREFIX_PATH', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lisii'), ('GNOME_TERMINAL_SERVICE', ':1.408'), ('DISPLAY', ':1'), ('SHLVL', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PAPERSIZE', 'a4'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8cbe1f7f7a7532bf77173ded656731f7'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/lisii/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PATH', '/opt/ros/humble/bin:/home/lisii/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('GDMSESSION', 'ubuntu'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8cbe1f7f7a7532bf77173ded656731f7'), ('ROS_DISTRO', 'humble'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099633] (-) TimerEvent: {}
+[0.121795] (radar_remap_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target points_subscriber\x1b[0m\n'}
+[0.137852] (radar_remap_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o\x1b[0m\n'}
+[0.199760] (-) TimerEvent: {}
+[0.300067] (-) TimerEvent: {}
+[0.400354] (-) TimerEvent: {}
+[0.500658] (-) TimerEvent: {}
+[0.600924] (-) TimerEvent: {}
+[0.701182] (-) TimerEvent: {}
+[0.801489] (-) TimerEvent: {}
+[0.901748] (-) TimerEvent: {}
+[1.001994] (-) TimerEvent: {}
+[1.102297] (-) TimerEvent: {}
+[1.202585] (-) TimerEvent: {}
+[1.302870] (-) TimerEvent: {}
+[1.403238] (-) TimerEvent: {}
+[1.503624] (-) TimerEvent: {}
+[1.603925] (-) TimerEvent: {}
+[1.704183] (-) TimerEvent: {}
+[1.804468] (-) TimerEvent: {}
+[1.904786] (-) TimerEvent: {}
+[2.005061] (-) TimerEvent: {}
+[2.105339] (-) TimerEvent: {}
+[2.205682] (-) TimerEvent: {}
+[2.306002] (-) TimerEvent: {}
+[2.406350] (-) TimerEvent: {}
+[2.506664] (-) TimerEvent: {}
+[2.607070] (-) TimerEvent: {}
+[2.707368] (-) TimerEvent: {}
+[2.807683] (-) TimerEvent: {}
+[2.870296] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Points_subscriber::command_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.870529] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:86:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.870602] (radar_remap_cpp) StderrLine: {'line': b'   86 |         for (auto i = 0; \x1b[01;35m\x1b[Ki < msg->data.size() - 1\x1b[m\x1b[K; i++) {\n'}
+[2.870658] (radar_remap_cpp) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.907796] (-) TimerEvent: {}
+[3.008164] (-) TimerEvent: {}
+[3.108487] (-) TimerEvent: {}
+[3.208796] (-) TimerEvent: {}
+[3.309135] (-) TimerEvent: {}
+[3.409475] (-) TimerEvent: {}
+[3.509696] (-) TimerEvent: {}
+[3.609957] (-) TimerEvent: {}
+[3.710250] (-) TimerEvent: {}
+[3.810541] (-) TimerEvent: {}
+[3.910814] (-) TimerEvent: {}
+[4.011108] (-) TimerEvent: {}
+[4.111476] (-) TimerEvent: {}
+[4.211798] (-) TimerEvent: {}
+[4.312146] (-) TimerEvent: {}
+[4.412478] (-) TimerEvent: {}
+[4.512786] (-) TimerEvent: {}
+[4.613101] (-) TimerEvent: {}
+[4.713447] (-) TimerEvent: {}
+[4.813789] (-) TimerEvent: {}
+[4.914171] (-) TimerEvent: {}
+[5.014469] (-) TimerEvent: {}
+[5.114862] (-) TimerEvent: {}
+[5.215204] (-) TimerEvent: {}
+[5.315618] (-) TimerEvent: {}
+[5.415854] (-) TimerEvent: {}
+[5.516132] (-) TimerEvent: {}
+[5.616380] (-) TimerEvent: {}
+[5.716667] (-) TimerEvent: {}
+[5.816999] (-) TimerEvent: {}
+[5.917374] (-) TimerEvent: {}
+[6.017664] (-) TimerEvent: {}
+[6.117928] (-) TimerEvent: {}
+[6.218173] (-) TimerEvent: {}
+[6.318432] (-) TimerEvent: {}
+[6.418728] (-) TimerEvent: {}
+[6.519052] (-) TimerEvent: {}
+[6.619408] (-) TimerEvent: {}
+[6.719677] (-) TimerEvent: {}
+[6.819909] (-) TimerEvent: {}
+[6.920162] (-) TimerEvent: {}
+[7.020447] (-) TimerEvent: {}
+[7.120787] (-) TimerEvent: {}
+[7.221101] (-) TimerEvent: {}
+[7.321368] (-) TimerEvent: {}
+[7.421603] (-) TimerEvent: {}
+[7.521838] (-) TimerEvent: {}
+[7.622107] (-) TimerEvent: {}
+[7.722389] (-) TimerEvent: {}
+[7.822762] (-) TimerEvent: {}
+[7.923058] (-) TimerEvent: {}
+[8.023416] (-) TimerEvent: {}
+[8.123669] (-) TimerEvent: {}
+[8.223949] (-) TimerEvent: {}
+[8.324211] (-) TimerEvent: {}
+[8.424470] (-) TimerEvent: {}
+[8.524746] (-) TimerEvent: {}
+[8.574018] (radar_remap_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable points_subscriber\x1b[0m\n'}
+[8.624884] (-) TimerEvent: {}
+[8.725285] (-) TimerEvent: {}
+[8.825672] (-) TimerEvent: {}
+[8.925907] (-) TimerEvent: {}
+[9.026176] (-) TimerEvent: {}
+[9.126443] (-) TimerEvent: {}
+[9.226770] (-) TimerEvent: {}
+[9.309594] (radar_remap_cpp) StdoutLine: {'line': b'[100%] Built target points_subscriber\n'}
+[9.316864] (radar_remap_cpp) CommandEnded: {'returncode': 0}
+[9.326872] (-) TimerEvent: {}
+[9.340820] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'install'}
+[9.347923] (radar_remap_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp'], 'cwd': '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/lisii-MS-7C83:@/tmp/.ICE-unix/1912,unix/lisii-MS-7C83:/tmp/.ICE-unix/1912'), ('QT_ACCESSIBILITY', '1'), ('COLORTERM', 'truecolor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK_IM_MODULE', 'ibus'), ('ROS_PYTHON_VERSION', '3'), ('LANGUAGE', 'zh_CN:en'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_NAME', 'zh_CN.UTF-8'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XMODIFIERS', '@im=ibus'), ('DESKTOP_SESSION', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('PWD', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LOGNAME', 'lisii'), ('XDG_SESSION_TYPE', 'x11'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('SYSTEMD_EXEC_PID', '1912'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('WINDOWPATH', '2'), ('HOME', '/home/lisii'), ('USERNAME', 'lisii'), ('LANG', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('VTE_VERSION', '6800'), ('AMENT_PREFIX_PATH', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp:/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/points_subscriber:/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/example_topic_rclcpp:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp:/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/points_subscriber:/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/example_topic_rclcpp:/opt/ros/humble'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/179ab22f_6adb_4354_8e56_324ebfe928ab'), ('COLCON_PREFIX_PATH', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lisii'), ('GNOME_TERMINAL_SERVICE', ':1.408'), ('DISPLAY', ':1'), ('SHLVL', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PAPERSIZE', 'a4'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8cbe1f7f7a7532bf77173ded656731f7'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/lisii/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PATH', '/opt/ros/humble/bin:/home/lisii/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('GDMSESSION', 'ubuntu'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8cbe1f7f7a7532bf77173ded656731f7'), ('ROS_DISTRO', 'humble'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('_', '/usr/bin/env')]), 'shell': False}
+[9.354317] (radar_remap_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.354584] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/package_run_dependencies/radar_remap_cpp\n'}
+[9.354702] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/parent_prefix_path/radar_remap_cpp\n'}
+[9.354881] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/ament_prefix_path.sh\n'}
+[9.355019] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/ament_prefix_path.dsv\n'}
+[9.355133] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/path.sh\n'}
+[9.355232] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/path.dsv\n'}
+[9.355325] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.bash\n'}
+[9.355418] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.sh\n'}
+[9.355510] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.zsh\n'}
+[9.355616] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.dsv\n'}
+[9.355709] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.dsv\n'}
+[9.355802] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/packages/radar_remap_cpp\n'}
+[9.355893] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/cmake/radar_remap_cppConfig.cmake\n'}
+[9.355986] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/cmake/radar_remap_cppConfig-version.cmake\n'}
+[9.356080] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.xml\n'}
+[9.356174] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/lib/radar_remap_cpp/points_subscriber\n'}
+[9.358862] (radar_remap_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/install/radar_remap_cpp/lib/radar_remap_cpp/points_subscriber" to ""\n'}
+[9.360328] (radar_remap_cpp) CommandEnded: {'returncode': 0}
+[9.426980] (-) TimerEvent: {}
+[9.520628] (radar_remap_cpp) JobEnded: {'identifier': 'radar_remap_cpp', 'rc': 0}
+[9.521200] (-) EventReactorShutdown: {}

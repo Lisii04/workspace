@@ -1,0 +1,103 @@
+[0.895s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.895s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f36d4208c40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f36d42080a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f36d42080a0>>)
+[0.944s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.944s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.945s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.959s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'radar_remap_cpp'
+[0.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.072s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'radar_remap_cpp' build argument 'cmake_args' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'radar_remap_cpp' build argument 'cmake_target' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'radar_remap_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'radar_remap_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'radar_remap_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'radar_remap_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'radar_remap_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'radar_remap_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'radar_remap_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.138s] DEBUG:colcon.colcon_core.verb:Building package 'radar_remap_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp', 'merge_install': False, 'path': '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.151s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp' with build type 'ament_cmake'
+[1.169s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp'
+[1.185s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12
+[9.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12
+[9.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp
+[9.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radar_remap_cpp)
+[9.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp
+[9.941s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp' for CMake module files
+[9.942s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp' for CMake config files
+[9.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar_remap_cpp', 'cmake_prefix_path')
+[9.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/hook/cmake_prefix_path.ps1'
+[9.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/hook/cmake_prefix_path.dsv'
+[9.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/hook/cmake_prefix_path.sh'
+[9.958s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/lib'
+[9.958s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/bin'
+[9.958s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/lib/pkgconfig/radar_remap_cpp.pc'
+[9.959s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/lib/python3.10/site-packages'
+[9.959s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/bin'
+[9.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.ps1'
+[9.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.dsv'
+[9.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.sh'
+[9.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.bash'
+[9.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.zsh'
+[9.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/colcon-core/packages/radar_remap_cpp)
+[10.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radar_remap_cpp)
+[10.021s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp' for CMake module files
+[10.021s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp' for CMake config files
+[10.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar_remap_cpp', 'cmake_prefix_path')
+[10.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/hook/cmake_prefix_path.ps1'
+[10.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/hook/cmake_prefix_path.dsv'
+[10.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/hook/cmake_prefix_path.sh'
+[10.036s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/lib'
+[10.036s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/bin'
+[10.036s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/lib/pkgconfig/radar_remap_cpp.pc'
+[10.037s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/lib/python3.10/site-packages'
+[10.037s] Level 1:colcon.colcon_core.environment:checking '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/bin'
+[10.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.ps1'
+[10.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.dsv'
+[10.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.sh'
+[10.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.bash'
+[10.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.zsh'
+[10.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/colcon-core/packages/radar_remap_cpp)
+[10.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.053s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.072s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.072s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.072s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.081s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.096s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/local_setup.ps1'
+[10.096s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/_local_setup_util_ps1.py'
+[10.097s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/setup.ps1'
+[10.111s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/local_setup.sh'
+[10.112s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/_local_setup_util_sh.py'
+[10.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/setup.sh'
+[10.126s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/local_setup.bash'
+[10.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/setup.bash'
+[10.141s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/local_setup.zsh'
+[10.141s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/setup.zsh'

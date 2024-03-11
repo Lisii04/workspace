@@ -1,0 +1,35 @@
+<div id="picture_trans" class="row">
+    <div class="side">
+        <div class="side-button-clicked">
+            <a >图片转换</a>
+        </div>
+        <div class="side-button">
+            <a onclick=javascript:loadVideoTransform()>视频转换</a>
+            <a onclick=javascript:about()>框架文档</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="pic-row">
+            <div class="applications">
+                <h5 class="input-module">GIF 转 PNG</h5>
+                <div class="input-module">
+                    <input placeholder="  输入文件目录" id="ImportFilePath" class="input" type="text"/>
+                    <button class="button" onclick="getImportFilePath()">
+                        <i class="fa fa-sign-in" aria-hidden="true"></i>
+                        选择输入文件 
+                    </button>
+                </div>
+                <div class="input-module">
+                    <input placeholder="  留空则在输入文件相同目录下" id="ExportFilePath" class="input" type="text"/>
+                    <button  class="button" onclick="getImportFilePath()">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                        选择输出路径 
+                    </button>
+                </div>
+                <button class="button" onclick="gifToPng()">开始转换</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+

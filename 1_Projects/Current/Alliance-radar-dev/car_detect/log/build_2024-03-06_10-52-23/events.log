@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000094] (car_detect) JobQueued: {'identifier': 'car_detect', 'dependencies': OrderedDict()}
+[0.000112] (car_detect) JobStarted: {'identifier': 'car_detect'}
+[0.027889] (car_detect) JobProgress: {'identifier': 'car_detect', 'progress': 'cmake'}
+[0.028699] (car_detect) JobProgress: {'identifier': 'car_detect', 'progress': 'build'}
+[0.028761] (car_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect', '--', '-j16', '-l16'], 'cwd': '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect', 'env': OrderedDict([('HOSTNAME', 'lisii-MS-7C83'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-79474eaf-83da-41c6-bc25-471f69349547.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-425990ce-7b13-40f6-b77b-44ad884253f5.sock'), ('COLCON_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ec6be711-fb7f-49c1-a047-151decda3b15.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,video'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ec6be711-fb7f-49c1-a047-151decda3b15.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/0/vscode-git-91f9e17954.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ec6be711-fb7f-49c1-a047-151decda3b15.sock'), ('AMENT_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect:/opt/ros/humble')]), 'shell': False}
+[0.068644] (car_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target car_detect\x1b[0m\n'}
+[0.088938] (car_detect) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/car_detect.dir/src/Yolov5.cpp.o\x1b[0m\n'}
+[0.099466] (-) TimerEvent: {}
+[0.199745] (-) TimerEvent: {}
+[0.300070] (-) TimerEvent: {}
+[0.400599] (-) TimerEvent: {}
+[0.501250] (-) TimerEvent: {}
+[0.601526] (-) TimerEvent: {}
+[0.701810] (-) TimerEvent: {}
+[0.802095] (-) TimerEvent: {}
+[0.902398] (-) TimerEvent: {}
+[1.002672] (-) TimerEvent: {}
+[1.102951] (-) TimerEvent: {}
+[1.203224] (-) TimerEvent: {}
+[1.303495] (-) TimerEvent: {}
+[1.403777] (-) TimerEvent: {}
+[1.504094] (-) TimerEvent: {}
+[1.604704] (-) TimerEvent: {}
+[1.705079] (-) TimerEvent: {}
+[1.805556] (-) TimerEvent: {}
+[1.905946] (-) TimerEvent: {}
+[2.006300] (-) TimerEvent: {}
+[2.106662] (-) TimerEvent: {}
+[2.207049] (-) TimerEvent: {}
+[2.299469] (car_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.299766] (car_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:154:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat32_multi_array\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KFloat32MultiArray\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.299912] (car_detect) StderrLine: {'line': b'  154 |         std_msgs::msg::\x1b[01;31m\x1b[Kfloat32_multi_array\x1b[m\x1b[K message;\n'}
+[2.300025] (car_detect) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.300142] (car_detect) StderrLine: {'line': b'      |                        \x1b[32m\x1b[KFloat32MultiArray\x1b[m\x1b[K\n'}
+[2.302797] (car_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:157:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.302889] (car_detect) StderrLine: {'line': b'  157 |         \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.data = msg;\n'}
+[2.302939] (car_detect) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.307141] (-) TimerEvent: {}
+[2.307474] (car_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:158:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcommand_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.307671] (car_detect) StderrLine: {'line': b'  158 |         \x1b[01;31m\x1b[Kcommand_publisher_\x1b[m\x1b[K->publish(message);\n'}
+[2.307802] (car_detect) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.407277] (-) TimerEvent: {}
+[2.507637] (-) TimerEvent: {}
+[2.608002] (-) TimerEvent: {}
+[2.708366] (-) TimerEvent: {}
+[2.808742] (-) TimerEvent: {}
+[2.909105] (-) TimerEvent: {}
+[3.009465] (-) TimerEvent: {}
+[3.016200] (car_detect) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/car_detect.dir/build.make:76: CMakeFiles/car_detect.dir/src/Yolov5.cpp.o] Error 1\n'}
+[3.016487] (car_detect) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/car_detect.dir/all] Error 2\n'}
+[3.016933] (car_detect) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.018962] (car_detect) CommandEnded: {'returncode': 2}
+[3.071074] (car_detect) JobEnded: {'identifier': 'car_detect', 'rc': 2}
+[3.081670] (-) EventReactorShutdown: {}

@@ -1,0 +1,25 @@
+[0.044s] Invoking command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target points_subscriber[0m
+[0.127s] [100%] Built target points_subscriber
+[0.136s] Invoked command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12
+[0.159s] Invoking command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp
+[0.164s] -- Install configuration: ""
+[0.164s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/launch
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/launch/cpp.launch.py
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/package_run_dependencies/radar_remap_cpp
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/parent_prefix_path/radar_remap_cpp
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/ament_prefix_path.sh
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/ament_prefix_path.dsv
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/path.sh
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/path.dsv
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.bash
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.sh
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.zsh
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.dsv
+[0.165s] -- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.dsv
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/packages/radar_remap_cpp
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/cmake/radar_remap_cppConfig.cmake
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/cmake/radar_remap_cppConfig-version.cmake
+[0.165s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.xml
+[0.166s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/lib/radar_remap_cpp/points_subscriber
+[0.167s] Invoked command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp

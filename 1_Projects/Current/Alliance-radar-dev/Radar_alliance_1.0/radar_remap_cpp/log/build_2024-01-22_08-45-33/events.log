@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000669] (radar_remap_cpp) JobQueued: {'identifier': 'radar_remap_cpp', 'dependencies': OrderedDict()}
+[0.000703] (radar_remap_cpp) JobStarted: {'identifier': 'radar_remap_cpp'}
+[0.052915] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'cmake'}
+[0.053130] (radar_remap_cpp) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp', '-DCMAKE_INSTALL_PREFIX=/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp'], 'cwd': '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp', 'env': OrderedDict([('HOSTNAME', 'lisii-MS-7C83'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3babbb56-d31e-4973-9508-071ae9f1ebfb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-8f6e63c1-d795-4283-95f3-b20908d2a78c.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,video'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-8f6e63c1-d795-4283-95f3-b20908d2a78c.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-4c51beddac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-8f6e63c1-d795-4283-95f3-b20908d2a78c.sock'), ('AMENT_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/points_subscriber:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/example_topic_rclcpp:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/points_subscriber:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/example_topic_rclcpp:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/opt/ros/humble')]), 'shell': False}
+[0.100025] (-) TimerEvent: {}
+[0.125233] (radar_remap_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.188326] (radar_remap_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.197025] (radar_remap_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200117] (-) TimerEvent: {}
+[0.250118] (radar_remap_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.256298] (radar_remap_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.256646] (radar_remap_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.257083] (radar_remap_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.259767] (radar_remap_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300241] (-) TimerEvent: {}
+[0.317616] (radar_remap_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.326739] (radar_remap_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.327040] (radar_remap_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.327652] (radar_remap_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.330701] (radar_remap_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400326] (-) TimerEvent: {}
+[0.500578] (-) TimerEvent: {}
+[0.600843] (-) TimerEvent: {}
+[0.601924] (radar_remap_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.685930] (radar_remap_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700941] (-) TimerEvent: {}
+[0.726883] (radar_remap_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.731892] (radar_remap_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.740650] (radar_remap_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.754784] (radar_remap_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.773464] (radar_remap_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801035] (-) TimerEvent: {}
+[0.841466] (radar_remap_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.844244] (radar_remap_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901157] (-) TimerEvent: {}
+[0.921148] (radar_remap_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.938821] (radar_remap_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.973862] (radar_remap_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.983574] (radar_remap_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001278] (-) TimerEvent: {}
+[1.042203] (radar_remap_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.042525] (radar_remap_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.098753] (radar_remap_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.099609] (radar_remap_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101366] (-) TimerEvent: {}
+[1.201575] (-) TimerEvent: {}
+[1.263689] (radar_remap_cpp) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.265203] (radar_remap_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.301661] (-) TimerEvent: {}
+[1.369488] (radar_remap_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.369644] (radar_remap_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.369705] (radar_remap_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.374818] (radar_remap_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.384277] (radar_remap_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.389249] (radar_remap_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.401751] (-) TimerEvent: {}
+[1.427469] (radar_remap_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.427608] (radar_remap_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.432637] (radar_remap_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.436115] (radar_remap_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.446159] (radar_remap_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.447570] (radar_remap_cpp) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp\n'}
+[1.453425] (radar_remap_cpp) CommandEnded: {'returncode': 0}
+[1.453948] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'build'}
+[1.455185] (radar_remap_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp', '--', '-j12', '-l12'], 'cwd': '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp', 'env': OrderedDict([('HOSTNAME', 'lisii-MS-7C83'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3babbb56-d31e-4973-9508-071ae9f1ebfb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-8f6e63c1-d795-4283-95f3-b20908d2a78c.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,video'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-8f6e63c1-d795-4283-95f3-b20908d2a78c.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-4c51beddac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-8f6e63c1-d795-4283-95f3-b20908d2a78c.sock'), ('AMENT_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/points_subscriber:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/example_topic_rclcpp:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/points_subscriber:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/example_topic_rclcpp:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/opt/ros/humble')]), 'shell': False}
+[1.491048] (radar_remap_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o\x1b[0m\n'}
+[1.501861] (-) TimerEvent: {}
+[1.602134] (-) TimerEvent: {}
+[1.702354] (-) TimerEvent: {}
+[1.802603] (-) TimerEvent: {}
+[1.902862] (-) TimerEvent: {}
+[2.003121] (-) TimerEvent: {}
+[2.103376] (-) TimerEvent: {}
+[2.203631] (-) TimerEvent: {}
+[2.303891] (-) TimerEvent: {}
+[2.404148] (-) TimerEvent: {}
+[2.504407] (-) TimerEvent: {}
+[2.604668] (-) TimerEvent: {}
+[2.704973] (-) TimerEvent: {}
+[2.805235] (-) TimerEvent: {}
+[2.905499] (-) TimerEvent: {}
+[3.005759] (-) TimerEvent: {}
+[3.106019] (-) TimerEvent: {}
+[3.206265] (-) TimerEvent: {}
+[3.306496] (-) TimerEvent: {}
+[3.406730] (-) TimerEvent: {}
+[3.506988] (-) TimerEvent: {}
+[3.607251] (-) TimerEvent: {}
+[3.707507] (-) TimerEvent: {}
+[3.807760] (-) TimerEvent: {}
+[3.908015] (-) TimerEvent: {}
+[4.008243] (-) TimerEvent: {}
+[4.025092] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Points_subscriber::command_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.025246] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:246:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.025309] (radar_remap_cpp) StderrLine: {'line': b'  246 |                 for (int i = 0; \x1b[01;35m\x1b[Ki < msg->data.size() - 2\x1b[m\x1b[K; i += 3) {\n'}
+[4.025364] (radar_remap_cpp) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.108362] (-) TimerEvent: {}
+[4.208624] (-) TimerEvent: {}
+[4.308879] (-) TimerEvent: {}
+[4.409145] (-) TimerEvent: {}
+[4.509404] (-) TimerEvent: {}
+[4.609660] (-) TimerEvent: {}
+[4.709913] (-) TimerEvent: {}
+[4.810152] (-) TimerEvent: {}
+[4.910408] (-) TimerEvent: {}
+[5.010667] (-) TimerEvent: {}
+[5.110895] (-) TimerEvent: {}
+[5.211154] (-) TimerEvent: {}
+[5.311410] (-) TimerEvent: {}
+[5.411682] (-) TimerEvent: {}
+[5.511940] (-) TimerEvent: {}
+[5.612207] (-) TimerEvent: {}
+[5.712463] (-) TimerEvent: {}
+[5.812720] (-) TimerEvent: {}
+[5.912976] (-) TimerEvent: {}
+[6.013212] (-) TimerEvent: {}
+[6.113488] (-) TimerEvent: {}
+[6.213754] (-) TimerEvent: {}
+[6.314017] (-) TimerEvent: {}
+[6.414291] (-) TimerEvent: {}
+[6.514558] (-) TimerEvent: {}
+[6.614808] (-) TimerEvent: {}
+[6.715055] (-) TimerEvent: {}
+[6.815304] (-) TimerEvent: {}
+[6.915586] (-) TimerEvent: {}
+[7.015834] (-) TimerEvent: {}
+[7.116091] (-) TimerEvent: {}
+[7.216342] (-) TimerEvent: {}
+[7.316594] (-) TimerEvent: {}
+[7.416846] (-) TimerEvent: {}
+[7.517096] (-) TimerEvent: {}
+[7.617344] (-) TimerEvent: {}
+[7.717592] (-) TimerEvent: {}
+[7.817846] (-) TimerEvent: {}
+[7.918097] (-) TimerEvent: {}
+[8.018327] (-) TimerEvent: {}
+[8.118641] (-) TimerEvent: {}
+[8.218892] (-) TimerEvent: {}
+[8.319141] (-) TimerEvent: {}
+[8.419389] (-) TimerEvent: {}
+[8.519658] (-) TimerEvent: {}
+[8.619909] (-) TimerEvent: {}
+[8.720158] (-) TimerEvent: {}
+[8.820415] (-) TimerEvent: {}
+[8.920641] (-) TimerEvent: {}
+[9.020903] (-) TimerEvent: {}
+[9.099331] (radar_remap_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable points_subscriber\x1b[0m\n'}
+[9.120992] (-) TimerEvent: {}
+[9.221255] (-) TimerEvent: {}
+[9.321518] (-) TimerEvent: {}
+[9.421780] (-) TimerEvent: {}
+[9.522052] (-) TimerEvent: {}
+[9.622299] (-) TimerEvent: {}
+[9.627665] (radar_remap_cpp) StdoutLine: {'line': b'[100%] Built target points_subscriber\n'}
+[9.636547] (radar_remap_cpp) CommandEnded: {'returncode': 0}
+[9.653521] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'install'}
+[9.659884] (radar_remap_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp'], 'cwd': '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp', 'env': OrderedDict([('HOSTNAME', 'lisii-MS-7C83'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3babbb56-d31e-4973-9508-071ae9f1ebfb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-8f6e63c1-d795-4283-95f3-b20908d2a78c.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,video'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-8f6e63c1-d795-4283-95f3-b20908d2a78c.sock","/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-4c51beddac.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-8f6e63c1-d795-4283-95f3-b20908d2a78c.sock'), ('AMENT_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/points_subscriber:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/example_topic_rclcpp:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/points_subscriber:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/example_topic_rclcpp:/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/opt/ros/humble')]), 'shell': False}
+[9.665489] (radar_remap_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.665622] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/launch\n'}
+[9.665684] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/launch/cpp.launch.py\n'}
+[9.665748] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/package_run_dependencies/radar_remap_cpp\n'}
+[9.665831] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/parent_prefix_path/radar_remap_cpp\n'}
+[9.665954] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/ament_prefix_path.sh\n'}
+[9.666047] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/ament_prefix_path.dsv\n'}
+[9.666186] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/path.sh\n'}
+[9.666271] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/path.dsv\n'}
+[9.666351] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.bash\n'}
+[9.666960] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.sh\n'}
+[9.667081] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.zsh\n'}
+[9.667202] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.dsv\n'}
+[9.667292] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.dsv\n'}
+[9.667417] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/packages/radar_remap_cpp\n'}
+[9.667557] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/cmake/radar_remap_cppConfig.cmake\n'}
+[9.667659] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/cmake/radar_remap_cppConfig-version.cmake\n'}
+[9.667747] (radar_remap_cpp) StdoutLine: {'line': b'-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.xml\n'}
+[9.667975] (radar_remap_cpp) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/lib/radar_remap_cpp/points_subscriber\n'}
+[9.670903] (radar_remap_cpp) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/TransferStation/1_Projects/Current/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/lib/radar_remap_cpp/points_subscriber" to ""\n'}
+[9.672137] (radar_remap_cpp) CommandEnded: {'returncode': 0}
+[9.722611] (-) TimerEvent: {}
+[9.763468] (radar_remap_cpp) JobEnded: {'identifier': 'radar_remap_cpp', 'rc': 0}
+[9.764050] (-) EventReactorShutdown: {}

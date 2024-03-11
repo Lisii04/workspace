@@ -9,3 +9,6 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+install
+build
+*.mp4

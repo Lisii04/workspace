@@ -1,0 +1,30 @@
+[0.075s] Invoking command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target points_subscriber[0m
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o[0m
+[2.579s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/src/points_subscriber.cpp:[m[K In member function ‘[01m[Kvoid Points_subscriber::command_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.579s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/src/points_subscriber.cpp:83:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.579s]    83 |         for (auto i = 0; [01;35m[Ki < msg->data.size() - 1[m[K; i++)
+[2.579s]       |                          [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.579s] [100%] [32m[1mLinking CXX executable points_subscriber[0m
+[8.156s] [100%] Built target points_subscriber
+[8.164s] Invoked command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12
+[8.189s] Invoking command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp
+[8.194s] -- Install configuration: ""
+[8.195s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/package_run_dependencies/radar_remap_cpp
+[8.195s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/parent_prefix_path/radar_remap_cpp
+[8.195s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/ament_prefix_path.sh
+[8.195s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/ament_prefix_path.dsv
+[8.195s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/path.sh
+[8.195s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/path.dsv
+[8.195s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.bash
+[8.195s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.sh
+[8.195s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.zsh
+[8.195s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.dsv
+[8.195s] -- Installing: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.dsv
+[8.196s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/packages/radar_remap_cpp
+[8.196s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/cmake/radar_remap_cppConfig.cmake
+[8.196s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/cmake/radar_remap_cppConfig-version.cmake
+[8.196s] -- Up-to-date: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.xml
+[8.196s] -- Installing: /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/lib/radar_remap_cpp/points_subscriber
+[8.198s] -- Set runtime path of "/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/install/radar_remap_cpp/lib/radar_remap_cpp/points_subscriber" to ""
+[8.199s] Invoked command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp

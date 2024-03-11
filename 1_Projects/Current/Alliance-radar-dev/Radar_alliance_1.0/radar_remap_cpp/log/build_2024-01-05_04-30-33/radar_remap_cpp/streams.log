@@ -1,0 +1,6 @@
+[0.021s] Invoking command in '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp': /usr/bin/cmake --build /workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12
+[0.028s] [0mCMake Error: The current CMakeCache.txt directory /workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp/CMakeCache.txt is different than the directory /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.040s] [0mCMake Error: The source directory "/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp" does not exist.
+[0.040s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.041s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.043s] Invoked command in '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp' returned '2': /usr/bin/cmake --build /workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12

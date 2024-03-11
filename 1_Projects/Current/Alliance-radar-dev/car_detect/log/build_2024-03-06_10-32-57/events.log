@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000291] (car_detect) JobQueued: {'identifier': 'car_detect', 'dependencies': OrderedDict()}
+[0.000316] (car_detect) JobStarted: {'identifier': 'car_detect'}
+[0.031299] (car_detect) JobProgress: {'identifier': 'car_detect', 'progress': 'cmake'}
+[0.031964] (car_detect) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect', '-DCMAKE_INSTALL_PREFIX=/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect'], 'cwd': '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect', 'env': OrderedDict([('HOSTNAME', 'lisii-MS-7C83'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-79474eaf-83da-41c6-bc25-471f69349547.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-425990ce-7b13-40f6-b77b-44ad884253f5.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ec6be711-fb7f-49c1-a047-151decda3b15.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,video'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ec6be711-fb7f-49c1-a047-151decda3b15.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/0/vscode-git-91f9e17954.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ec6be711-fb7f-49c1-a047-151decda3b15.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.094844] (car_detect) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099801] (-) TimerEvent: {}
+[0.139613] (car_detect) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.145464] (car_detect) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199936] (-) TimerEvent: {}
+[0.205086] (car_detect) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.209164] (car_detect) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.209315] (car_detect) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.209553] (car_detect) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.211411] (car_detect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.279441] (car_detect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.284251] (car_detect) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.284416] (car_detect) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.284514] (car_detect) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.285843] (car_detect) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300077] (-) TimerEvent: {}
+[0.400686] (-) TimerEvent: {}
+[0.501155] (-) TimerEvent: {}
+[0.513454] (car_detect) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.572764] (car_detect) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.598052] (car_detect) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.601235] (car_detect) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.601424] (-) TimerEvent: {}
+[0.607378] (car_detect) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.615633] (car_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.628132] (car_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.673016] (car_detect) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.674802] (car_detect) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701570] (-) TimerEvent: {}
+[0.759874] (car_detect) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.778683] (car_detect) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.801688] (-) TimerEvent: {}
+[0.811819] (car_detect) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.817914] (car_detect) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.880963] (car_detect) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.881263] (car_detect) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.901798] (-) TimerEvent: {}
+[0.944969] (car_detect) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.945609] (car_detect) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001887] (-) TimerEvent: {}
+[1.049411] (car_detect) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.050459] (car_detect) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.101993] (-) TimerEvent: {}
+[1.109148] (car_detect) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.109345] (car_detect) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.109388] (car_detect) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.111096] (car_detect) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.115919] (car_detect) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.116092] (car_detect) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.116701] (car_detect) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.119272] (car_detect) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.129442] (car_detect) StdoutLine: {'line': b'-- Generating done\n'}
+[1.130790] (car_detect) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect\n'}
+[1.137642] (car_detect) CommandEnded: {'returncode': 0}
+[1.138298] (car_detect) JobProgress: {'identifier': 'car_detect', 'progress': 'build'}
+[1.139232] (car_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect', '--', '-j16', '-l16'], 'cwd': '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect', 'env': OrderedDict([('HOSTNAME', 'lisii-MS-7C83'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-79474eaf-83da-41c6-bc25-471f69349547.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-425990ce-7b13-40f6-b77b-44ad884253f5.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ec6be711-fb7f-49c1-a047-151decda3b15.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,video'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ec6be711-fb7f-49c1-a047-151decda3b15.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/0/vscode-git-91f9e17954.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ec6be711-fb7f-49c1-a047-151decda3b15.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.184337] (car_detect) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Yolo_cpp.dir/src/Yolov5.cpp.o\x1b[0m\n'}
+[1.202110] (-) TimerEvent: {}
+[1.302405] (-) TimerEvent: {}
+[1.402741] (-) TimerEvent: {}
+[1.503069] (-) TimerEvent: {}
+[1.603475] (-) TimerEvent: {}
+[1.704167] (-) TimerEvent: {}
+[1.804568] (-) TimerEvent: {}
+[1.905144] (-) TimerEvent: {}
+[2.005419] (-) TimerEvent: {}
+[2.105746] (-) TimerEvent: {}
+[2.206081] (-) TimerEvent: {}
+[2.306412] (-) TimerEvent: {}
+[2.406746] (-) TimerEvent: {}
+[2.507082] (-) TimerEvent: {}
+[2.607820] (-) TimerEvent: {}
+[2.708146] (-) TimerEvent: {}
+[2.808431] (-) TimerEvent: {}
+[2.908745] (-) TimerEvent: {}
+[3.009315] (-) TimerEvent: {}
+[3.109650] (-) TimerEvent: {}
+[3.209960] (-) TimerEvent: {}
+[3.310287] (-) TimerEvent: {}
+[3.410630] (-) TimerEvent: {}
+[3.508789] (car_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YOLOv5Detector::detect(cv::Mat&, std::vector<DetectResult>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.509060] (car_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:61:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kconfidence_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.509166] (car_detect) StderrLine: {'line': b'   61 |         float \x1b[01;35m\x1b[Kconfidence_threshold\x1b[m\x1b[K = 0.5;\n'}
+[3.509248] (car_detect) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.510703] (-) TimerEvent: {}
+[3.611365] (-) TimerEvent: {}
+[3.711701] (-) TimerEvent: {}
+[3.812029] (-) TimerEvent: {}
+[3.912357] (-) TimerEvent: {}
+[4.012687] (-) TimerEvent: {}
+[4.113311] (-) TimerEvent: {}
+[4.213636] (-) TimerEvent: {}
+[4.313958] (-) TimerEvent: {}
+[4.339459] (car_detect) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Yolo_cpp\x1b[0m\n'}
+[4.414080] (-) TimerEvent: {}
+[4.514431] (-) TimerEvent: {}
+[4.614817] (-) TimerEvent: {}
+[4.705859] (car_detect) StdoutLine: {'line': b'[100%] Built target Yolo_cpp\n'}
+[4.715076] (car_detect) CommandEnded: {'returncode': 0}
+[4.715684] (-) TimerEvent: {}
+[4.738717] (car_detect) JobProgress: {'identifier': 'car_detect', 'progress': 'install'}
+[4.747425] (car_detect) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect'], 'cwd': '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect', 'env': OrderedDict([('HOSTNAME', 'lisii-MS-7C83'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-79474eaf-83da-41c6-bc25-471f69349547.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-425990ce-7b13-40f6-b77b-44ad884253f5.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ec6be711-fb7f-49c1-a047-151decda3b15.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,video'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ec6be711-fb7f-49c1-a047-151decda3b15.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/0/vscode-git-91f9e17954.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ec6be711-fb7f-49c1-a047-151decda3b15.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.754484] (car_detect) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.754713] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/ament_index/resource_index/package_run_dependencies/car_detect\n'}
+[4.754828] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/ament_index/resource_index/parent_prefix_path/car_detect\n'}
+[4.754962] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/ament_prefix_path.sh\n'}
+[4.755251] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/ament_prefix_path.dsv\n'}
+[4.755357] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/path.sh\n'}
+[4.755467] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/path.dsv\n'}
+[4.755581] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.bash\n'}
+[4.755687] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.sh\n'}
+[4.755787] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.zsh\n'}
+[4.755890] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.dsv\n'}
+[4.755991] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/package.dsv\n'}
+[4.756130] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/ament_index/resource_index/packages/car_detect\n'}
+[4.756266] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/cmake/car_detectConfig.cmake\n'}
+[4.756362] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/cmake/car_detectConfig-version.cmake\n'}
+[4.756462] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/package.xml\n'}
+[4.756723] (car_detect) StdoutLine: {'line': b'-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/lib/car_detect/Yolo_cpp\n'}
+[4.757133] (car_detect) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/lib/car_detect/Yolo_cpp" to ""\n'}
+[4.758746] (car_detect) CommandEnded: {'returncode': 0}
+[4.815981] (-) TimerEvent: {}
+[4.834911] (car_detect) JobEnded: {'identifier': 'car_detect', 'rc': 0}
+[4.835761] (-) EventReactorShutdown: {}

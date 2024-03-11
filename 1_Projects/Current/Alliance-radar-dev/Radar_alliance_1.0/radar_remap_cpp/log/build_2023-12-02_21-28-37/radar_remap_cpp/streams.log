@@ -1,0 +1,38 @@
+[0.057s] Invoking command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target points_subscriber[0m
+[0.101s] [ 50%] [32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o[0m
+[2.470s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:[m[K In function ‘[01m[Kvoid remap(Car_datas)[m[K’:
+[2.470s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:80:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcatch[m[K’
+[2.470s]    80 |         [01;31m[Kcatch[m[K (const std::exception& e)
+[2.470s]       |         [01;31m[K^~~~~[m[K
+[2.470s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:87:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[KPoints_subscriber[m[K’
+[2.470s]    87 |     class [01;31m[KPoints_subscriber[m[K : public rclcpp::Node {
+[2.470s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.470s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:87:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[KPoints_subscriber[m[K’
+[2.471s]    87 |     class [01;31m[KP[m[K[32m[Koints_subscriber[m[K : public rclcpp::Node {
+[2.471s]       |           [01;31m[K^[m[K[32m[K~~~~~~~~~~~~~~~~[m[K
+[2.471s]       |           [32m[K([m[K
+[2.473s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:87:11:[m[K [01;31m[Kerror: [m[K‘[01m[KPoints_subscriber[m[K’ does not name a type
+[2.473s]    87 |     class [01;31m[KPoints_subscriber[m[K : public rclcpp::Node {
+[2.473s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.473s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:87:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K:[m[K’ token
+[2.473s]    87 |     class [34m[KPoints_subscriber[m[K[01;31m[K [m[K[32m[K:[m[K public rclcpp::Node {
+[2.473s]       |           [34m[K~~~~~~~~~~~~~~~~~[m[K[01;31m[K^[m[K[32m[K~[m[K
+[2.473s]       |                            [32m[K)[m[K
+[2.473s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:87:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K:[m[K’ token
+[2.473s]    87 |     class Points_subscriber [01;31m[K:[m[K public rclcpp::Node {
+[2.473s]       |                             [01;31m[K^[m[K
+[2.473s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:87:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[2.473s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:121:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[2.473s]   121 |     [01;31m[K{[m[K
+[2.473s]       |     [01;31m[K^[m[K
+[2.473s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:162:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.473s]   162 |     }
+[2.474s]       |      [01;31m[K^[m[K
+[2.474s] [01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/src/points_subscriber.cpp:37:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.474s]    37 | [01;36m[K{[m[K
+[2.474s]       | [01;36m[K^[m[K
+[3.133s] gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:76：CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o] 错误 1
+[3.133s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/points_subscriber.dir/all] 错误 2
+[3.133s] gmake: *** [Makefile:146：all] 错误 2
+[3.136s] Invoked command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12

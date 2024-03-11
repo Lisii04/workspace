@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000369] (radar_remap_cpp) JobQueued: {'identifier': 'radar_remap_cpp', 'dependencies': OrderedDict()}
+[0.000708] (radar_remap_cpp) JobStarted: {'identifier': 'radar_remap_cpp'}
+[0.017620] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'cmake'}
+[0.018905] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'build'}
+[0.018959] (radar_remap_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp', '--', '-j12', '-l12'], 'cwd': '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp', 'env': OrderedDict([('HOSTNAME', 'lisii-MS-7C83'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/DockerExample/Radar_alliance V1.0'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0d1a687f-c2bd-492d-802d-6abda25df85e.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b587a4a3-bff9-4494-9d7f-dbcdfd328327.sock'), ('_', '/usr/bin/colcon'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,video'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-b587a4a3-bff9-4494-9d7f-dbcdfd328327.sock","/tmp/.X11-unix/X7","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-6cc5ad8adf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-b587a4a3-bff9-4494-9d7f-dbcdfd328327.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X7'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp'), ('LC_ALL', 'C.UTF-8'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1')]), 'shell': False}
+[0.052584] (radar_remap_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target points_subscriber\x1b[0m\n'}
+[0.073626] (radar_remap_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o\x1b[0m\n'}
+[0.100024] (-) TimerEvent: {}
+[0.200282] (-) TimerEvent: {}
+[0.300539] (-) TimerEvent: {}
+[0.400794] (-) TimerEvent: {}
+[0.501028] (-) TimerEvent: {}
+[0.601327] (-) TimerEvent: {}
+[0.701562] (-) TimerEvent: {}
+[0.801799] (-) TimerEvent: {}
+[0.902115] (-) TimerEvent: {}
+[1.002377] (-) TimerEvent: {}
+[1.102639] (-) TimerEvent: {}
+[1.202914] (-) TimerEvent: {}
+[1.303173] (-) TimerEvent: {}
+[1.403451] (-) TimerEvent: {}
+[1.503704] (-) TimerEvent: {}
+[1.603965] (-) TimerEvent: {}
+[1.704222] (-) TimerEvent: {}
+[1.804482] (-) TimerEvent: {}
+[1.904749] (-) TimerEvent: {}
+[2.005032] (-) TimerEvent: {}
+[2.105319] (-) TimerEvent: {}
+[2.205563] (-) TimerEvent: {}
+[2.305814] (-) TimerEvent: {}
+[2.406071] (-) TimerEvent: {}
+[2.497688] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid remap(std::map<int, cv::Point_<float> >, Logger)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.497846] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:217:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst char [8]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator+\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.497915] (radar_remap_cpp) StderrLine: {'line': b'  217 |         logger.ERRORS(\x1b[32m\x1b[K"[ERROR]"\x1b[m\x1b[K \x1b[01;31m\x1b[K+\x1b[m\x1b[K \x1b[34m\x1b[Ke.what()\x1b[m\x1b[K);\n'}
+[2.497974] (radar_remap_cpp) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[2.498030] (radar_remap_cpp) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K|\x1b[m\x1b[K                 \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[2.498087] (radar_remap_cpp) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Kconst char [8]\x1b[m\x1b[K    \x1b[34m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.506169] (-) TimerEvent: {}
+[2.546909] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Points_subscriber::command_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.547116] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:241:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klogger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KLogger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.547184] (radar_remap_cpp) StderrLine: {'line': b'  241 |             \x1b[01;31m\x1b[Klogger\x1b[m\x1b[K.INFO("[\xe6\xad\xa3\xe5\x9c\xa8\xe6\x8e\xa5\xe6\x94\xb6\xe7\x82\xb9\xe5\x9d\x90\xe6\xa0\x87]");\n'}
+[2.547243] (radar_remap_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.547300] (radar_remap_cpp) StderrLine: {'line': b'      |             \x1b[32m\x1b[KLogger\x1b[m\x1b[K\n'}
+[2.547356] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:246:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.547423] (radar_remap_cpp) StderrLine: {'line': b'  246 |                 for (int i = 0; \x1b[01;35m\x1b[Ki < msg->data.size() - 2\x1b[m\x1b[K; i += 3) {\n'}
+[2.547479] (radar_remap_cpp) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.552632] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:277:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klogger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KLogger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.552745] (radar_remap_cpp) StderrLine: {'line': b'  277 |             \x1b[01;31m\x1b[Klogger\x1b[m\x1b[K.ERRORS("[ERROR]" + e.what());\n'}
+[2.552827] (radar_remap_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.552899] (radar_remap_cpp) StderrLine: {'line': b'      |             \x1b[32m\x1b[KLogger\x1b[m\x1b[K\n'}
+[2.552957] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:277:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst char [8]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator+\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.553017] (radar_remap_cpp) StderrLine: {'line': b'  277 |             logger.ERRORS(\x1b[32m\x1b[K"[ERROR]"\x1b[m\x1b[K \x1b[01;31m\x1b[K+\x1b[m\x1b[K \x1b[34m\x1b[Ke.what()\x1b[m\x1b[K);\n'}
+[2.553073] (radar_remap_cpp) StderrLine: {'line': b'      |                           \x1b[32m\x1b[K~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[2.553129] (radar_remap_cpp) StderrLine: {'line': b'      |                           \x1b[32m\x1b[K|\x1b[m\x1b[K                 \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[2.553184] (radar_remap_cpp) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kconst char [8]\x1b[m\x1b[K    \x1b[34m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.553918] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.554010] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:313:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst char [8]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator+\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.554097] (radar_remap_cpp) StderrLine: {'line': b'  313 |         logger.ERRORS(\x1b[32m\x1b[K"[ERROR]"\x1b[m\x1b[K \x1b[01;31m\x1b[K+\x1b[m\x1b[K \x1b[34m\x1b[Ke.what()\x1b[m\x1b[K);\n'}
+[2.554157] (radar_remap_cpp) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[2.554213] (radar_remap_cpp) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K|\x1b[m\x1b[K                 \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[2.554269] (radar_remap_cpp) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Kconst char [8]\x1b[m\x1b[K    \x1b[34m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.606287] (-) TimerEvent: {}
+[2.706544] (-) TimerEvent: {}
+[2.806796] (-) TimerEvent: {}
+[2.907049] (-) TimerEvent: {}
+[3.007303] (-) TimerEvent: {}
+[3.107554] (-) TimerEvent: {}
+[3.207814] (-) TimerEvent: {}
+[3.308056] (-) TimerEvent: {}
+[3.408360] (-) TimerEvent: {}
+[3.508634] (-) TimerEvent: {}
+[3.608898] (-) TimerEvent: {}
+[3.682310] (radar_remap_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[3.682483] (radar_remap_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[3.682561] (radar_remap_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[3.682638] (radar_remap_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.682708] (radar_remap_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:2\x1b[m\x1b[K:\n'}
+[3.682778] (radar_remap_cpp) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Points_subscriber; _Args = {const char (&)[18], Logger&}; _Tp = Points_subscriber]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.682849] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Points_subscriber; _Args = {const char (&)[18], Logger&}; _Tp = Points_subscriber; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<Points_subscriber>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.682920] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[18], Logger&}; _Tp = Points_subscriber; _Alloc = std::allocator<Points_subscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.682991] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = Points_subscriber; _Alloc = std::allocator<Points_subscriber>; _Args = {const char (&)[18], Logger&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.683062] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Points_subscriber>; _Args = {const char (&)[18], Logger&}; _Tp = Points_subscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.683131] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Points_subscriber>; _Args = {const char (&)[18], Logger&}; _Tp = Points_subscriber]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.683201] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = Points_subscriber; _Alloc = std::allocator<Points_subscriber>; _Args = {const char (&)[18], Logger&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.683270] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = Points_subscriber; _Args = {const char (&)[18], Logger&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.683343] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:330:52:\x1b[m\x1b[K   required from here\n'}
+[3.683411] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KLogger::Logger(const Logger&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.683479] (radar_remap_cpp) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[3.683547] (radar_remap_cpp) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.683618] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:47:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLogger::Logger(const Logger&)\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[3.683686] (radar_remap_cpp) StderrLine: {'line': b'   47 | class \x1b[01;36m\x1b[KLogger\x1b[m\x1b[K\n'}
+[3.683754] (radar_remap_cpp) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.683820] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:47:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ofstream<_CharT, _Traits>::basic_ofstream(const std::basic_ofstream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.683893] (radar_remap_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:9\x1b[m\x1b[K:\n'}
+[3.683961] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/fstream:853:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.684031] (radar_remap_cpp) StderrLine: {'line': b'  853 |       \x1b[01;36m\x1b[Kbasic_ofstream\x1b[m\x1b[K(const basic_ofstream&) = delete;\n'}
+[3.684099] (radar_remap_cpp) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.684165] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:226:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[KPoints_subscriber::Points_subscriber(std::string, Logger)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.684234] (radar_remap_cpp) StderrLine: {'line': b'  226 |     Points_subscriber(std::string name,\x1b[01;36m\x1b[KLogger logger\x1b[m\x1b[K)\n'}
+[3.684301] (radar_remap_cpp) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.709018] (-) TimerEvent: {}
+[3.809294] (-) TimerEvent: {}
+[3.909589] (-) TimerEvent: {}
+[4.009823] (-) TimerEvent: {}
+[4.110083] (-) TimerEvent: {}
+[4.210350] (-) TimerEvent: {}
+[4.310610] (-) TimerEvent: {}
+[4.410868] (-) TimerEvent: {}
+[4.511125] (-) TimerEvent: {}
+[4.611384] (-) TimerEvent: {}
+[4.666496] (radar_remap_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:76: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o] Error 1\n'}
+[4.666673] (radar_remap_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/points_subscriber.dir/all] Error 2\n'}
+[4.666837] (radar_remap_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.668159] (radar_remap_cpp) CommandEnded: {'returncode': 2}
+[4.711645] (-) TimerEvent: {}
+[4.714810] (radar_remap_cpp) JobEnded: {'identifier': 'radar_remap_cpp', 'rc': 2}
+[4.725279] (-) EventReactorShutdown: {}

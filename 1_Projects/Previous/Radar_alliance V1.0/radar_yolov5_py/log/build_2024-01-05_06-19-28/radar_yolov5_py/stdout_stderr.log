@@ -1,0 +1,45 @@
+running egg_info
+writing build/radar_yolov5_py/radar_yolov5_py.egg-info/PKG-INFO
+writing dependency_links to build/radar_yolov5_py/radar_yolov5_py.egg-info/dependency_links.txt
+writing entry points to build/radar_yolov5_py/radar_yolov5_py.egg-info/entry_points.txt
+writing requirements to build/radar_yolov5_py/radar_yolov5_py.egg-info/requires.txt
+writing top-level names to build/radar_yolov5_py/radar_yolov5_py.egg-info/top_level.txt
+reading manifest file 'build/radar_yolov5_py/radar_yolov5_py.egg-info/SOURCES.txt'
+writing manifest file 'build/radar_yolov5_py/radar_yolov5_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running install_lib
+byte-compiling /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/detect.py to detect.cpython-310.pyc
+byte-compiling /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/hubconf.py to hubconf.cpython-310.pyc
+byte-compiling /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/yolov5/benchmarks.py to benchmarks.cpython-310.pyc
+byte-compiling /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/yolov5/train.py to train.cpython-310.pyc
+byte-compiling /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/benchmarks.py to benchmarks.cpython-310.pyc
+byte-compiling /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/models/common.py to common.cpython-310.pyc
+byte-compiling /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/models/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/models/tf.py to tf.cpython-310.pyc
+byte-compiling /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/models/yolo.py to yolo.cpython-310.pyc
+byte-compiling /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/val.py to val.cpython-310.pyc
+byte-compiling /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/train.py to train.cpython-310.pyc
+running install_data
+creating /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/share/radar_yolov5_py/launch
+copying launch/py.launch.py -> /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/share/radar_yolov5_py/launch
+running install_egg_info
+removing '/workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/radar_yolov5_py/radar_yolov5_py.egg-info to /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing points_publisher script to /workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/radar_yolov5_py
+writing list of installed files to '/workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/build/radar_yolov5_py/install.log'

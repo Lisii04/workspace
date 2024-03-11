@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target points_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o[0m
+[01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/src/points_subscriber.cpp:[m[K In member function ‘[01m[Kvoid Points_subscriber::command_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/src/points_subscriber.cpp:94:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   94 |         for (auto i = 0; [01;35m[Ki < msg->data.size() - 1[m[K; i++)
+      |                          [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/src/points_subscriber.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[KrobotLocationSolve[m[K’ was not declared in this scope; did you mean ‘[01m[KRobotLocationSolve[m[K’?
+   99 |         [01;31m[KrobotLocationSolve[m[K.remap(points);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[KRobotLocationSolve[m[K
+gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:76：CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/points_subscriber.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

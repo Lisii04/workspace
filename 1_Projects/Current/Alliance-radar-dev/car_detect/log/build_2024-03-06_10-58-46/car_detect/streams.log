@@ -1,0 +1,17 @@
+[0.023s] Invoking command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect': /usr/bin/cmake --build /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect -- -j16 -l16
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target car_detect[0m
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/car_detect.dir/src/Yolov5.cpp.o[0m
+[2.358s] [01m[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[2.358s] [01m[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:154:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+[2.358s]   154 |         rclcpp::init([01;31m[Kargc[m[K, argv);
+[2.358s]       |                      [01;31m[K^~~~[m[K
+[2.361s] [01m[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:154:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+[2.361s]   154 |         rclcpp::init(argc, [01;31m[Kargv[m[K);
+[2.361s]       |                            [01;31m[K^~~~[m[K
+[2.368s] [01m[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:165:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_publisher_[m[K’ was not declared in this scope
+[2.368s]   165 |         [01;31m[Kcommand_publisher_[m[K.publish(message);
+[2.368s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.105s] gmake[2]: *** [CMakeFiles/car_detect.dir/build.make:76: CMakeFiles/car_detect.dir/src/Yolov5.cpp.o] Error 1
+[3.105s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/car_detect.dir/all] Error 2
+[3.106s] gmake: *** [Makefile:146: all] Error 2
+[3.108s] Invoked command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect' returned '2': /usr/bin/cmake --build /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect -- -j16 -l16

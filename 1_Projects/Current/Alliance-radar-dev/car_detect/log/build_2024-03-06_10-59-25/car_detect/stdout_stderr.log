@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target car_detect[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/car_detect.dir/src/Yolov5.cpp.o[0m
+[01m[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/src/Yolov5.cpp:165:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_publisher_[m[K’ was not declared in this scope
+  165 |         [01;31m[Kcommand_publisher_[m[K.publish(message);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/car_detect.dir/build.make:76: CMakeFiles/car_detect.dir/src/Yolov5.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/car_detect.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

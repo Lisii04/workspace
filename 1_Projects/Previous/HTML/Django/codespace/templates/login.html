@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            background: #2c3e50;
+        }
+
+        .container {
+            /* background: url("otuai.png") no-repeat; */
+            /* background-position: center; */
+            height: 100%;
+            width: 100%;
+            /* background-size: 100% cover; */
+        }
+
+        .login-wrapper {
+            background-color: #3e566e;
+            backdrop-filter: blur(10px);
+            width: 270px;
+            height: 320px;
+            border-radius: 15px;
+            padding: 20px 50px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 10px 10px 20px rgba(33, 44, 55, .3);
+
+        }
+
+        .remember {
+            color: #ffffff;
+            margin-top: 7px;
+            font-weight: bolder;
+            border-radius: 5px;
+            position: relative;
+            text-align: center;
+            font-size: 90%;
+        }
+
+
+        .header {
+            font-family: sans-serif;
+            font-size: 30px;
+            font-weight: lighter;
+            text-align: center;
+            line-height: 70px;
+            color: #fcfcfcd3;
+        }
+
+        .input-item {
+            color: #ffffff;
+            width: 92%;
+            margin-bottom: 30px;
+            padding: 10px;
+            font-size: 15px;
+            border: none;
+            border-bottom: 2px solid #ffffff;
+            outline: none;
+            background-color: transparent;
+        }
+
+        .input-item::placeholder {
+            color: #c2c2c2;
+            text-transform: uppercase;
+
+        }
+
+
+
+        .btn {
+            width: 100%;
+            flex: 1 1 auto;
+            margin-top: 30px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            text-align: center;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+            transition: 0.3s;
+            background-image: linear-gradient(to right, #3077f1, #964df7);
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 0;
+
+
+        }
+
+        .btn:after {
+            position: absolute;
+            transition: 0.3s;
+            content: "";
+            width: 0;
+            left: 50%;
+            bottom: 0;
+            height: 3px;
+            background: #f7f7f7;
+        }
+
+
+        .btn:nth-of-type(1):after {
+            height: 120%;
+            left: -10%;
+            transform: skewX(15deg);
+            z-index: -1;
+        }
+
+        .btn:hover:nth-of-type(1) {
+            color: #919191e3;
+        }
+
+        .btn:hover:nth-of-type(1):after {
+            left: -10%;
+            width: 120%;
+        }
+
+
+
+
+
+        .jump {
+            width: 40%;
+            flex: 1 1 auto;
+            right: 53px;
+            padding: 5px;
+            border-radius: 5px;
+            text-align: center;
+            text-transform: uppercase;
+            position: absolute;
+            overflow: hidden;
+            transition: 0.3s;
+            background: #ffffff75;
+            color: #222222;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 0;
+            border: none;
+        }
+
+        .jump:after {
+            position: absolute;
+            transition: 0.5s;
+            content: "";
+            width: 0;
+            left: 50%;
+            bottom: 0;
+            height: 3px;
+            background: #ffffff;
+        }
+
+        .jump:nth-of-type(1):after {
+            height: 120%;
+            left: -10%;
+            z-index: -1;
+        }
+
+        .jump:hover:nth-of-type(1) {
+            color: #000000e3;
+        }
+
+        .jump:hover:nth-of-type(1):after {
+            left: -10%;
+            width: 120%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="POST" class="login-wrapper">
+            {% csrf_token %}
+            <div class="header">Alliance Codespace</div>
+            <div class="form-wrapper">
+                <input type="text" name="studentID" id="studentID" class="input-item" placeholder="请输入学号"
+                    value="{{studentID}}">
+                <input type="password" name="password" id="password" class="input-item" placeholder="请输入密码"
+                    value="{{password}}">
+
+                <input type="checkbox" id="remember_password" class="remember" name="remember_password" value="yes">
+                <label for="remember_password" class="remember">记住密码</label>
+
+                <input type="button" class="jump" onclick="window.location.href='../register'" value="没有账号？注册一个吧">
+                <input type="submit" class="btn" onclick="submits(this)" value="登入">
+            </div>
+        </form>
+    </div>
+    {% if messages %}
+    <script>
+        {% for msg in messages %}
+        alert('{{ msg.message }}');
+        {% endfor %}
+    </script>
+    {% endif %}
+</body>
+
+</html>

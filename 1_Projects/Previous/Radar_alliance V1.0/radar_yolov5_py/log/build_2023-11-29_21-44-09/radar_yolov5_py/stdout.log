@@ -1,0 +1,23 @@
+running egg_info
+writing build/radar_yolov5_py/radar_yolov5_py.egg-info/PKG-INFO
+writing dependency_links to build/radar_yolov5_py/radar_yolov5_py.egg-info/dependency_links.txt
+writing entry points to build/radar_yolov5_py/radar_yolov5_py.egg-info/entry_points.txt
+writing requirements to build/radar_yolov5_py/radar_yolov5_py.egg-info/requires.txt
+writing top-level names to build/radar_yolov5_py/radar_yolov5_py.egg-info/top_level.txt
+reading manifest file 'build/radar_yolov5_py/radar_yolov5_py.egg-info/SOURCES.txt'
+writing manifest file 'build/radar_yolov5_py/radar_yolov5_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying radar_yolov5_py/points_publisher.py -> /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py
+copying radar_yolov5_py/__init__.py -> /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py
+running install
+running install_lib
+running install_data
+copying resource/radar_yolov5_py -> /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/share/radar_yolov5_py
+running install_egg_info
+removing '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/radar_yolov5_py/radar_yolov5_py.egg-info to /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing points_publisher script to /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/lib/radar_yolov5_py
+writing list of installed files to '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/install.log'

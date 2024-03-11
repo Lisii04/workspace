@@ -1,0 +1,921 @@
+[0.060s] Invoking command in '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/opt/ros/humble /usr/bin/cmake --build /workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o[0m
+[0.321s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[0.321s] [01m[K/usr/local/include/glog/logging.h:60:4:[m[K [01;31m[Kerror: [m[K#error <glog/logging.h> was not included correctly. See the documention for how to consume the library.
+[0.321s]    60 | #  [01;31m[Kerror[m[K <glog/logging.h> was not included correctly. See the documention for how to consume the library.
+[0.321s]       |    [01;31m[K^~~~~[m[K
+[0.321s] In file included from [01m[K/usr/local/include/glog/logging.h:63[m[K,
+[0.321s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[0.321s] [01m[K/usr/local/include/glog/flags.h:45:4:[m[K [01;31m[Kerror: [m[K#error <glog/flags.h> was not included correctly. See the documention for how to consume the library.
+[0.321s]    45 | #  [01;31m[Kerror[m[K <glog/flags.h> was not included correctly. See the documention for how to consume the library.
+[0.321s]       |    [01;31m[K^~~~~[m[K
+[0.322s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[0.322s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[0.322s] [01m[K/usr/local/include/glog/log_severity.h:38:4:[m[K [01;31m[Kerror: [m[K#error <glog/log_severity.h> was not included correctly. See the documention for how to consume the library.
+[0.322s]    38 | #  [01;31m[Kerror[m[K <glog/log_severity.h> was not included correctly. See the documention for how to consume the library.
+[0.322s]       |    [01;31m[K^~~~~[m[K
+[0.322s] In file included from [01m[K/usr/local/include/glog/logging.h:78[m[K,
+[0.322s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[0.322s] [01m[K/usr/local/include/glog/vlog_is_on.h:71:4:[m[K [01;31m[Kerror: [m[K#error <glog/vlog_is_on.h> was not included correctly. See the documention for how to consume the library.
+[0.322s]    71 | #  [01;31m[Kerror[m[K <glog/vlog_is_on.h> was not included correctly. See the documention for how to consume the library.
+[0.322s]       |    [01;31m[K^~~~~[m[K
+[2.463s] In file included from [01m[K/usr/local/include/glog/logging.h:63[m[K,
+[2.463s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.463s] [01m[K/usr/local/include/glog/flags.h:105:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.463s]   105 | [01;31m[KDECLARE_int32[m[K(logemaillevel);
+[2.463s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.463s] [01m[K/usr/local/include/glog/flags.h:105:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_logemaillevel[m[K’ has not been declared in ‘[01m[KfLI[m[K’
+[2.464s]   105 | [01;31m[KDECLARE_int32[m[K(logemaillevel);
+[2.464s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.465s] [01m[K/usr/local/include/glog/flags.h:106:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.465s]   106 | [01;31m[KDECLARE_int32[m[K(logcleansecs);
+[2.465s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.465s] [01m[K/usr/local/include/glog/flags.h:106:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_logcleansecs[m[K’ has not been declared in ‘[01m[KfLI[m[K’
+[2.465s]   106 | [01;31m[KDECLARE_int32[m[K(logcleansecs);
+[2.465s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.466s] [01m[K/usr/local/include/glog/flags.h:109:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.466s]   109 | [01;31m[KDECLARE_bool[m[K(drop_log_memory);
+[2.466s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.466s] [01m[K/usr/local/include/glog/flags.h:109:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_drop_log_memory[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.466s]   109 | [01;31m[KDECLARE_bool[m[K(drop_log_memory);
+[2.466s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.468s] [01m[K/usr/local/include/glog/flags.h:111:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.468s]   111 | [01;31m[KDECLARE_string[m[K(alsologtoemail);
+[2.468s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.468s] [01m[K/usr/local/include/glog/flags.h:111:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_alsologtoemail[m[K’ has not been declared in ‘[01m[KfLS[m[K’
+[2.468s]   111 | [01;31m[KDECLARE_string[m[K(alsologtoemail);
+[2.468s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.469s] [01m[K/usr/local/include/glog/flags.h:112:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.469s]   112 | [01;31m[KDECLARE_string[m[K(log_backtrace_at);
+[2.469s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.469s] [01m[K/usr/local/include/glog/flags.h:112:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_log_backtrace_at[m[K’ has not been declared in ‘[01m[KfLS[m[K’
+[2.469s]   112 | [01;31m[KDECLARE_string[m[K(log_backtrace_at);
+[2.469s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.471s] [01m[K/usr/local/include/glog/flags.h:115:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.471s]   115 | [01;31m[KDECLARE_bool[m[K(timestamp_in_logfile_name);
+[2.471s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.471s] [01m[K/usr/local/include/glog/flags.h:115:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_timestamp_in_logfile_name[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.471s]   115 | [01;31m[KDECLARE_bool[m[K(timestamp_in_logfile_name);
+[2.471s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.472s] [01m[K/usr/local/include/glog/flags.h:118:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.472s]   118 | [01;31m[KDECLARE_bool[m[K(logtostdout);
+[2.472s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.472s] [01m[K/usr/local/include/glog/flags.h:118:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_logtostdout[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.472s]   118 | [01;31m[KDECLARE_bool[m[K(logtostdout);
+[2.472s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.473s] [01m[K/usr/local/include/glog/flags.h:121:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.474s]   121 | [01;31m[KDECLARE_bool[m[K(colorlogtostdout);
+[2.474s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.474s] [01m[K/usr/local/include/glog/flags.h:121:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_colorlogtostdout[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.474s]   121 | [01;31m[KDECLARE_bool[m[K(colorlogtostdout);
+[2.474s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.475s] [01m[K/usr/local/include/glog/flags.h:124:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.475s]   124 | [01;31m[KDECLARE_bool[m[K(logtostderr);
+[2.475s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.475s] [01m[K/usr/local/include/glog/flags.h:124:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_logtostderr[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.475s]   124 | [01;31m[KDECLARE_bool[m[K(logtostderr);
+[2.475s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.476s] [01m[K/usr/local/include/glog/flags.h:127:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.476s]   127 | [01;31m[KDECLARE_bool[m[K(alsologtostderr);
+[2.476s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.477s] [01m[K/usr/local/include/glog/flags.h:127:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_alsologtostderr[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.477s]   127 | [01;31m[KDECLARE_bool[m[K(alsologtostderr);
+[2.477s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.478s] [01m[K/usr/local/include/glog/flags.h:130:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.478s]   130 | [01;31m[KDECLARE_bool[m[K(colorlogtostderr);
+[2.478s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.478s] [01m[K/usr/local/include/glog/flags.h:130:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_colorlogtostderr[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.478s]   130 | [01;31m[KDECLARE_bool[m[K(colorlogtostderr);
+[2.478s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.479s] [01m[K/usr/local/include/glog/flags.h:134:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.479s]   134 | [01;31m[KDECLARE_int32[m[K(stderrthreshold);
+[2.479s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.480s] [01m[K/usr/local/include/glog/flags.h:134:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_stderrthreshold[m[K’ has not been declared in ‘[01m[KfLI[m[K’
+[2.480s]   134 | [01;31m[KDECLARE_int32[m[K(stderrthreshold);
+[2.480s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.481s] [01m[K/usr/local/include/glog/flags.h:137:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.481s]   137 | [01;31m[KDECLARE_bool[m[K(log_file_header);
+[2.481s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.481s] [01m[K/usr/local/include/glog/flags.h:137:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_log_file_header[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.481s]   137 | [01;31m[KDECLARE_bool[m[K(log_file_header);
+[2.481s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.483s] [01m[K/usr/local/include/glog/flags.h:140:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.483s]   140 | [01;31m[KDECLARE_bool[m[K(log_prefix);
+[2.483s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.483s] [01m[K/usr/local/include/glog/flags.h:140:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_log_prefix[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.483s]   140 | [01;31m[KDECLARE_bool[m[K(log_prefix);
+[2.483s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.484s] [01m[K/usr/local/include/glog/flags.h:143:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.484s]   143 | [01;31m[KDECLARE_bool[m[K(log_year_in_prefix);
+[2.484s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.484s] [01m[K/usr/local/include/glog/flags.h:143:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_log_year_in_prefix[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.484s]   143 | [01;31m[KDECLARE_bool[m[K(log_year_in_prefix);
+[2.484s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.486s] [01m[K/usr/local/include/glog/flags.h:147:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.486s]   147 | [01;31m[KDECLARE_int32[m[K(logbuflevel);
+[2.486s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.486s] [01m[K/usr/local/include/glog/flags.h:147:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_logbuflevel[m[K’ has not been declared in ‘[01m[KfLI[m[K’
+[2.486s]   147 | [01;31m[KDECLARE_int32[m[K(logbuflevel);
+[2.486s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.487s] [01m[K/usr/local/include/glog/flags.h:150:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.487s]   150 | [01;31m[KDECLARE_int32[m[K(logbufsecs);
+[2.487s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.487s] [01m[K/usr/local/include/glog/flags.h:150:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_logbufsecs[m[K’ has not been declared in ‘[01m[KfLI[m[K’
+[2.487s]   150 | [01;31m[KDECLARE_int32[m[K(logbufsecs);
+[2.487s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.489s] [01m[K/usr/local/include/glog/flags.h:154:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.489s]   154 | [01;31m[KDECLARE_int32[m[K(minloglevel);
+[2.489s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.489s] [01m[K/usr/local/include/glog/flags.h:154:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_minloglevel[m[K’ has not been declared in ‘[01m[KfLI[m[K’
+[2.489s]   154 | [01;31m[KDECLARE_int32[m[K(minloglevel);
+[2.489s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.490s] [01m[K/usr/local/include/glog/flags.h:158:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.490s]   158 | [01;31m[KDECLARE_string[m[K(log_dir);
+[2.490s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.490s] [01m[K/usr/local/include/glog/flags.h:158:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_log_dir[m[K’ has not been declared in ‘[01m[KfLS[m[K’
+[2.490s]   158 | [01;31m[KDECLARE_string[m[K(log_dir);
+[2.490s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.491s] [01m[K/usr/local/include/glog/flags.h:161:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.492s]   161 | [01;31m[KDECLARE_int32[m[K(logfile_mode);
+[2.492s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.492s] [01m[K/usr/local/include/glog/flags.h:161:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_logfile_mode[m[K’ has not been declared in ‘[01m[KfLI[m[K’
+[2.492s]   161 | [01;31m[KDECLARE_int32[m[K(logfile_mode);
+[2.492s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.493s] [01m[K/usr/local/include/glog/flags.h:165:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.493s]   165 | [01;31m[KDECLARE_string[m[K(log_link);
+[2.493s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.493s] [01m[K/usr/local/include/glog/flags.h:165:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_log_link[m[K’ has not been declared in ‘[01m[KfLS[m[K’
+[2.493s]   165 | [01;31m[KDECLARE_string[m[K(log_link);
+[2.493s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.494s] [01m[K/usr/local/include/glog/flags.h:167:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.495s]   167 | [01;31m[KDECLARE_int32[m[K(v);  // in vlog_is_on.cc
+[2.495s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.495s] [01m[K/usr/local/include/glog/flags.h:167:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_v[m[K’ has not been declared in ‘[01m[KfLI[m[K’
+[2.495s]   167 | [01;31m[KDECLARE_int32[m[K(v);  // in vlog_is_on.cc
+[2.495s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[2.496s] [01m[K/usr/local/include/glog/flags.h:169:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.496s]   169 | [01;31m[KDECLARE_string[m[K(vmodule);  // also in vlog_is_on.cc
+[2.496s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.496s] [01m[K/usr/local/include/glog/flags.h:169:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_vmodule[m[K’ has not been declared in ‘[01m[KfLS[m[K’
+[2.496s]   169 | [01;31m[KDECLARE_string[m[K(vmodule);  // also in vlog_is_on.cc
+[2.496s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.497s] [01m[K/usr/local/include/glog/flags.h:172:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.498s]   172 | [01;31m[KDECLARE_uint32[m[K(max_log_size);
+[2.498s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.498s] [01m[K/usr/local/include/glog/flags.h:172:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_max_log_size[m[K’ has not been declared in ‘[01m[KfLU[m[K’
+[2.498s]   172 | [01;31m[KDECLARE_uint32[m[K(max_log_size);
+[2.498s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.499s] [01m[K/usr/local/include/glog/flags.h:175:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.499s]   175 | [01;31m[KDECLARE_bool[m[K(stop_logging_if_full_disk);
+[2.499s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.499s] [01m[K/usr/local/include/glog/flags.h:175:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_stop_logging_if_full_disk[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.499s]   175 | [01;31m[KDECLARE_bool[m[K(stop_logging_if_full_disk);
+[2.499s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.500s] [01m[K/usr/local/include/glog/flags.h:178:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.501s]   178 | [01;31m[KDECLARE_bool[m[K(log_utc_time);
+[2.501s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.501s] [01m[K/usr/local/include/glog/flags.h:178:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_log_utc_time[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.501s]   178 | [01;31m[KDECLARE_bool[m[K(log_utc_time);
+[2.501s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.502s] [01m[K/usr/local/include/glog/flags.h:181:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.502s]   181 | [01;31m[KDECLARE_string[m[K(logmailer);
+[2.502s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.502s] [01m[K/usr/local/include/glog/flags.h:181:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_logmailer[m[K’ has not been declared in ‘[01m[KfLS[m[K’
+[2.502s]   181 | [01;31m[KDECLARE_string[m[K(logmailer);
+[2.502s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.503s] [01m[K/usr/local/include/glog/flags.h:183:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.503s]   183 | [01;31m[KDECLARE_bool[m[K(symbolize_stacktrace);
+[2.503s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.504s] [01m[K/usr/local/include/glog/flags.h:183:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_symbolize_stacktrace[m[K’ has not been declared in ‘[01m[KfLB[m[K’
+[2.504s]   183 | [01;31m[KDECLARE_bool[m[K(symbolize_stacktrace);
+[2.504s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[2.505s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.505s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.505s] [01m[K/usr/local/include/glog/log_severity.h:98:8:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.505s]    98 | extern [01;31m[KGLOG_EXPORT[m[K const char* const LogSeverityNames[NUM_SEVERITIES];
+[2.505s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.506s] In file included from [01m[K/usr/local/include/glog/logging.h:78[m[K,
+[2.506s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.507s] [01m[K/usr/local/include/glog/vlog_is_on.h:111:8:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.507s]   111 | extern [01;31m[KGLOG_EXPORT[m[K int SetVLOGLevel(const char* module_pattern, int log_level);
+[2.507s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.508s] [01m[K/usr/local/include/glog/vlog_is_on.h:130:8:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.508s]   130 | extern [01;31m[KGLOG_EXPORT[m[K bool InitVLOG3__(SiteFlag* site_flag,
+[2.508s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.508s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.508s] [01m[K/usr/local/include/glog/logging.h:82:20:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kgoogle::GLOG_EXPORT google::LogMessageTime[m[K’ has initializer but incomplete type
+[2.508s]    82 | struct GLOG_EXPORT [01;31m[KLogMessageTime[m[K {
+[2.508s]       |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.508s] [01m[K/usr/local/include/glog/logging.h:83:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K;[m[K’ token
+[2.509s]    83 |   LogMessageTime()[01;31m[K;[m[K
+[2.509s]       |                   [01;31m[K^[m[K
+[2.509s] [01m[K/usr/local/include/glog/logging.h:82:35:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.509s]    82 | struct GLOG_EXPORT LogMessageTime [01;36m[K{[m[K
+[2.509s]       |                                   [01;36m[K^[m[K
+[2.509s] [01m[K/usr/local/include/glog/logging.h:84:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kexplicit[m[K’ outside class declaration
+[2.509s]    84 |   [01;31m[Kexplicit[m[K LogMessageTime(std::chrono::system_clock::time_point now);
+[2.509s]       |   [01;31m[K^~~~~~~~[m[K
+[2.509s] [01m[K/usr/local/include/glog/logging.h:86:29:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst time_t& google::timestamp()[m[K’ cannot have cv-qualifier
+[2.509s]    86 |   const time_t& timestamp() [01;31m[Kconst[m[K { return timestamp_; }
+[2.509s]       |                             [01;31m[K^~~~~[m[K
+[2.511s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst time_t& google::timestamp()[m[K’:
+[2.511s] [01m[K/usr/local/include/glog/logging.h:86:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimestamp_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimestamp[m[K’?
+[2.511s]    86 |   const time_t& timestamp() const { return [01;31m[Ktimestamp_[m[K; }
+[2.511s]       |                                            [01;31m[K^~~~~~~~~~[m[K
+[2.511s]       |                                            [32m[Ktimestamp[m[K
+[2.512s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.512s] [01m[K/usr/local/include/glog/logging.h:87:20:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst int& google::sec()[m[K’ cannot have cv-qualifier
+[2.512s]    87 |   const int& sec() [01;31m[Kconst[m[K { return time_struct_.tm_sec; }
+[2.512s]       |                    [01;31m[K^~~~~[m[K
+[2.516s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst int& google::sec()[m[K’:
+[2.516s] [01m[K/usr/local/include/glog/logging.h:87:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_struct_[m[K’ was not declared in this scope
+[2.516s]    87 |   const int& sec() const { return [01;31m[Ktime_struct_[m[K.tm_sec; }
+[2.516s]       |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[2.516s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.516s] [01m[K/usr/local/include/glog/logging.h:88:25:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst int32_t& google::usec()[m[K’ cannot have cv-qualifier
+[2.516s]    88 |   const int32_t& usec() [01;31m[Kconst[m[K { return usecs_; }
+[2.516s]       |                         [01;31m[K^~~~~[m[K
+[2.519s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst int32_t& google::usec()[m[K’:
+[2.519s] [01m[K/usr/local/include/glog/logging.h:88:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusecs_[m[K’ was not declared in this scope; did you mean ‘[01m[Kusec[m[K’?
+[2.519s]    88 |   const int32_t& usec() const { return [01;31m[Kusecs_[m[K; }
+[2.519s]       |                                        [01;31m[K^~~~~~[m[K
+[2.519s]       |                                        [32m[Kusec[m[K
+[2.519s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.519s] [01m[K/usr/local/include/glog/logging.h:89:21:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst int& google::min()[m[K’ cannot have cv-qualifier
+[2.519s]    89 |   const int&(min)() [01;31m[Kconst[m[K { return time_struct_.tm_min; }
+[2.519s]       |                     [01;31m[K^~~~~[m[K
+[2.523s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst int& google::min()[m[K’:
+[2.523s] [01m[K/usr/local/include/glog/logging.h:89:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_struct_[m[K’ was not declared in this scope
+[2.523s]    89 |   const int&(min)() const { return [01;31m[Ktime_struct_[m[K.tm_min; }
+[2.523s]       |                                    [01;31m[K^~~~~~~~~~~~[m[K
+[2.523s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.523s] [01m[K/usr/local/include/glog/logging.h:90:21:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst int& google::hour()[m[K’ cannot have cv-qualifier
+[2.523s]    90 |   const int& hour() [01;31m[Kconst[m[K { return time_struct_.tm_hour; }
+[2.523s]       |                     [01;31m[K^~~~~[m[K
+[2.527s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst int& google::hour()[m[K’:
+[2.527s] [01m[K/usr/local/include/glog/logging.h:90:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_struct_[m[K’ was not declared in this scope
+[2.527s]    90 |   const int& hour() const { return [01;31m[Ktime_struct_[m[K.tm_hour; }
+[2.527s]       |                                    [01;31m[K^~~~~~~~~~~~[m[K
+[2.527s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.527s] [01m[K/usr/local/include/glog/logging.h:91:20:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst int& google::day()[m[K’ cannot have cv-qualifier
+[2.527s]    91 |   const int& day() [01;31m[Kconst[m[K { return time_struct_.tm_mday; }
+[2.527s]       |                    [01;31m[K^~~~~[m[K
+[2.531s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst int& google::day()[m[K’:
+[2.531s] [01m[K/usr/local/include/glog/logging.h:91:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_struct_[m[K’ was not declared in this scope
+[2.531s]    91 |   const int& day() const { return [01;31m[Ktime_struct_[m[K.tm_mday; }
+[2.531s]       |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[2.531s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.531s] [01m[K/usr/local/include/glog/logging.h:92:22:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst int& google::month()[m[K’ cannot have cv-qualifier
+[2.531s]    92 |   const int& month() [01;31m[Kconst[m[K { return time_struct_.tm_mon; }
+[2.531s]       |                      [01;31m[K^~~~~[m[K
+[2.536s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst int& google::month()[m[K’:
+[2.536s] [01m[K/usr/local/include/glog/logging.h:92:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_struct_[m[K’ was not declared in this scope
+[2.536s]    92 |   const int& month() const { return [01;31m[Ktime_struct_[m[K.tm_mon; }
+[2.536s]       |                                     [01;31m[K^~~~~~~~~~~~[m[K
+[2.536s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.536s] [01m[K/usr/local/include/glog/logging.h:93:21:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst int& google::year()[m[K’ cannot have cv-qualifier
+[2.536s]    93 |   const int& year() [01;31m[Kconst[m[K { return time_struct_.tm_year; }
+[2.536s]       |                     [01;31m[K^~~~~[m[K
+[2.540s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst int& google::year()[m[K’:
+[2.541s] [01m[K/usr/local/include/glog/logging.h:93:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_struct_[m[K’ was not declared in this scope
+[2.541s]    93 |   const int& year() const { return [01;31m[Ktime_struct_[m[K.tm_year; }
+[2.541s]       |                                    [01;31m[K^~~~~~~~~~~~[m[K
+[2.541s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.541s] [01m[K/usr/local/include/glog/logging.h:94:26:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst int& google::dayOfWeek()[m[K’ cannot have cv-qualifier
+[2.541s]    94 |   const int& dayOfWeek() [01;31m[Kconst[m[K { return time_struct_.tm_wday; }
+[2.541s]       |                          [01;31m[K^~~~~[m[K
+[2.545s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst int& google::dayOfWeek()[m[K’:
+[2.545s] [01m[K/usr/local/include/glog/logging.h:94:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_struct_[m[K’ was not declared in this scope
+[2.545s]    94 |   const int& dayOfWeek() const { return [01;31m[Ktime_struct_[m[K.tm_wday; }
+[2.545s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[2.545s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.545s] [01m[K/usr/local/include/glog/logging.h:95:26:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst int& google::dayInYear()[m[K’ cannot have cv-qualifier
+[2.545s]    95 |   const int& dayInYear() [01;31m[Kconst[m[K { return time_struct_.tm_yday; }
+[2.545s]       |                          [01;31m[K^~~~~[m[K
+[2.549s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst int& google::dayInYear()[m[K’:
+[2.549s] [01m[K/usr/local/include/glog/logging.h:95:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_struct_[m[K’ was not declared in this scope
+[2.549s]    95 |   const int& dayInYear() const { return [01;31m[Ktime_struct_[m[K.tm_yday; }
+[2.549s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[2.549s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.549s] [01m[K/usr/local/include/glog/logging.h:96:20:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst int& google::dst()[m[K’ cannot have cv-qualifier
+[2.549s]    96 |   const int& dst() [01;31m[Kconst[m[K { return time_struct_.tm_isdst; }
+[2.549s]       |                    [01;31m[K^~~~~[m[K
+[2.553s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst int& google::dst()[m[K’:
+[2.553s] [01m[K/usr/local/include/glog/logging.h:96:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_struct_[m[K’ was not declared in this scope
+[2.553s]    96 |   const int& dst() const { return [01;31m[Ktime_struct_[m[K.tm_isdst; }
+[2.553s]       |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[2.553s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.553s] [01m[K/usr/local/include/glog/logging.h:97:28:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst long int& google::gmtoff()[m[K’ cannot have cv-qualifier
+[2.553s]    97 |   const long int& gmtoff() [01;31m[Kconst[m[K { return gmtoffset_; }
+[2.553s]       |                            [01;31m[K^~~~~[m[K
+[2.557s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst long int& google::gmtoff()[m[K’:
+[2.557s] [01m[K/usr/local/include/glog/logging.h:97:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kgmtoffset_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgmtoff[m[K’?
+[2.557s]    97 |   const long int& gmtoff() const { return [01;31m[Kgmtoffset_[m[K; }
+[2.557s]       |                                           [01;31m[K^~~~~~~~~~[m[K
+[2.557s]       |                                           [32m[Kgmtoff[m[K
+[2.557s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.557s] [01m[K/usr/local/include/glog/logging.h:98:23:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kconst tm& google::tm()[m[K’ cannot have cv-qualifier
+[2.557s]    98 |   const std::tm& tm() [01;31m[Kconst[m[K { return time_struct_; }
+[2.557s]       |                       [01;31m[K^~~~~[m[K
+[2.561s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kconst tm& google::tm()[m[K’:
+[2.561s] [01m[K/usr/local/include/glog/logging.h:98:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_struct_[m[K’ was not declared in this scope
+[2.561s]    98 |   const std::tm& tm() const { return [01;31m[Ktime_struct_[m[K; }
+[2.561s]       |                                      [01;31m[K^~~~~~~~~~~~[m[K
+[2.561s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.561s] [01m[K/usr/local/include/glog/logging.h:100:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[2.561s]   100 |  [01;31m[Kprivate[m[K:
+[2.561s]       |  [01;31m[K^~~~~~~[m[K
+[2.563s] [01m[K/usr/local/include/glog/logging.h:115:33:[m[K [01;31m[Kerror: [m[K‘[01m[KLogMessageTime[m[K’ does not name a type; did you mean ‘[01m[KLogMessageInfo[m[K’?
+[2.563s]   115 |                           const [01;31m[KLogMessageTime[m[K& time_)
+[2.563s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.563s]       |                                 [32m[KLogMessageInfo[m[K
+[2.565s] [01m[K/usr/local/include/glog/logging.h:126:9:[m[K [01;31m[Kerror: [m[K‘[01m[KLogMessageTime[m[K’ does not name a type; did you mean ‘[01m[KLogMessageInfo[m[K’?
+[2.565s]   126 |   const [01;31m[KLogMessageTime[m[K& time;
+[2.565s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.565s]       |         [32m[KLogMessageInfo[m[K
+[2.565s] [01m[K/usr/local/include/glog/logging.h:[m[K In constructor ‘[01m[KLogMessageInfo::LogMessageInfo(const char*, const char*, const int&, std::thread::id, const int&)[m[K’:
+[2.565s] [01m[K/usr/local/include/glog/logging.h:120:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KLogMessageInfo[m[K’ does not have any field named ‘[01m[Ktime[m[K’
+[2.566s]   120 |         [01;31m[Ktime[m[K(time_) {}
+[2.566s]       |         [01;31m[K^~~~[m[K
+[2.566s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.566s] [01m[K/usr/local/include/glog/logging.h:132:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.566s]   132 | [01;31m[K}[m[K  // namespace google
+[2.566s]       | [01;31m[K^[m[K
+[2.566s] [01m[K/usr/local/include/glog/logging.h:479:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KInitGoogleLogging[m[K’
+[2.566s]   479 | [01;31m[KGLOG_EXPORT[m[K void InitGoogleLogging(const char* argv0);
+[2.566s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.566s] [01m[K/usr/local/include/glog/logging.h:481:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KInitGoogleLogging[m[K’
+[2.566s]   481 | [01;31m[KGLOG_EXPORT[m[K void InitGoogleLogging(const char* argv0,
+[2.566s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.566s] [01m[K/usr/local/include/glog/logging.h:486:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KIsGoogleLoggingInitialized[m[K’
+[2.566s]   486 | [01;31m[KGLOG_EXPORT[m[K bool IsGoogleLoggingInitialized();
+[2.566s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.566s] [01m[K/usr/local/include/glog/logging.h:489:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KShutdownGoogleLogging[m[K’
+[2.566s]   489 | [01;31m[KGLOG_EXPORT[m[K void ShutdownGoogleLogging();
+[2.567s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.567s] [01m[K/usr/local/include/glog/logging.h:498:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KInstallFailureFunction[m[K’
+[2.567s]   498 | [01;31m[KGLOG_EXPORT[m[K void InstallFailureFunction(logging_fail_func_t fail_func);
+[2.567s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.567s] [01m[K/usr/local/include/glog/logging.h:501:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KEnableLogCleaner[m[K’
+[2.567s]   501 | [01;31m[KGLOG_EXPORT[m[K void EnableLogCleaner(unsigned int overdue_days);
+[2.567s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.567s] [01m[K/usr/local/include/glog/logging.h:502:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KDisableLogCleaner[m[K’
+[2.567s]   502 | [01;31m[KGLOG_EXPORT[m[K void DisableLogCleaner();
+[2.567s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.567s] [01m[K/usr/local/include/glog/logging.h:503:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KSetApplicationFingerprint[m[K’
+[2.567s]   503 | [01;31m[KGLOG_EXPORT[m[K void SetApplicationFingerprint(const std::string& fingerprint);
+[2.567s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.567s] [01m[K/usr/local/include/glog/logging.h:626:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KMakeCheckOpValueString[m[K’
+[2.567s]   626 | [01;31m[KGLOG_EXPORT[m[K void MakeCheckOpValueString(std::ostream* os, const char& v);
+[2.567s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.567s] [01m[K/usr/local/include/glog/logging.h:628:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KMakeCheckOpValueString[m[K’
+[2.567s]   628 | [01;31m[KGLOG_EXPORT[m[K void MakeCheckOpValueString(std::ostream* os, const signed char& v);
+[2.568s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.568s] [01m[K/usr/local/include/glog/logging.h:630:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KMakeCheckOpValueString[m[K’
+[2.568s]   630 | [01;31m[KGLOG_EXPORT[m[K void MakeCheckOpValueString(std::ostream* os,
+[2.568s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.568s] [01m[K/usr/local/include/glog/logging.h:635:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KMakeCheckOpValueString[m[K’
+[2.568s]   635 | [01;31m[KGLOG_EXPORT[m[K void MakeCheckOpValueString(std::ostream* os,
+[2.568s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.568s] [01m[K/usr/local/include/glog/logging.h:656:19:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kgoogle::GLOG_EXPORT google::base::CheckOpMessageBuilder[m[K’ has initializer but incomplete type
+[2.568s]   656 | class GLOG_EXPORT [01;31m[KCheckOpMessageBuilder[m[K {
+[2.568s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.568s] [01m[K/usr/local/include/glog/logging.h:657:2:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[2.568s]   657 |  [01;31m[Kpublic[m[K:
+[2.568s]       |  [01;31m[K^~~~~~[m[K
+[2.568s] [01m[K/usr/local/include/glog/logging.h:657:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[2.568s] [01m[K/usr/local/include/glog/logging.h:656:41:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.568s]   656 | class GLOG_EXPORT CheckOpMessageBuilder [01;36m[K{[m[K
+[2.568s]       |                                         [01;36m[K^[m[K
+[2.568s] [01m[K/usr/local/include/glog/logging.h:657:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kpublic[m[K’
+[2.568s]   657 |  [01;31m[Kpublic[m[K:
+[2.569s]       |  [01;31m[K^~~~~~[m[K
+[2.569s] [01m[K/usr/local/include/glog/logging.h:661:25:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+[2.569s]   661 |   ~CheckOpMessageBuilder[01;31m[K([m[K);
+[2.569s]       |                         [01;31m[K^[m[K
+[2.569s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kstd::ostream* google::base::ForVar1()[m[K’:
+[2.569s] [01m[K/usr/local/include/glog/logging.h:663:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstream_[m[K’ was not declared in this scope
+[2.569s]   663 |   std::ostream* ForVar1() { return [01;31m[Kstream_[m[K; }
+[2.569s]       |                                    [01;31m[K^~~~~~~[m[K
+[2.569s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.569s] [01m[K/usr/local/include/glog/logging.h:669:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[2.569s]   669 |  [01;31m[Kprivate[m[K:
+[2.569s]       |  [01;31m[K^~~~~~~[m[K
+[2.569s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[Kstd::string* MakeCheckOpString(const T1&, const T2&, const char*)[m[K’:
+[2.569s] [01m[K/usr/local/include/glog/logging.h:678:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase[m[K’ has not been declared
+[2.569s]   678 |   [01;31m[Kbase[m[K::CheckOpMessageBuilder comb(exprtext);
+[2.569s]       |   [01;31m[K^~~~[m[K
+[2.571s] [01m[K/usr/local/include/glog/logging.h:679:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomb[m[K’ was not declared in this scope; did you mean ‘[01m[Kwctomb[m[K’?
+[2.571s]   679 |   MakeCheckOpValueString([01;31m[Kcomb[m[K.ForVar1(), v1);
+[2.572s]       |                          [01;31m[K^~~~[m[K
+[2.572s]       |                          [32m[Kwctomb[m[K
+[2.573s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.573s] [01m[K/usr/local/include/glog/logging.h:791:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.573s]   791 | [01;31m[KDECLARE_CHECK_STROP_IMPL[m[K(strcmp, true)
+[2.574s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.575s] [01m[K/usr/local/include/glog/logging.h:792:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.575s]   792 | [01;31m[KDECLARE_CHECK_STROP_IMPL[m[K(strcmp, false)
+[2.575s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.576s] [01m[K/usr/local/include/glog/logging.h:793:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.576s]   793 | [01;31m[KDECLARE_CHECK_STROP_IMPL[m[K(strcasecmp, true)
+[2.576s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.578s] [01m[K/usr/local/include/glog/logging.h:794:1:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_EXPORT[m[K’ does not name a type
+[2.578s]   794 | [01;31m[KDECLARE_CHECK_STROP_IMPL[m[K(strcasecmp, false)
+[2.578s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.578s] [01m[K/usr/local/include/glog/logging.h:880:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.578s]   880 | [01;31m[K}[m[K  // namespace google
+[2.578s]       | [01;31m[K^[m[K
+[2.578s] [01m[K/usr/local/include/glog/logging.h:1144:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K:[m[K’ token
+[2.578s]  1144 | class GLOG_EXPORT LogStreamBuf [01;31m[K:[m[K public std::streambuf {
+[2.578s]       |                                [01;31m[K^[m[K
+[2.578s] [01m[K/usr/local/include/glog/logging.h:1168:19:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kgoogle::GLOG_EXPORT google::LogMessage[m[K’ has initializer but incomplete type
+[2.579s]  1168 | class GLOG_EXPORT [01;31m[KLogMessage[m[K {
+[2.579s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[2.579s] [01m[K/usr/local/include/glog/logging.h:1169:2:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[2.579s]  1169 |  [01;31m[Kpublic[m[K:
+[2.579s]       |  [01;31m[K^~~~~~[m[K
+[2.579s] [01m[K/usr/local/include/glog/logging.h:1169:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[2.579s] [01m[K/usr/local/include/glog/logging.h:1168:30:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.579s]  1168 | class GLOG_EXPORT LogMessage [01;36m[K{[m[K
+[2.579s]       |                              [01;36m[K^[m[K
+[2.579s] [01m[K/usr/local/include/glog/logging.h:1169:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kpublic[m[K’
+[2.579s]  1169 |  [01;31m[Kpublic[m[K:
+[2.579s]       |  [01;31m[K^~~~~~[m[K
+[2.579s] [01m[K/usr/local/include/glog/logging.h:1186:31:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K:[m[K’ token
+[2.579s]  1186 |   class GLOG_EXPORT LogStream [01;31m[K:[m[K public std::ostream {
+[2.579s]       |                               [01;31m[K^[m[K
+[2.579s] [01m[K/usr/local/include/glog/logging.h:1232:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kpublic[m[K’
+[2.579s]  1232 |  [01;31m[Kpublic[m[K:
+[2.579s]       |  [01;31m[K^~~~~~[m[K
+[2.580s] [01m[K/usr/local/include/glog/logging.h:1237:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSendMethod[m[K’ has not been declared
+[2.580s]  1237 |              [01;31m[KSendMethod[m[K send_method);
+[2.580s]       |              [01;31m[K^~~~~~~~~~[m[K
+[2.580s] [01m[K/usr/local/include/glog/logging.h:1237:37:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[2.580s]  1237 |              SendMethod send_method)[01;31m[K;[m[K
+[2.580s]       |                                     [01;31m[K^[m[K
+[2.580s] [01m[K/usr/local/include/glog/logging.h:1247:41:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[2.580s]  1247 |   LogMessage(const char* file, int line)[01;31m[K;[m[K
+[2.580s]       |                                         [01;31m[K^[m[K
+[2.580s] [01m[K/usr/local/include/glog/logging.h:1254:63:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[2.580s]  1254 |   LogMessage(const char* file, int line, LogSeverity severity)[01;31m[K;[m[K
+[2.580s]       |                                                               [01;31m[K^[m[K
+[2.580s] [01m[K/usr/local/include/glog/logging.h:1260:36:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[2.580s]  1260 |              bool also_send_to_log)[01;31m[K;[m[K
+[2.580s]       |                                    [01;31m[K^[m[K
+[2.580s] [01m[K/usr/local/include/glog/logging.h:1266:47:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[2.581s]  1266 |              std::vector<std::string>* outvec)[01;31m[K;[m[K
+[2.581s]       |                                               [01;31m[K^[m[K
+[2.581s] [01m[K/usr/local/include/glog/logging.h:1272:35:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[2.581s]  1272 |              std::string* message)[01;31m[K;[m[K
+[2.581s]       |                                   [01;31m[K^[m[K
+[2.581s] [01m[K/usr/local/include/glog/logging.h:1275:70:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[2.581s]  1275 |   LogMessage(const char* file, int line, const CheckOpString& result)[01;31m[K;[m[K
+[2.581s]       |                                                                      [01;31m[K^[m[K
+[2.581s] [01m[K/usr/local/include/glog/logging.h:1277:14:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+[2.581s]  1277 |   ~LogMessage[01;31m[K([m[K);
+[2.581s]       |              [01;31m[K^[m[K
+[2.581s] [01m[K/usr/local/include/glog/logging.h:1286:23:[m[K [01;31m[Kerror: [m[Kuninitialized ‘[01m[Kconst google::kMaxLogMessageLen[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.581s]  1286 |   static const size_t [01;31m[KkMaxLogMessageLen[m[K;
+[2.581s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.581s] [01m[K/usr/local/include/glog/logging.h:1298:25:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kint google::preserved_errno()[m[K’ cannot have cv-qualifier
+[2.581s]  1298 |   int preserved_errno() [01;31m[Kconst[m[K;
+[2.582s]       |                         [01;31m[K^~~~~[m[K
+[2.582s] [01m[K/usr/local/include/glog/logging.h:1303:9:[m[K [01;31m[Kerror: [m[K‘[01m[KLogMessageTime[m[K’ does not name a type; did you mean ‘[01m[KLogMessageInfo[m[K’?
+[2.582s]  1303 |   const [01;31m[KLogMessageTime[m[K& getLogMessageTime() const;
+[2.582s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.582s]       |         [32m[KLogMessageInfo[m[K
+[2.582s] [01m[K/usr/local/include/glog/logging.h:1307:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[2.582s]  1307 |  [01;31m[Kprivate[m[K:
+[2.582s]       |  [01;31m[K^~~~~~~[m[K
+[2.582s] [01m[K/usr/local/include/glog/logging.h:1318:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.582s]  1318 |             void [34m[K([m[KLogMessage[01;31m[K:[m[K[32m[K:[m[K*send_method)());
+[2.582s]       |                  [34m[K~[m[K          [01;31m[K^[m[K[32m[K~[m[K
+[2.582s]       |                             [32m[K)[m[K
+[2.582s] [01m[K/usr/local/include/glog/logging.h:1318:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.582s]  1318 |             void (LogMessage[01;31m[K:[m[K[32m[K:[m[K*send_method)());
+[2.582s]       |                             [01;31m[K^[m[K[32m[K~[m[K
+[2.582s]       |                             [32m[K)[m[K
+[2.582s] [01m[K/usr/local/include/glog/logging.h:1317:12:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.582s]  1317 |   void Init[01;36m[K([m[Kconst char* file, int line, LogSeverity severity,
+[2.583s]       |            [01;36m[K^[m[K
+[2.583s] [01m[K/usr/local/include/glog/logging.h:1318:29:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[2.583s]  1318 |             void (LogMessage[01;31m[K::[m[K*send_method)());
+[2.583s]       |                             [01;31m[K^~[m[K
+[2.583s] [01m[K/usr/local/include/glog/logging.h:1330:3:[m[K [01;31m[Kerror: [m[K‘[01m[KLogMessageTime[m[K’ does not name a type; did you mean ‘[01m[KLogMessageData[m[K’?
+[2.583s]  1330 |   [01;31m[KLogMessageTime[m[K logmsgtime_;
+[2.583s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.583s]       |   [32m[KLogMessageData[m[K
+[2.583s] [01m[K/usr/local/include/glog/logging.h:1332:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfriend[m[K’ used outside of class
+[2.583s]  1332 |   [01;31m[Kfriend[m[K class LogDestination;
+[2.583s]       |   [01;31m[K^~~~~~[m[K
+[2.583s]       |   [31m[K------[m[K
+[2.583s] [01m[K/usr/local/include/glog/logging.h:1334:20:[m[K [01;31m[Kerror: [m[K‘[01m[KLogMessage[m[K’ does not name a type; did you mean ‘[01m[KLogMessageData[m[K’?
+[2.583s]  1334 |   LogMessage(const [01;31m[KLogMessage[m[K&);
+[2.583s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.583s]       |                    [32m[KLogMessageData[m[K
+[2.583s] [01m[K/usr/local/include/glog/logging.h:1334:32:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[2.584s]  1334 |   LogMessage(const LogMessage&)[01;31m[K;[m[K
+[2.584s]       |                                [01;31m[K^[m[K
+[2.584s] [01m[K/usr/local/include/glog/logging.h:1335:24:[m[K [01;31m[Kerror: [m[K‘[01m[KLogMessage[m[K’ does not name a type; did you mean ‘[01m[KLogMessageData[m[K’?
+[2.584s]  1335 |   void operator=(const [01;31m[KLogMessage[m[K&);
+[2.584s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[2.584s]       |                        [32m[KLogMessageData[m[K
+[2.584s] [01m[K/usr/local/include/glog/logging.h:1335:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid google::operator=(const int&)[m[K’ must be a non-static member function
+[2.584s]  1335 |   void [01;31m[Koperator[m[K=(const LogMessage&);
+[2.584s]       |        [01;31m[K^~~~~~~~[m[K
+[2.584s] [01m[K/usr/local/include/glog/logging.h:1341:35:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K:[m[K’ token
+[2.585s]  1341 | class GLOG_EXPORT LogMessageFatal [01;31m[K:[m[K public LogMessage {
+[2.585s]       |                                   [01;31m[K^[m[K
+[2.585s] [01m[K/usr/local/include/glog/logging.h:1350:13:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KLogAtLevel[m[K’ declared void
+[2.585s]  1350 | inline void [01;31m[KLogAtLevel[m[K(LogSeverity severity, std::string const& msg) {
+[2.585s]       |             [01;31m[K^~~~~~~~~~[m[K
+[2.585s] [01m[K/usr/local/include/glog/logging.h:1350:24:[m[K [01;31m[Kerror: [m[K‘[01m[KLogSeverity[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::LogSeverity[m[K’?
+[2.585s]  1350 | inline void LogAtLevel([01;31m[KLogSeverity[m[K severity, std::string const& msg) {
+[2.585s]       |                        [01;31m[K^~~~~~~~~~~[m[K
+[2.585s]       |                        [32m[Kgoogle::LogSeverity[m[K
+[2.585s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.585s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.585s] [01m[K/usr/local/include/glog/log_severity.h:62:6:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::LogSeverity[m[K’ declared here
+[2.585s]    62 | enum [01;36m[KLogSeverity[m[K {
+[2.585s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[2.586s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.586s] [01m[K/usr/local/include/glog/logging.h:1350:58:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.586s]  1350 | inline void LogAtLevel(LogSeverity severity, std::string [01;31m[Kconst[m[K& msg) {
+[2.586s]       |                                                          [01;31m[K^~~~~[m[K
+[2.586s] [01m[K/usr/local/include/glog/logging.h:[m[K In function ‘[01m[KT CheckNotNull(const char*, int, const char*, T&&)[m[K’:
+[2.586s] [01m[K/usr/local/include/glog/logging.h:1372:5:[m[K [01;31m[Kerror: [m[Kthere are no arguments to ‘[01m[KLogMessageFatal[m[K’ that depend on a template parameter, so a declaration of ‘[01m[KLogMessageFatal[m[K’ must be available [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.586s]  1372 |     [01;31m[KLogMessageFatal[m[K(file, line, new std::string(names));
+[2.586s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.586s] [01m[K/usr/local/include/glog/logging.h:1372:5:[m[K [01;36m[Knote: [m[K(if you use ‘[01m[K-fpermissive[m[K’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+[2.586s] [01m[K/usr/local/include/glog/logging.h:[m[K At global scope:
+[2.587s] [01m[K/usr/local/include/glog/logging.h:1380:25:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K&[m[K’ token
+[2.587s]  1380 | GLOG_EXPORT std::ostream[01;31m[K&[m[K operator<<(std::ostream& os, const Counter_t&);
+[2.587s]       |                         [01;31m[K^[m[K
+[2.587s] [01m[K/usr/local/include/glog/logging.h:1383:35:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K:[m[K’ token
+[2.587s]  1383 | class GLOG_EXPORT ErrnoLogMessage [01;31m[K:[m[K public LogMessage {
+[2.587s]       |                                   [01;31m[K^[m[K
+[2.587s] [01m[K/usr/local/include/glog/logging.h:1400:19:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[KGLOG_EXPORT LogMessageVoidify[m[K’ has initializer but incomplete type
+[2.587s]  1400 | class GLOG_EXPORT [01;31m[KLogMessageVoidify[m[K {
+[2.587s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.587s] [01m[K/usr/local/include/glog/logging.h:1401:2:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[2.587s]  1401 |  [01;31m[Kpublic[m[K:
+[2.587s]       |  [01;31m[K^~~~~~[m[K
+[2.587s] [01m[K/usr/local/include/glog/logging.h:1401:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[2.587s] [01m[K/usr/local/include/glog/logging.h:1400:37:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.587s]  1400 | class GLOG_EXPORT LogMessageVoidify [01;36m[K{[m[K
+[2.587s]       |                                     [01;36m[K^[m[K
+[2.587s] [01m[K/usr/local/include/glog/logging.h:1401:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kpublic[m[K’
+[2.587s]  1401 |  [01;31m[Kpublic[m[K:
+[2.588s]       |  [01;31m[K^~~~~~[m[K
+[2.588s] [01m[K/usr/local/include/glog/logging.h:1406:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.588s]  1406 | [01;31m[K}[m[K;
+[2.588s]       | [01;31m[K^[m[K
+[2.588s] [01m[K/usr/local/include/glog/logging.h:1410:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KFlushLogFiles[m[K’
+[2.588s]  1410 | [01;31m[KGLOG_EXPORT[m[K void FlushLogFiles(LogSeverity min_severity);
+[2.588s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.588s] [01m[K/usr/local/include/glog/logging.h:1410:32:[m[K [01;31m[Kerror: [m[K‘[01m[KLogSeverity[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::LogSeverity[m[K’?
+[2.588s]  1410 | GLOG_EXPORT void FlushLogFiles([01;31m[KLogSeverity[m[K min_severity);
+[2.588s]       |                                [01;31m[K^~~~~~~~~~~[m[K
+[2.588s]       |                                [32m[Kgoogle::LogSeverity[m[K
+[2.588s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.588s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.588s] [01m[K/usr/local/include/glog/log_severity.h:62:6:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::LogSeverity[m[K’ declared here
+[2.588s]    62 | enum [01;36m[KLogSeverity[m[K {
+[2.588s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[2.588s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.588s] [01m[K/usr/local/include/glog/logging.h:1415:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KFlushLogFilesUnsafe[m[K’
+[2.589s]  1415 | [01;31m[KGLOG_EXPORT[m[K void FlushLogFilesUnsafe(LogSeverity min_severity);
+[2.589s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.589s] [01m[K/usr/local/include/glog/logging.h:1415:38:[m[K [01;31m[Kerror: [m[K‘[01m[KLogSeverity[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::LogSeverity[m[K’?
+[2.589s]  1415 | GLOG_EXPORT void FlushLogFilesUnsafe([01;31m[KLogSeverity[m[K min_severity);
+[2.589s]       |                                      [01;31m[K^~~~~~~~~~~[m[K
+[2.589s]       |                                      [32m[Kgoogle::LogSeverity[m[K
+[2.589s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.589s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.589s] [01m[K/usr/local/include/glog/log_severity.h:62:6:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::LogSeverity[m[K’ declared here
+[2.589s]    62 | enum [01;36m[KLogSeverity[m[K {
+[2.589s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[2.589s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.589s] [01m[K/usr/local/include/glog/logging.h:1422:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KSetLogDestination[m[K’
+[2.589s]  1422 | [01;31m[KGLOG_EXPORT[m[K void SetLogDestination(LogSeverity severity,
+[2.589s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.589s] [01m[K/usr/local/include/glog/logging.h:1422:36:[m[K [01;31m[Kerror: [m[K‘[01m[KLogSeverity[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::LogSeverity[m[K’?
+[2.590s]  1422 | GLOG_EXPORT void SetLogDestination([01;31m[KLogSeverity[m[K severity,
+[2.590s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[2.590s]       |                                    [32m[Kgoogle::LogSeverity[m[K
+[2.590s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.590s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.590s] [01m[K/usr/local/include/glog/log_severity.h:62:6:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::LogSeverity[m[K’ declared here
+[2.590s]    62 | enum [01;36m[KLogSeverity[m[K {
+[2.590s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[2.590s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.590s] [01m[K/usr/local/include/glog/logging.h:1423:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.590s]  1423 |                                    [01;31m[Kconst[m[K char* base_filename);
+[2.590s]       |                                    [01;31m[K^~~~~[m[K
+[2.590s] [01m[K/usr/local/include/glog/logging.h:1431:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KSetLogSymlink[m[K’
+[2.590s]  1431 | [01;31m[KGLOG_EXPORT[m[K void SetLogSymlink(LogSeverity severity,
+[2.590s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.590s] [01m[K/usr/local/include/glog/logging.h:1431:32:[m[K [01;31m[Kerror: [m[K‘[01m[KLogSeverity[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::LogSeverity[m[K’?
+[2.590s]  1431 | GLOG_EXPORT void SetLogSymlink([01;31m[KLogSeverity[m[K severity,
+[2.590s]       |                                [01;31m[K^~~~~~~~~~~[m[K
+[2.591s]       |                                [32m[Kgoogle::LogSeverity[m[K
+[2.591s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.591s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.591s] [01m[K/usr/local/include/glog/log_severity.h:62:6:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::LogSeverity[m[K’ declared here
+[2.591s]    62 | enum [01;36m[KLogSeverity[m[K {
+[2.591s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[2.591s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.591s] [01m[K/usr/local/include/glog/logging.h:1432:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.591s]  1432 |                                [01;31m[Kconst[m[K char* symlink_basename);
+[2.591s]       |                                [01;31m[K^~~~~[m[K
+[2.591s] [01m[K/usr/local/include/glog/logging.h:1439:19:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[KGLOG_EXPORT LogSink[m[K’ has initializer but incomplete type
+[2.591s]  1439 | class GLOG_EXPORT [01;31m[KLogSink[m[K {
+[2.591s]       |                   [01;31m[K^~~~~~~[m[K
+[2.591s] [01m[K/usr/local/include/glog/logging.h:1440:2:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[2.591s]  1440 |  [01;31m[Kpublic[m[K:
+[2.591s]       |  [01;31m[K^~~~~~[m[K
+[2.591s] [01m[K/usr/local/include/glog/logging.h:1440:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[2.591s] [01m[K/usr/local/include/glog/logging.h:1439:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.591s]  1439 | class GLOG_EXPORT LogSink [01;36m[K{[m[K
+[2.592s]       |                           [01;36m[K^[m[K
+[2.592s] [01m[K/usr/local/include/glog/logging.h:1440:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kpublic[m[K’
+[2.592s]  1440 |  [01;31m[Kpublic[m[K:
+[2.592s]       |  [01;31m[K^~~~~~[m[K
+[2.592s] [01m[K/usr/local/include/glog/logging.h:1446:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual[m[K’ outside class declaration
+[2.592s]  1446 |   [01;31m[Kvirtual[m[K void send(LogSeverity severity, const char* full_filename,
+[2.592s]       |   [01;31m[K^~~~~~~[m[K
+[2.592s] [01m[K/usr/local/include/glog/logging.h:1446:16:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Ksend[m[K’ declared void
+[2.592s]  1446 |   virtual void [01;31m[Ksend[m[K(LogSeverity severity, const char* full_filename,
+[2.592s]       |                [01;31m[K^~~~[m[K
+[2.592s] [01m[K/usr/local/include/glog/logging.h:1446:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLogSeverity[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::LogSeverity[m[K’?
+[2.592s]  1446 |   virtual void send([01;31m[KLogSeverity[m[K severity, const char* full_filename,
+[2.592s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[2.592s]       |                     [32m[Kgoogle::LogSeverity[m[K
+[2.592s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.592s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.592s] [01m[K/usr/local/include/glog/log_severity.h:62:6:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::LogSeverity[m[K’ declared here
+[2.593s]    62 | enum [01;36m[KLogSeverity[m[K {
+[2.593s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[2.593s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.593s] [01m[K/usr/local/include/glog/logging.h:1446:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.593s]  1446 |   virtual void send(LogSeverity severity, [01;31m[Kconst[m[K char* full_filename,
+[2.593s]       |                                           [01;31m[K^~~~~[m[K
+[2.593s] [01m[K/usr/local/include/glog/logging.h:1447:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.593s]  1447 |                     [01;31m[Kconst[m[K char* base_filename, int line,
+[2.593s]       |                     [01;31m[K^~~~~[m[K
+[2.593s] [01m[K/usr/local/include/glog/logging.h:1447:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[2.593s]  1447 |                     const char* base_filename, [01;31m[Kint[m[K line,
+[2.593s]       |                                                [01;31m[K^~~[m[K
+[2.593s] [01m[K/usr/local/include/glog/logging.h:1448:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.593s]  1448 |                     [01;31m[Kconst[m[K LogMessageTime& logmsgtime, const char* message,
+[2.593s]       |                     [01;31m[K^~~~~[m[K
+[2.593s] [01m[K/usr/local/include/glog/logging.h:1448:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.593s]  1448 |                     const LogMessageTime& logmsgtime, [01;31m[Kconst[m[K char* message,
+[2.593s]       |                                                       [01;31m[K^~~~~[m[K
+[2.593s] [01m[K/usr/local/include/glog/logging.h:1449:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kmessage_len[m[K’
+[2.594s]  1449 |                     size_t [01;31m[Kmessage_len[m[K);
+[2.594s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[2.594s] [01m[K/usr/local/include/glog/logging.h:1451:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGLOG_DEPRECATED[m[K’ does not name a type; did you mean ‘[01m[KCV_DEPRECATED[m[K’?
+[2.594s]  1451 |   [01;31m[KGLOG_DEPRECATED[m[K
+[2.594s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.594s]       |   [32m[KCV_DEPRECATED[m[K
+[2.594s] [01m[K/usr/local/include/glog/logging.h:1469:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual[m[K’ outside class declaration
+[2.594s]  1469 |   [01;31m[Kvirtual[m[K void WaitTillSent();
+[2.594s]       |   [01;31m[K^~~~~~~[m[K
+[2.594s] [01m[K/usr/local/include/glog/logging.h:1473:31:[m[K [01;31m[Kerror: [m[K‘[01m[KLogSeverity[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::LogSeverity[m[K’?
+[2.594s]  1473 |   static std::string ToString([01;31m[KLogSeverity[m[K severity, const char* file, int line,
+[2.594s]       |                               [01;31m[K^~~~~~~~~~~[m[K
+[2.594s]       |                               [32m[Kgoogle::LogSeverity[m[K
+[2.594s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.594s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.594s] [01m[K/usr/local/include/glog/log_severity.h:62:6:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::LogSeverity[m[K’ declared here
+[2.594s]    62 | enum [01;36m[KLogSeverity[m[K {
+[2.594s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[2.595s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.595s] [01m[K/usr/local/include/glog/logging.h:1473:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.595s]  1473 |   static std::string ToString(LogSeverity severity, [01;31m[Kconst[m[K char* file, int line,
+[2.595s]       |                                                     [01;31m[K^~~~~[m[K
+[2.595s] [01m[K/usr/local/include/glog/logging.h:1473:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[2.595s]  1473 |  static std::string ToString(LogSeverity severity, const char* file, [01;31m[Kint[m[K line,
+[2.595s]       |                                                                      [01;31m[K^~~[m[K
+[2.595s] 
+[2.595s] [01m[K/usr/local/include/glog/logging.h:1474:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.595s]  1474 |                               [01;31m[Kconst[m[K LogMessageTime& logmsgtime,
+[2.595s]       |                               [01;31m[K^~~~~[m[K
+[2.595s] [01m[K/usr/local/include/glog/logging.h:1475:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.595s]  1475 |                               [01;31m[Kconst[m[K char* message, size_t message_len);
+[2.595s]       |                               [01;31m[K^~~~~[m[K
+[2.595s] [01m[K/usr/local/include/glog/logging.h:1475:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kmessage_len[m[K’
+[2.595s]  1475 |                               const char* message, size_t [01;31m[Kmessage_len[m[K);
+[2.596s]       |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[2.596s] [01m[K/usr/local/include/glog/logging.h:1476:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.596s]  1476 | [01;31m[K}[m[K;
+[2.596s]       | [01;31m[K^[m[K
+[2.596s] [01m[K/usr/local/include/glog/logging.h:1479:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KAddLogSink[m[K’
+[2.596s]  1479 | [01;31m[KGLOG_EXPORT[m[K void AddLogSink(LogSink* destination);
+[2.596s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.596s] [01m[K/usr/local/include/glog/logging.h:1479:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kdestination[m[K’ was not declared in this scope
+[2.596s]  1479 | GLOG_EXPORT void AddLogSink(LogSink* [01;31m[Kdestination[m[K);
+[2.596s]       |                                      [01;31m[K^~~~~~~~~~~[m[K
+[2.596s] [01m[K/usr/local/include/glog/logging.h:1480:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KRemoveLogSink[m[K’
+[2.596s]  1480 | [01;31m[KGLOG_EXPORT[m[K void RemoveLogSink(LogSink* destination);
+[2.596s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.596s] [01m[K/usr/local/include/glog/logging.h:1480:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kdestination[m[K’ was not declared in this scope
+[2.597s]  1480 | GLOG_EXPORT void RemoveLogSink(LogSink* [01;31m[Kdestination[m[K);
+[2.597s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[2.597s] [01m[K/usr/local/include/glog/logging.h:1488:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KSetLogFilenameExtension[m[K’
+[2.597s]  1488 | [01;31m[KGLOG_EXPORT[m[K void SetLogFilenameExtension(const char* filename_extension);
+[2.597s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.597s] [01m[K/usr/local/include/glog/logging.h:1495:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KSetStderrLogging[m[K’
+[2.597s]  1495 | [01;31m[KGLOG_EXPORT[m[K void SetStderrLogging(LogSeverity min_severity);
+[2.597s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.597s] [01m[K/usr/local/include/glog/logging.h:1495:35:[m[K [01;31m[Kerror: [m[K‘[01m[KLogSeverity[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::LogSeverity[m[K’?
+[2.597s]  1495 | GLOG_EXPORT void SetStderrLogging([01;31m[KLogSeverity[m[K min_severity);
+[2.597s]       |                                   [01;31m[K^~~~~~~~~~~[m[K
+[2.597s]       |                                   [32m[Kgoogle::LogSeverity[m[K
+[2.597s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.597s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.597s] [01m[K/usr/local/include/glog/log_severity.h:62:6:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::LogSeverity[m[K’ declared here
+[2.598s]    62 | enum [01;36m[KLogSeverity[m[K {
+[2.598s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[2.598s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.598s] [01m[K/usr/local/include/glog/logging.h:1500:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KLogToStderr[m[K’
+[2.598s]  1500 | [01;31m[KGLOG_EXPORT[m[K void LogToStderr();
+[2.598s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.598s] [01m[K/usr/local/include/glog/logging.h:1508:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KSetEmailLogging[m[K’
+[2.598s]  1508 | [01;31m[KGLOG_EXPORT[m[K void SetEmailLogging(LogSeverity min_severity,
+[2.598s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.598s] [01m[K/usr/local/include/glog/logging.h:1508:34:[m[K [01;31m[Kerror: [m[K‘[01m[KLogSeverity[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::LogSeverity[m[K’?
+[2.598s]  1508 | GLOG_EXPORT void SetEmailLogging([01;31m[KLogSeverity[m[K min_severity,
+[2.598s]       |                                  [01;31m[K^~~~~~~~~~~[m[K
+[2.598s]       |                                  [32m[Kgoogle::LogSeverity[m[K
+[2.598s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.599s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.599s] [01m[K/usr/local/include/glog/log_severity.h:62:6:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::LogSeverity[m[K’ declared here
+[2.599s]    62 | enum [01;36m[KLogSeverity[m[K {
+[2.599s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[2.599s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.599s] [01m[K/usr/local/include/glog/logging.h:1509:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.599s]  1509 |                                  [01;31m[Kconst[m[K char* addresses);
+[2.599s]       |                                  [01;31m[K^~~~~[m[K
+[2.599s] [01m[K/usr/local/include/glog/logging.h:1513:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KSendEmail[m[K’
+[2.599s]  1513 | [01;31m[KGLOG_EXPORT[m[K bool SendEmail(const char* dest, const char* subject,
+[2.599s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.599s] [01m[K/usr/local/include/glog/logging.h:1516:43:[m[K [01;31m[Kerror: [m[Kinvalid declarator before ‘[01m[K&[m[K’ token
+[2.599s]  1516 | GLOG_EXPORT const std::vector<std::string>[01;31m[K&[m[K GetLoggingDirectories();
+[2.599s]       |                                           [01;31m[K^[m[K
+[2.599s] [01m[K/usr/local/include/glog/logging.h:1521:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KReprintFatalMessage[m[K’
+[2.599s]  1521 | [01;31m[KGLOG_EXPORT[m[K void ReprintFatalMessage();
+[2.599s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.599s] [01m[K/usr/local/include/glog/logging.h:1530:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KTruncateLogFile[m[K’
+[2.599s]  1530 | [01;31m[KGLOG_EXPORT[m[K void TruncateLogFile(const char* path, uint64 limit, uint64 keep);
+[2.600s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.600s] [01m[K/usr/local/include/glog/logging.h:1535:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KTruncateStdoutStderr[m[K’
+[2.600s]  1535 | [01;31m[KGLOG_EXPORT[m[K void TruncateStdoutStderr();
+[2.600s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.600s] [01m[K/usr/local/include/glog/logging.h:1539:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KGetLogSeverityName[m[K’
+[2.600s]  1539 | [01;31m[KGLOG_EXPORT[m[K const char* GetLogSeverityName(LogSeverity severity);
+[2.600s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.600s] [01m[K/usr/local/include/glog/logging.h:1539:44:[m[K [01;31m[Kerror: [m[K‘[01m[KLogSeverity[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::LogSeverity[m[K’?
+[2.600s]  1539 | GLOG_EXPORT const char* GetLogSeverityName([01;31m[KLogSeverity[m[K severity);
+[2.600s]       |                                            [01;31m[K^~~~~~~~~~~[m[K
+[2.600s]       |                                            [32m[Kgoogle::LogSeverity[m[K
+[2.600s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.600s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.600s] [01m[K/usr/local/include/glog/log_severity.h:62:6:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::LogSeverity[m[K’ declared here
+[2.600s]    62 | enum [01;36m[KLogSeverity[m[K {
+[2.600s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[2.600s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.600s] [01m[K/usr/local/include/glog/logging.h:1554:19:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[KGLOG_EXPORT base::Logger[m[K’ has initializer but incomplete type
+[2.601s]  1554 | class GLOG_EXPORT [01;31m[KLogger[m[K {
+[2.601s]       |                   [01;31m[K^~~~~~[m[K
+[2.601s] [01m[K/usr/local/include/glog/logging.h:1555:2:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[2.601s]  1555 |  [01;31m[Kpublic[m[K:
+[2.601s]       |  [01;31m[K^~~~~~[m[K
+[2.601s] [01m[K/usr/local/include/glog/logging.h:1555:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[2.601s] [01m[K/usr/local/include/glog/logging.h:1554:26:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.601s]  1554 | class GLOG_EXPORT Logger [01;36m[K{[m[K
+[2.601s]       |                          [01;36m[K^[m[K
+[2.601s] [01m[K/usr/local/include/glog/logging.h:1555:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kpublic[m[K’
+[2.601s]  1555 |  [01;31m[Kpublic[m[K:
+[2.601s]       |  [01;31m[K^~~~~~[m[K
+[2.601s] [01m[K/usr/local/include/glog/logging.h:1566:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual[m[K’ outside class declaration
+[2.601s]  1566 |   [01;31m[Kvirtual[m[K void Write(bool force_flush, time_t timestamp, const char* message,
+[2.601s]       |   [01;31m[K^~~~~~~[m[K
+[2.601s] [01m[K/usr/local/include/glog/logging.h:1566:16:[m[K [01;31m[Kerror: [m[Kfunction ‘[01m[Kvoid base::Write(bool, time_t, const char*, size_t)[m[K’ is initialized like a variable
+[2.601s]  1566 |   virtual void [01;31m[KWrite[m[K(bool force_flush, time_t timestamp, const char* message,
+[2.602s]       |                [01;31m[K^~~~~[m[K
+[2.602s] [01m[K/usr/local/include/glog/logging.h:1570:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual[m[K’ outside class declaration
+[2.602s]  1570 |   [01;31m[Kvirtual[m[K void Flush() = 0;
+[2.602s]       |   [01;31m[K^~~~~~~[m[K
+[2.602s] [01m[K/usr/local/include/glog/logging.h:1570:16:[m[K [01;31m[Kerror: [m[Kfunction ‘[01m[Kvoid base::Flush()[m[K’ is initialized like a variable
+[2.602s]  1570 |   virtual void [01;31m[KFlush[m[K() = 0;
+[2.602s]       |                [01;31m[K^~~~~[m[K
+[2.602s] [01m[K/usr/local/include/glog/logging.h:1575:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Kuint64[m[K’?
+[2.602s]  1575 |   virtual [01;31m[Kuint32[m[K LogSize() = 0;
+[2.602s]       |           [01;31m[K^~~~~~[m[K
+[2.602s]       |           [32m[Kuint64[m[K
+[2.602s] [01m[K/usr/local/include/glog/logging.h:1581:26:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K*[m[K’ token
+[2.602s]  1581 | extern GLOG_EXPORT Logger[01;31m[K*[m[K GetLogger(LogSeverity level);
+[2.602s]       |                          [01;31m[K^[m[K
+[2.602s] [01m[K/usr/local/include/glog/logging.h:1586:8:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KSetLogger[m[K’
+[2.602s]  1586 | extern [01;31m[KGLOG_EXPORT[m[K void SetLogger(LogSeverity level, Logger* logger);
+[2.602s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.603s] [01m[K/usr/local/include/glog/logging.h:1586:35:[m[K [01;31m[Kerror: [m[K‘[01m[KLogSeverity[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::LogSeverity[m[K’?
+[2.603s]  1586 | extern GLOG_EXPORT void SetLogger([01;31m[KLogSeverity[m[K level, Logger* logger);
+[2.603s]       |                                   [01;31m[K^~~~~~~~~~~[m[K
+[2.603s]       |                                   [32m[Kgoogle::LogSeverity[m[K
+[2.603s] In file included from [01m[K/usr/local/include/glog/logging.h:77[m[K,
+[2.603s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.603s] [01m[K/usr/local/include/glog/log_severity.h:62:6:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::LogSeverity[m[K’ declared here
+[2.603s]    62 | enum [01;36m[KLogSeverity[m[K {
+[2.603s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[2.603s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.603s] [01m[K/usr/local/include/glog/logging.h:1586:54:[m[K [01;31m[Kerror: [m[K‘[01m[KLogger[m[K’ was not declared in this scope
+[2.603s]  1586 | extern GLOG_EXPORT void SetLogger(LogSeverity level, [01;31m[KLogger[m[K* logger);
+[2.603s]       |                                                      [01;31m[K^~~~~~[m[K
+[2.603s] [01m[K/usr/local/include/glog/logging.h:1586:54:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.603s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.604s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:2[m[K:
+[2.604s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:91:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’
+[2.604s]    91 | class [01;36m[KLogger[m[K
+[2.604s]       |       [01;36m[K^~~~~~[m[K
+[2.604s] In file included from [01m[K/usr/include/opencv4/opencv2/flann/kmeans_index.h:50[m[K,
+[2.604s]                  from [01m[K/usr/include/opencv4/opencv2/flann/all_indices.h:40[m[K,
+[2.604s]                  from [01m[K/usr/include/opencv4/opencv2/flann/flann_base.hpp:44[m[K,
+[2.604s]                  from [01m[K/usr/include/opencv4/opencv2/flann.hpp:48[m[K,
+[2.604s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:65[m[K,
+[2.604s]                  from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:5[m[K:
+[2.604s] [01m[K/usr/include/opencv4/opencv2/flann/logger.h:45:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcvflann::Logger[m[K’
+[2.605s]    45 | class [01;36m[KLogger[m[K
+[2.605s]       |       [01;36m[K^~~~~~[m[K
+[2.605s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.605s] [01m[K/usr/local/include/glog/logging.h:1554:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbase::Logger[m[K’
+[2.605s]  1554 | class GLOG_EXPORT [01;36m[KLogger[m[K {
+[2.605s]       |                   [01;36m[K^~~~~~[m[K
+[2.605s] [01m[K/usr/local/include/glog/logging.h:1586:62:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ was not declared in this scope
+[2.605s]  1586 | extern GLOG_EXPORT void SetLogger(LogSeverity level, Logger* [01;31m[Klogger[m[K);
+[2.605s]       |                                                              [01;31m[K^~~~~~[m[K
+[2.605s] [01m[K/usr/local/include/glog/logging.h:1588:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.605s]  1588 | [01;31m[K}[m[K  // namespace base
+[2.605s]       | [01;31m[K^[m[K
+[2.605s] [01m[K/usr/local/include/glog/logging.h:1591:30:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K:[m[K’ token
+[2.605s]  1591 | class GLOG_EXPORT NullStream [01;31m[K:[m[K public LogMessage::LogStream {
+[2.605s]       |                              [01;31m[K^[m[K
+[2.605s] [01m[K/usr/local/include/glog/logging.h:1616:8:[m[K [01;31m[Kerror: [m[K‘[01m[KNullStream[m[K’ does not name a type
+[2.606s]  1616 | inline [01;31m[KNullStream[m[K& operator<<(NullStream& str, const T&) {
+[2.606s]       |        [01;31m[K^~~~~~~~~~[m[K
+[2.606s] [01m[K/usr/local/include/glog/logging.h:1622:35:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K:[m[K’ token
+[2.606s]  1622 | class GLOG_EXPORT NullStreamFatal [01;31m[K:[m[K public NullStream {
+[2.606s]       |                                   [01;31m[K^[m[K
+[2.606s] [01m[K/usr/local/include/glog/logging.h:1646:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KInstallFailureSignalHandler[m[K’
+[2.606s]  1646 | [01;31m[KGLOG_EXPORT[m[K void InstallFailureSignalHandler();
+[2.606s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.606s] [01m[K/usr/local/include/glog/logging.h:1649:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KIsFailureSignalHandlerInstalled[m[K’
+[2.606s]  1649 | [01;31m[KGLOG_EXPORT[m[K bool IsFailureSignalHandlerInstalled();
+[2.606s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.606s] [01m[K/usr/local/include/glog/logging.h:1655:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KInstallFailureWriter[m[K’
+[2.606s]  1655 | [01;31m[KGLOG_EXPORT[m[K void InstallFailureWriter(void (*writer)(const char* data,
+[2.606s]       | [01;31m[K^~~~~~~~~~~[m[K
+[2.606s] [01m[K/usr/local/include/glog/logging.h:1658:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.606s]  1658 | [01;31m[K}[m[K  // namespace google
+[2.606s]       | [01;31m[K^[m[K
+[2.613s] [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:122:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.613s]   122 | }
+[2.613s]       |  [01;31m[K^[m[K
+[2.613s]       |  [32m[K;[m[K
+[2.658s] [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:[m[K In member function ‘[01m[Kvoid Points_subscriber::command_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.659s] [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:148:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.659s]   148 |                 for (int i = 0; [01;35m[Ki < msg->data.size() - 2[m[K; i += 3) {
+[2.659s]       |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.659s] [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:158:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::map<int, cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.659s]   158 |                 for (int i = 0; [01;35m[Ki < cars_position.size()[m[K; i++) {
+[2.659s]       |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.918s] In file included from [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8[m[K:
+[2.918s] /usr/local/include/glog/logging.h: In instantiation of ‘[01m[Kstd::string* MakeCheckOpString(const T1&, const T2&, const char*) [with T1 = int; T2 = int; std::string = std::__cxx11::basic_string<char>][m[K’:
+[2.918s] [01m[K/usr/local/include/glog/logging.h:705:1:[m[K   required from ‘[01m[Kstd::string* Check_EQImpl(const T1&, const T2&, const char*) [with T1 = int; T2 = int; std::string = std::__cxx11::basic_string<char>][m[K’
+[2.918s] [01m[K/usr/local/include/glog/logging.h:705:1:[m[K   required from here
+[2.919s] [01m[K/usr/local/include/glog/logging.h:679:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMakeCheckOpValueString[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoogle::MakeCheckOpValueString[m[K’?
+[2.919s]   679 |   [01;31m[KMakeCheckOpValueString(comb.ForVar1(), v1)[m[K;
+[2.919s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.919s]       |   [32m[Kgoogle::MakeCheckOpValueString[m[K
+[2.919s] [01m[K/usr/local/include/glog/logging.h:619:13:[m[K [01;36m[Knote: [m[K‘[01m[Kgoogle::MakeCheckOpValueString[m[K’ declared here
+[2.919s]   619 | inline void [01;36m[KMakeCheckOpValueString[m[K(std::ostream* os, const T& v) {
+[2.919s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.919s] [01m[K/usr/local/include/glog/logging.h:680:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMakeCheckOpValueString[m[K’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.919s]   680 |   [01;31m[KMakeCheckOpValueString(comb.ForVar2(), v2)[m[K;
+[2.919s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[4.907s] gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:76: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o] Error 1
+[4.907s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/points_subscriber.dir/all] Error 2
+[4.907s] gmake: *** [Makefile:146: all] Error 2
+[4.908s] Invoked command in '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/opt/ros/humble /usr/bin/cmake --build /workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12

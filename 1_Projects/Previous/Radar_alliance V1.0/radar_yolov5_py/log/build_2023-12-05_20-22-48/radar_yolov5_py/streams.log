@@ -1,0 +1,41 @@
+[0.760s] Invoking command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py': PYTHONPATH=/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/prefix_override:/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base build/radar_yolov5_py build --build-base /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/build install --record /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/install.log --single-version-externally-managed
+[0.952s] running egg_info
+[0.966s] writing build/radar_yolov5_py/radar_yolov5_py.egg-info/PKG-INFO
+[0.966s] writing dependency_links to build/radar_yolov5_py/radar_yolov5_py.egg-info/dependency_links.txt
+[0.966s] writing entry points to build/radar_yolov5_py/radar_yolov5_py.egg-info/entry_points.txt
+[0.966s] writing requirements to build/radar_yolov5_py/radar_yolov5_py.egg-info/requires.txt
+[0.967s] writing top-level names to build/radar_yolov5_py/radar_yolov5_py.egg-info/top_level.txt
+[0.997s] reading manifest file 'build/radar_yolov5_py/radar_yolov5_py.egg-info/SOURCES.txt'
+[0.998s] writing manifest file 'build/radar_yolov5_py/radar_yolov5_py.egg-info/SOURCES.txt'
+[0.998s] running build
+[0.998s] running build_py
+[0.998s] copying radar_yolov5_py/points_publisher.py -> /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py
+[0.999s] copying radar_yolov5_py/__init__.py -> /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py
+[0.999s] copying radar_yolov5_py/export.py -> /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py
+[1.001s] running install
+[1.002s] /home/lisii/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.002s] !!
+[1.002s] 
+[1.002s]         ********************************************************************************
+[1.002s]         Please avoid running ``setup.py`` directly.
+[1.002s]         Instead, use pypa/build, pypa/installer or other
+[1.002s]         standards-based tools.
+[1.002s] 
+[1.002s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.002s]         ********************************************************************************
+[1.002s] 
+[1.002s] !!
+[1.002s]   self.initialize_options()
+[1.006s] running install_lib
+[1.021s] copying /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/points_publisher.py -> /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py
+[1.024s] byte-compiling /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py/points_publisher.py to points_publisher.cpython-310.pyc
+[1.027s] running install_data
+[1.042s] copying resource/radar_yolov5_py -> /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/share/ament_index/resource_index/packages
+[1.043s] copying package.xml -> /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/share/radar_yolov5_py
+[1.043s] running install_egg_info
+[1.058s] removing '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.058s] Copying build/radar_yolov5_py/radar_yolov5_py.egg-info to /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py-0.0.0-py3.10.egg-info
+[1.059s] running install_scripts
+[1.185s] Installing points_publisher script to /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/lib/radar_yolov5_py
+[1.186s] writing list of installed files to '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/install.log'
+[1.204s] Invoked command in '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py' returned '0': PYTHONPATH=/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/prefix_override:/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base build/radar_yolov5_py build --build-base /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/build install --record /home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/Radar_alliance/radar_yolov5_py/build/radar_yolov5_py/install.log --single-version-externally-managed

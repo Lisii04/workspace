@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            background: #2c3e50;
+        }
+
+        .container {
+            /* background: url("otuai.png") no-repeat; */
+            /* background-position: center; */
+            height: 100%;
+            width: 100%;
+            /* background-size: 100% cover; */
+        }
+
+        .login-wrapper {
+            width: 360px;
+            height: 700px;
+            border-radius: 15px;
+            padding: 0 50px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            background-color: #3e566e;
+            backdrop-filter: blur(10px);
+            box-shadow: 10px 10px 20px rgba(33, 44, 55, .3);
+        }
+
+        .header {
+            font-family: sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 120px;
+            color: #ffffffd3;
+        }
+
+        .input-item {
+            color: #ffffffd2;
+            width: 92%;
+            margin-bottom: 30px;
+            padding: 10px;
+            font-size: 15px;
+            border: none;
+            border-bottom: 2px solid #ffffff;
+            outline: none;
+            background-color: transparent;
+        }
+
+        .select-item {
+            color: #ffffffd2;
+            width: 98%;
+            margin-bottom: 30px;
+            padding: 10px;
+            font-size: 15px;
+            border-width: 2px;
+            border-radius: 5px;
+            border-color: #ffffff;
+            outline: none;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            background-color: #3e566e;
+        }
+
+        .input-item::placeholder {
+            color: #ffffffd2;
+            text-transform: uppercase;
+
+        }
+
+        .btn {
+            width: 97%;
+            flex: 1 1 auto;
+            margin-top: 30px;
+            padding: 10px;
+            border-radius: 5px;
+            border-style: none;
+            text-align: center;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+            transition: 0.3s;
+            background-image: linear-gradient(to right, #3077f1, #964df7);
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 0;
+
+
+        }
+
+        .btn:after {
+            position: absolute;
+            transition: 0.3s;
+            content: "";
+            width: 0;
+            left: 50%;
+            bottom: 0;
+            height: 3px;
+            background: #f7f7f7;
+        }
+
+
+        .btn:nth-of-type(1):after {
+            height: 120%;
+            left: -10%;
+            transform: skewX(15deg);
+            z-index: -1;
+        }
+
+        .btn:hover:nth-of-type(1) {
+            color: #919191e3;
+        }
+
+        .btn:hover:nth-of-type(1):after {
+            left: -10%;
+            width: 120%;
+        }
+
+        .jump {
+            left: 50px;
+            right: 0;
+            flex: 1 1 auto;
+            right: 60px;
+            padding: 5px;
+            border-radius: 5px;
+            text-align: center;
+            text-transform: uppercase;
+            position: absolute;
+            overflow: hidden;
+            transition: 0.3s;
+            background: #f7f7f78f;
+            color: #222222;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 0;
+            border: none;
+        }
+
+        .jump:after {
+            position: absolute;
+            transition: 0.5s;
+            content: "";
+            width: 0;
+            left: 50%;
+            bottom: 0;
+            height: 3px;
+            background: #ffffff;
+        }
+
+        .jump:nth-of-type(1):after {
+            height: 120%;
+            left: -10%;
+            z-index: -1;
+        }
+
+        .jump:hover:nth-of-type(1) {
+            color: #000000e3;
+        }
+
+        .jump:hover:nth-of-type(1):after {
+            left: -10%;
+            width: 120%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-wrapper">
+            <div class="header">账号注册</div>
+            <form action="" method="POST" class="form-wrapper">
+                {% csrf_token %}
+                <input type="text" name="studentID" id="studentID" class="input-item" placeholder="请输入学号"
+                    value="{{get_studentID}}">
+
+                <input type="text" name="username" id="username" class="input-item" placeholder="请输入你的姓名"
+                    value="{{get_username}}">
+
+                <label class="input-item">请选择你的组别</label>
+                <select class="select-item" name="group" id="group">
+                    <option value="视觉">视觉</option>
+                    <option value="电控">电控</option>
+                    <option value="硬件">硬件</option>
+                    <option value="机械">机械</option>
+                </select>
+
+                <label class="input-item">请选择你的年级</label>
+                <select class="select-item" name="grade" id="grade">
+                    <option value="23级">23级</option>
+                    <option value="22级">22级</option>
+                    <option value="21级">21级</option>
+                    <option value="20级">20级</option>
+                    <option value="19级">19级</option>
+                </select>
+
+
+                <input type="password" name="password" id="pwd" class="input-item" placeholder="请输入密码">
+
+                <input type="password" name="repassword" id="identfy-pwd" class="input-item" placeholder="请再次输入密码">
+                <br>
+                <input type="button" class="jump" id="jump" onclick="window.location.href='return'" value="返回登录">
+                <br>
+                <input type="submit" class="btn" value="注册">
+            </form>
+        </div>
+    </div>
+    {% if messages %}
+    <script>
+        {% for msg in messages %}
+        alert('{{ msg.message }}');
+        {% endfor %}
+    </script>
+    {% endif %}
+</body>
+</html>

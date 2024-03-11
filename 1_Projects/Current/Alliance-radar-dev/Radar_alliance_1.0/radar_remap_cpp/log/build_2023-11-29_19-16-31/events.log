@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.000120] (radar_remap_cpp) JobQueued: {'identifier': 'radar_remap_cpp', 'dependencies': OrderedDict()}
+[0.000519] (radar_remap_cpp) JobStarted: {'identifier': 'radar_remap_cpp'}
+[0.064256] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'cmake'}
+[0.066255] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'build'}
+[0.066865] (radar_remap_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp', '--', '-j12', '-l12'], 'cwd': '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lisii'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lisii'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=38dd8af2013c5dc070ec6ef7656704d4'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lisii'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lisii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lisii/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lisii-MS-7C83:@/tmp/.ICE-unix/1902,unix/lisii-MS-7C83:/tmp/.ICE-unix/1902'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a61ba4b9_ba1f_4de9_8b61_b1a34fc3e3a4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.141'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/build/radar_remap_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=38dd8af2013c5dc070ec6ef7656704d4'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/lisii/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099692] (radar_remap_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target points_subscriber\x1b[0m\n'}
+[0.099906] (-) TimerEvent: {}
+[0.114135] (radar_remap_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o\x1b[0m\n'}
+[0.200017] (-) TimerEvent: {}
+[0.300354] (-) TimerEvent: {}
+[0.400675] (-) TimerEvent: {}
+[0.500955] (-) TimerEvent: {}
+[0.601245] (-) TimerEvent: {}
+[0.701525] (-) TimerEvent: {}
+[0.801843] (-) TimerEvent: {}
+[0.902127] (-) TimerEvent: {}
+[1.002403] (-) TimerEvent: {}
+[1.102686] (-) TimerEvent: {}
+[1.202965] (-) TimerEvent: {}
+[1.303252] (-) TimerEvent: {}
+[1.403530] (-) TimerEvent: {}
+[1.503829] (-) TimerEvent: {}
+[1.604110] (-) TimerEvent: {}
+[1.704432] (-) TimerEvent: {}
+[1.804756] (-) TimerEvent: {}
+[1.905015] (-) TimerEvent: {}
+[2.005337] (-) TimerEvent: {}
+[2.105611] (-) TimerEvent: {}
+[2.205864] (-) TimerEvent: {}
+[2.306156] (-) TimerEvent: {}
+[2.406424] (-) TimerEvent: {}
+[2.506703] (-) TimerEvent: {}
+[2.552197] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/src/points_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Points_subscriber::command_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.552400] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/src/points_subscriber.cpp:92:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.552466] (radar_remap_cpp) StderrLine: {'line': b'   92 |         for (auto i = 0; \x1b[01;35m\x1b[Ki < msg->data.size() - 1\x1b[m\x1b[K; i++)\n'}
+[2.552519] (radar_remap_cpp) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.606801] (-) TimerEvent: {}
+[2.707088] (-) TimerEvent: {}
+[2.807368] (-) TimerEvent: {}
+[2.907642] (-) TimerEvent: {}
+[3.007918] (-) TimerEvent: {}
+[3.108190] (-) TimerEvent: {}
+[3.208450] (-) TimerEvent: {}
+[3.308714] (-) TimerEvent: {}
+[3.408979] (-) TimerEvent: {}
+[3.509256] (-) TimerEvent: {}
+[3.609523] (-) TimerEvent: {}
+[3.709785] (-) TimerEvent: {}
+[3.810046] (-) TimerEvent: {}
+[3.910311] (-) TimerEvent: {}
+[4.010577] (-) TimerEvent: {}
+[4.110843] (-) TimerEvent: {}
+[4.211124] (-) TimerEvent: {}
+[4.311408] (-) TimerEvent: {}
+[4.411685] (-) TimerEvent: {}
+[4.511971] (-) TimerEvent: {}
+[4.612248] (-) TimerEvent: {}
+[4.712522] (-) TimerEvent: {}
+[4.812804] (-) TimerEvent: {}
+[4.913109] (-) TimerEvent: {}
+[5.013380] (-) TimerEvent: {}
+[5.113653] (-) TimerEvent: {}
+[5.213914] (-) TimerEvent: {}
+[5.314185] (-) TimerEvent: {}
+[5.414453] (-) TimerEvent: {}
+[5.514719] (-) TimerEvent: {}
+[5.614983] (-) TimerEvent: {}
+[5.715253] (-) TimerEvent: {}
+[5.815519] (-) TimerEvent: {}
+[5.915777] (-) TimerEvent: {}
+[6.016028] (-) TimerEvent: {}
+[6.116267] (-) TimerEvent: {}
+[6.216536] (-) TimerEvent: {}
+[6.316784] (-) TimerEvent: {}
+[6.417007] (-) TimerEvent: {}
+[6.517281] (-) TimerEvent: {}
+[6.617518] (-) TimerEvent: {}
+[6.717831] (-) TimerEvent: {}
+[6.818057] (-) TimerEvent: {}
+[6.918280] (-) TimerEvent: {}
+[7.018542] (-) TimerEvent: {}
+[7.118814] (-) TimerEvent: {}
+[7.219074] (-) TimerEvent: {}
+[7.319299] (-) TimerEvent: {}
+[7.419558] (-) TimerEvent: {}
+[7.519874] (-) TimerEvent: {}
+[7.591654] (radar_remap_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable points_subscriber\x1b[0m\n'}
+[7.619996] (-) TimerEvent: {}
+[7.720260] (-) TimerEvent: {}
+[7.820505] (-) TimerEvent: {}
+[7.831374] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `main':\n"}
+[7.831680] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text+0x17d): undefined reference to `cv::FileStorage::FileStorage(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[7.831800] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x195): undefined reference to `cv::FileStorage::isOpened() const'\n"}
+[7.831860] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x1ee): undefined reference to `cv::FileStorage::operator[](char const*) const'\n"}
+[7.831924] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x224): undefined reference to `cv::FileStorage::operator[](char const*) const'\n"}
+[7.832060] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x249): undefined reference to `cv::FileStorage::release()'\n"}
+[7.832239] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x2c6): undefined reference to `cv::resize(cv::_InputArray const&, cv::_OutputArray const&, cv::Size_<int>, double, double, int)'\n"}
+[7.832309] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x321): undefined reference to `cv::namedWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'\n"}
+[7.832391] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x397): undefined reference to `cv::resizeWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::Size_<int> const&)'\n"}
+[7.832512] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x47a): undefined reference to `cv::FileStorage::~FileStorage()'\n"}
+[7.832691] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x5f1): undefined reference to `cv::FileStorage::~FileStorage()'\n"}
+[7.832935] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `void cv::operator>><cv::Mat_<float> >(cv::FileNode const&, cv::Mat_<float>&)':\n"}
+[7.832992] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text+0x677): undefined reference to `cv::read(cv::FileNode const&, cv::Mat&, cv::Mat const&)'\n"}
+[7.833373] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `__static_initialization_and_destruction_0(int, int)':\n"}
+[7.833455] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text+0x7a2): undefined reference to `cv::imread(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'\n"}
+[7.833520] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x7bd): undefined reference to `cv::Mat::~Mat()'\n"}
+[7.833591] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x83e): undefined reference to `cv::imread(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'\n"}
+[7.833652] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text+0x859): undefined reference to `cv::Mat::~Mat()'\n"}
+[7.834323] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::MatConstIterator::MatConstIterator(cv::Mat const*)':\n"}
+[7.834419] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0xa5): undefined reference to `cv::Mat::empty() const'\n"}
+[7.834549] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0xfa): undefined reference to `cv::error(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, int)'\n"}
+[7.834709] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0x12d): undefined reference to `cv::Mat::total() const'\n"}
+[7.834816] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0x15b): undefined reference to `cv::MatConstIterator::seek(int const*, bool)'\n"}
+[7.834914] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::MatConstIterator::operator++()':\n"}
+[7.834989] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN2cv16MatConstIteratorppEv[_ZN2cv16MatConstIteratorppEv]+0x8c): undefined reference to `cv::MatConstIterator::seek(long, bool)'\n"}
+[7.835161] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::MatExpr::~MatExpr()':\n"}
+[7.835221] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x1e): undefined reference to `cv::Mat::~Mat()'\n"}
+[7.835313] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x2e): undefined reference to `cv::Mat::~Mat()'\n"}
+[7.835495] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x3e): undefined reference to `cv::Mat::~Mat()'\n"}
+[7.835747] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::~Mat_()':\n"}
+[7.835837] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN2cv4Mat_IfED2Ev[_ZN2cv4Mat_IfED5Ev]+0x18): undefined reference to `cv::Mat::~Mat()'\n"}
+[7.835991] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `RobotLocationSolve::remap(std::vector<cv::Point_<float>, std::allocator<cv::Point_<float> > >)':\n"}
+[7.836056] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x132): undefined reference to `cv::operator*(cv::Mat const&, cv::Mat const&)'\n"}
+[7.836178] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x17a): undefined reference to `cv::operator*(cv::Mat const&, cv::Mat const&)'\n"}
+[7.836355] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x466): undefined reference to `cv::circle(cv::_InputOutputArray const&, cv::Point_<int>, int, cv::Scalar_<double> const&, int, int, int)'\n"}
+[7.836505] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x51a): undefined reference to `cv::circle(cv::_InputOutputArray const&, cv::Point_<int>, int, cv::Scalar_<double> const&, int, int, int)'\n"}
+[7.836655] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x58e): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'\n"}
+[7.836802] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x5c5): undefined reference to `cv::waitKey(int)'\n"}
+[7.837270] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::Mat_()':\n"}
+[7.837338] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN2cv4Mat_IfEC2Ev[_ZN2cv4Mat_IfEC5Ev]+0x18): undefined reference to `cv::Mat::Mat()'\n"}
+[7.837562] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::Mat_(int, int)':\n"}
+[7.837620] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN2cv4Mat_IfEC2Eii[_ZN2cv4Mat_IfEC5Eii]+0x29): undefined reference to `cv::Mat::Mat(int, int, int)'\n"}
+[7.837818] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::operator=(cv::Mat_<float>&&)':\n"}
+[7.837878] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEOS1_[_ZN2cv4Mat_IfEaSEOS1_]+0x2c): undefined reference to `cv::Mat::operator=(cv::Mat&&)'\n"}
+[7.838313] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::Mat_(cv::Mat const&)':\n"}
+[7.838405] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN2cv4Mat_IfEC2ERKNS_3MatE[_ZN2cv4Mat_IfEC5ERKNS_3MatE]+0x1d): undefined reference to `cv::Mat::Mat()'\n"}
+[7.838544] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEC2ERKNS_3MatE[_ZN2cv4Mat_IfEC5ERKNS_3MatE]+0x59): undefined reference to `cv::Mat::~Mat()'\n"}
+[7.838967] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::operator=(cv::Mat const&)':\n"}
+[7.839072] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x38): undefined reference to `cv::Mat::empty() const'\n"}
+[7.839194] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x89): undefined reference to `cv::Mat::operator=(cv::Mat const&)'\n"}
+[7.839335] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0xd8): undefined reference to `cv::Mat::reshape(int, int, int const*) const'\n"}
+[7.839518] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0xfe): undefined reference to `cv::Mat::~Mat()'\n"}
+[7.839724] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x126): undefined reference to `cv::Mat::empty() const'\n"}
+[7.839833] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x18e): undefined reference to `cv::error(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, int)'\n"}
+[7.839972] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x1e3): undefined reference to `cv::Mat::convertTo(cv::_OutputArray const&, int, double, double) const'\n"}
+[7.840121] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x220): undefined reference to `cv::Mat::~Mat()'\n"}
+[7.840634] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::release()':\n"}
+[7.840692] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN2cv4Mat_IfE7releaseEv[_ZN2cv4Mat_IfE7releaseEv]+0x18): undefined reference to `cv::Mat::release()'\n"}
+[7.840897] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::operator=(cv::Mat&&)':\n"}
+[7.840953] (radar_remap_cpp) StderrLine: {'line': b"points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0x38): undefined reference to `cv::Mat::empty() const'\n"}
+[7.841063] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0x89): undefined reference to `cv::Mat::operator=(cv::Mat&&)'\n"}
+[7.841209] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0xdf): undefined reference to `cv::Mat::reshape(int, int, int const*) const'\n"}
+[7.841354] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0xee): undefined reference to `cv::Mat::operator=(cv::Mat&&)'\n"}
+[7.841499] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0xfa): undefined reference to `cv::Mat::~Mat()'\n"}
+[7.841645] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0x158): undefined reference to `cv::Mat::convertTo(cv::_OutputArray const&, int, double, double) const'\n"}
+[7.841802] (radar_remap_cpp) StderrLine: {'line': b"/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0x192): undefined reference to `cv::Mat::~Mat()'\n"}
+[7.872549] (radar_remap_cpp) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[7.873641] (radar_remap_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:159\xef\xbc\x9apoints_subscriber] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.873822] (radar_remap_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/points_subscriber.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.873993] (radar_remap_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.875609] (radar_remap_cpp) CommandEnded: {'returncode': 2}
+[7.920966] (-) TimerEvent: {}
+[7.955259] (radar_remap_cpp) JobEnded: {'identifier': 'radar_remap_cpp', 'rc': 2}
+[7.966186] (-) EventReactorShutdown: {}

@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "*.ejs": "html",
+            "tim.h": "c"
+        }
+    },
+    "extensions": {}
+}

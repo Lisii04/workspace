@@ -1,0 +1,76 @@
+[0.656s] Invoking command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py': PYTHONPATH=/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/prefix_override:/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/radar_yolov5_py build --build-base /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build install --record /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/install.log --single-version-externally-managed
+[0.832s] running egg_info
+[0.842s] writing build/radar_yolov5_py/radar_yolov5_py.egg-info/PKG-INFO
+[0.842s] writing dependency_links to build/radar_yolov5_py/radar_yolov5_py.egg-info/dependency_links.txt
+[0.842s] writing entry points to build/radar_yolov5_py/radar_yolov5_py.egg-info/entry_points.txt
+[0.842s] writing requirements to build/radar_yolov5_py/radar_yolov5_py.egg-info/requires.txt
+[0.843s] writing top-level names to build/radar_yolov5_py/radar_yolov5_py.egg-info/top_level.txt
+[0.865s] reading manifest file 'build/radar_yolov5_py/radar_yolov5_py.egg-info/SOURCES.txt'
+[0.867s] writing manifest file 'build/radar_yolov5_py/radar_yolov5_py.egg-info/SOURCES.txt'
+[0.867s] running build
+[0.867s] running build_py
+[0.867s] copying radar_yolov5_py/hubconf.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py
+[0.867s] copying radar_yolov5_py/points_publisher.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py
+[0.867s] copying radar_yolov5_py/export.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py
+[0.868s] copying radar_yolov5_py/__init__.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py
+[0.868s] copying radar_yolov5_py/utils/plots.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.868s] copying radar_yolov5_py/utils/triton.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.868s] copying radar_yolov5_py/utils/torch_utils.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.868s] copying radar_yolov5_py/utils/metrics.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.869s] copying radar_yolov5_py/utils/dataloaders.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.869s] copying radar_yolov5_py/utils/augmentations.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.869s] copying radar_yolov5_py/utils/general.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.869s] copying radar_yolov5_py/utils/autobatch.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.869s] copying radar_yolov5_py/utils/activations.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.869s] copying radar_yolov5_py/utils/autoanchor.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.869s] copying radar_yolov5_py/utils/__init__.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.870s] copying radar_yolov5_py/utils/callbacks.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.870s] copying radar_yolov5_py/utils/downloads.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.870s] copying radar_yolov5_py/utils/loss.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils
+[0.870s] copying radar_yolov5_py/models/common.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/models
+[0.870s] copying radar_yolov5_py/models/__init__.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/models
+[0.870s] copying radar_yolov5_py/models/tf.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/models
+[0.871s] copying radar_yolov5_py/models/experimental.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/models
+[0.871s] copying radar_yolov5_py/models/yolo.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/models
+[0.871s] copying radar_yolov5_py/utils/aws/resume.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/aws
+[0.871s] copying radar_yolov5_py/utils/aws/__init__.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/aws
+[0.871s] copying radar_yolov5_py/utils/segment/plots.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/segment
+[0.871s] copying radar_yolov5_py/utils/segment/metrics.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/segment
+[0.872s] copying radar_yolov5_py/utils/segment/dataloaders.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/segment
+[0.872s] copying radar_yolov5_py/utils/segment/augmentations.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/segment
+[0.872s] copying radar_yolov5_py/utils/segment/general.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/segment
+[0.872s] copying radar_yolov5_py/utils/segment/__init__.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/segment
+[0.872s] copying radar_yolov5_py/utils/segment/loss.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/segment
+[0.872s] copying radar_yolov5_py/utils/loggers/__init__.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/loggers
+[0.873s] copying radar_yolov5_py/utils/loggers/clearml/hpo.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/loggers/clearml
+[0.873s] copying radar_yolov5_py/utils/loggers/clearml/clearml_utils.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/loggers/clearml
+[0.873s] copying radar_yolov5_py/utils/loggers/clearml/__init__.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/loggers/clearml
+[0.873s] copying radar_yolov5_py/utils/loggers/comet/hpo.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/loggers/comet
+[0.873s] copying radar_yolov5_py/utils/loggers/comet/comet_utils.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/loggers/comet
+[0.873s] copying radar_yolov5_py/utils/loggers/comet/__init__.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/loggers/comet
+[0.874s] copying radar_yolov5_py/utils/loggers/wandb/wandb_utils.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/loggers/wandb
+[0.874s] copying radar_yolov5_py/utils/loggers/wandb/__init__.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build/lib/radar_yolov5_py/utils/loggers/wandb
+[0.875s] running install
+[0.875s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.875s] !!
+[0.876s] 
+[0.876s]         ********************************************************************************
+[0.876s]         Please avoid running ``setup.py`` directly.
+[0.876s]         Instead, use pypa/build, pypa/installer or other
+[0.876s]         standards-based tools.
+[0.876s] 
+[0.876s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.876s]         ********************************************************************************
+[0.876s] 
+[0.876s] !!
+[0.876s]   self.initialize_options()
+[0.880s] running install_lib
+[0.893s] running install_data
+[0.903s] copying launch/py.launch.py -> /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/install/radar_yolov5_py/share/radar_yolov5_py/launch
+[0.903s] running install_egg_info
+[0.915s] removing '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.915s] Copying build/radar_yolov5_py/radar_yolov5_py.egg-info to /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages/radar_yolov5_py-0.0.0-py3.10.egg-info
+[0.916s] running install_scripts
+[1.008s] Installing points_publisher script to /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/install/radar_yolov5_py/lib/radar_yolov5_py
+[1.010s] writing list of installed files to '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/install.log'
+[1.034s] Invoked command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py' returned '0': PYTHONPATH=/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/prefix_override:/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/radar_yolov5_py build --build-base /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build install --record /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/install.log --single-version-externally-managed

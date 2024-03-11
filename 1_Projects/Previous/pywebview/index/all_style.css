@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "MyFont";
+    Content-Type: 'application/x-font-ttf' ;
+    src: url("modules/font/AaCuyuanNon-CommercialUse.woff2");
+}
+
+
+* {
+    box-sizing: border-box;
+}
+ 
+/* body 样式 */
+body {
+    font-family: 'MyFont', Arial, sans-serif;
+    margin: 0;
+}
+ 
+/* 导航 */
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+ 
+/* 导航栏样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+
+    transition: background-color 0.3s;
+    transition: border-radius 0.3s;
+}
+ 
+/* 鼠标移动到链接的颜色 */
+.navbar a:hover {
+    background-color: #708bfa;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+ 
+.status{
+    display: none;
+}
+/* 列容器 */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+}
+ 
+/* 创建两个列 */
+/* 边栏 */
+.side {
+    flex: 10%;
+    background-color: #ffffff;
+    padding: 0px;
+    /* border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    border-right: solid 2px #e6e6e6;
+    border-top: solid 2px #e5e5e5;
+    border-bottom: solid 2px #e5e5e5;
+}
+ 
+/* 主要的内容区域 */
+.main {   
+    flex: 80%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-right: solid 2px #e6e6e6;
+    border-top: solid 2px #e5e5e5;
+    border-bottom: solid 2px #e5e5e5;
+}
+
+/* 空白块 */
+.blank {
+    padding: 5px 0px;
+    background-color: #ffffff00;
+}
+
+/* 已点击的按钮样式 */
+.side-button-clicked a {
+    float: center;
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    background-color: #c4d0ff;
+    color: rgb(0, 0, 0);
+    border-left: solid 3px #4a6efb;
+}
+
+/* 侧栏点击按钮 */
+.side-button {
+    background-color: #ffffff;
+}
+ 
+.side-button a {
+    float: center;
+    display: block;
+    color: rgb(134, 134, 134);
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    border-radius: 0px;
+    border-left: solid 0px #4a6efb;
+
+    transition: background-color 0.3s;
+    transition: border-left 0.3s;
+}
+ 
+.side-button a:hover {
+    background-color: #c4d0ff;
+    color: rgb(0, 0, 0);
+    border-left: solid 3px #4a6efb;
+}
+
+/* 测试图片 */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+ 
+/* 底部 */
+/* .footer {
+    height: 10%;
+    margin : 0px;
+    padding: 0px;
+    color: #aaa;
+    text-align: left;
+    background: #e5e5e5;
+}
+  */
+
+/* --------------图片转换界面相关-------------- */
+.pic-row {  
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.applications{
+    box-shadow: 0px 5px 0px 0px rgb(42, 62, 104);
+    display:grid;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    border: solid 2px rgb(42, 62, 104);
+    border-radius: 10px;
+    background: #91a7ff;
+
+    
+}
+
+.input-module{
+    margin: 2%;
+    display:inline;
+
+    
+}
+
+.input{
+    width: 70%;
+    height: 30px;
+    margin: 0%;
+    border: solid 2px #000000;
+    border-radius: 15px;
+    background-color: #ffffff;
+
+    font-family: 'MyFont', Arial, sans-serif;
+}
+
+.button{
+    background-color: #ffffff;
+    height: 25px;
+    font-family: 'MyFont', Arial, sans-serif;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+
+    transition: background-color 0.3s;
+}
+ 
+.button:hover {
+    background-color: #c4d0ff;
+    color: rgb(0, 0, 0);
+}
+/* --------------问候界面相关-------------- */
+.greeting {
+    text-align: center;
+    color: #767676;
+}

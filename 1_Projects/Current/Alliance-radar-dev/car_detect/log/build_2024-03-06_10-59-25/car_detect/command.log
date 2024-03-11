@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect': /usr/bin/cmake --build /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect -- -j16 -l16
+Invoked command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect' returned '2': /usr/bin/cmake --build /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect -- -j16 -l16

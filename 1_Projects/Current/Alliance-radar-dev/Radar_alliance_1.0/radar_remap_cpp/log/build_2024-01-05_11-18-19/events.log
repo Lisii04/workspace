@@ -1,0 +1,247 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (radar_remap_cpp) JobQueued: {'identifier': 'radar_remap_cpp', 'dependencies': OrderedDict()}
+[0.000519] (radar_remap_cpp) JobStarted: {'identifier': 'radar_remap_cpp'}
+[0.054738] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'cmake'}
+[0.055252] (radar_remap_cpp) JobProgress: {'identifier': 'radar_remap_cpp', 'progress': 'build'}
+[0.056582] (radar_remap_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp', '--', '-j12', '-l12'], 'cwd': '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp', 'env': OrderedDict([('HOSTNAME', 'lisii-MS-7C83'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/DockerExample/Radar_alliance V1.0'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-143cebb1-1ca5-42f1-967a-bc78b90a0075.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install:/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d78f088b-acac-471a-9dd0-b893709e7400.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics,video'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d78f088b-acac-471a-9dd0-b893709e7400.sock","/tmp/.X11-unix/X6","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-6cc5ad8adf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d78f088b-acac-471a-9dd0-b893709e7400.sock'), ('AMENT_PREFIX_PATH', '/workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp:/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/points_subscriber:/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/example_topic_rclcpp:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X6'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp:/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/points_subscriber:/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/install/example_topic_rclcpp:/workspaces/DockerExample/Radar_alliance V1.0/radar_yolov5_py/install/radar_yolov5_py:/opt/ros/humble')]), 'shell': False}
+[0.092600] (radar_remap_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target points_subscriber\x1b[0m\n'}
+[0.099855] (-) TimerEvent: {}
+[0.109465] (radar_remap_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o\x1b[0m\n'}
+[0.199974] (-) TimerEvent: {}
+[0.300231] (-) TimerEvent: {}
+[0.328636] (radar_remap_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8\x1b[m\x1b[K:\n'}
+[0.328845] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:45:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error <glog/flags.h> was not included correctly. See the documention for how to consume the library.\n'}
+[0.328923] (radar_remap_cpp) StderrLine: {'line': b'   45 | #  \x1b[01;31m\x1b[Kerror\x1b[m\x1b[K <glog/flags.h> was not included correctly. See the documention for how to consume the library.\n'}
+[0.328985] (radar_remap_cpp) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.400321] (-) TimerEvent: {}
+[0.500563] (-) TimerEvent: {}
+[0.600811] (-) TimerEvent: {}
+[0.701074] (-) TimerEvent: {}
+[0.801392] (-) TimerEvent: {}
+[0.901670] (-) TimerEvent: {}
+[1.001931] (-) TimerEvent: {}
+[1.102193] (-) TimerEvent: {}
+[1.202456] (-) TimerEvent: {}
+[1.302717] (-) TimerEvent: {}
+[1.402983] (-) TimerEvent: {}
+[1.503241] (-) TimerEvent: {}
+[1.603515] (-) TimerEvent: {}
+[1.703797] (-) TimerEvent: {}
+[1.804086] (-) TimerEvent: {}
+[1.904320] (-) TimerEvent: {}
+[2.004565] (-) TimerEvent: {}
+[2.104844] (-) TimerEvent: {}
+[2.205110] (-) TimerEvent: {}
+[2.305370] (-) TimerEvent: {}
+[2.405633] (-) TimerEvent: {}
+[2.486666] (radar_remap_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8\x1b[m\x1b[K:\n'}
+[2.486824] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:105:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.486902] (radar_remap_cpp) StderrLine: {'line': b'  105 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(logemaillevel);\n'}
+[2.486973] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.487041] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:105:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_logemaillevel\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.487123] (radar_remap_cpp) StderrLine: {'line': b'  105 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(logemaillevel);\n'}
+[2.487191] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.488071] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:106:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.488184] (radar_remap_cpp) StderrLine: {'line': b'  106 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(logcleansecs);\n'}
+[2.488249] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.488307] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:106:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_logcleansecs\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.488366] (radar_remap_cpp) StderrLine: {'line': b'  106 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(logcleansecs);\n'}
+[2.488422] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.489490] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:109:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.489593] (radar_remap_cpp) StderrLine: {'line': b'  109 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(drop_log_memory);\n'}
+[2.489656] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.489714] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:109:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_drop_log_memory\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.489774] (radar_remap_cpp) StderrLine: {'line': b'  109 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(drop_log_memory);\n'}
+[2.489830] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.490891] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:111:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.490994] (radar_remap_cpp) StderrLine: {'line': b'  111 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(alsologtoemail);\n'}
+[2.491058] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.491117] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:111:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_alsologtoemail\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.491176] (radar_remap_cpp) StderrLine: {'line': b'  111 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(alsologtoemail);\n'}
+[2.491232] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.492341] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:112:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.492446] (radar_remap_cpp) StderrLine: {'line': b'  112 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(log_backtrace_at);\n'}
+[2.492509] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.492568] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:112:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_log_backtrace_at\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.492631] (radar_remap_cpp) StderrLine: {'line': b'  112 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(log_backtrace_at);\n'}
+[2.492694] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.493756] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:115:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.493861] (radar_remap_cpp) StderrLine: {'line': b'  115 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(timestamp_in_logfile_name);\n'}
+[2.493931] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.493992] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:115:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_timestamp_in_logfile_name\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.494051] (radar_remap_cpp) StderrLine: {'line': b'  115 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(timestamp_in_logfile_name);\n'}
+[2.494108] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.495192] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:118:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.495360] (radar_remap_cpp) StderrLine: {'line': b'  118 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(logtostdout);\n'}
+[2.495473] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.495594] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:118:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_logtostdout\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.495662] (radar_remap_cpp) StderrLine: {'line': b'  118 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(logtostdout);\n'}
+[2.495720] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.496860] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:121:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.497004] (radar_remap_cpp) StderrLine: {'line': b'  121 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(colorlogtostdout);\n'}
+[2.497116] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.497207] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:121:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_colorlogtostdout\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.497267] (radar_remap_cpp) StderrLine: {'line': b'  121 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(colorlogtostdout);\n'}
+[2.497325] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.498408] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:124:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.498498] (radar_remap_cpp) StderrLine: {'line': b'  124 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(logtostderr);\n'}
+[2.498563] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.498623] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:124:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_logtostderr\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.498684] (radar_remap_cpp) StderrLine: {'line': b'  124 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(logtostderr);\n'}
+[2.498749] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.499824] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:127:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.499915] (radar_remap_cpp) StderrLine: {'line': b'  127 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(alsologtostderr);\n'}
+[2.499986] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.500054] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:127:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_alsologtostderr\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.500115] (radar_remap_cpp) StderrLine: {'line': b'  127 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(alsologtostderr);\n'}
+[2.500173] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.501246] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:130:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.501337] (radar_remap_cpp) StderrLine: {'line': b'  130 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(colorlogtostderr);\n'}
+[2.501401] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.501461] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:130:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_colorlogtostderr\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.501522] (radar_remap_cpp) StderrLine: {'line': b'  130 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(colorlogtostderr);\n'}
+[2.501579] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.502655] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:134:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.502718] (radar_remap_cpp) StderrLine: {'line': b'  134 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(stderrthreshold);\n'}
+[2.502788] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.502845] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:134:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_stderrthreshold\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.502903] (radar_remap_cpp) StderrLine: {'line': b'  134 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(stderrthreshold);\n'}
+[2.502960] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.504063] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:137:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.504156] (radar_remap_cpp) StderrLine: {'line': b'  137 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(log_file_header);\n'}
+[2.504221] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.504281] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:137:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_log_file_header\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.504341] (radar_remap_cpp) StderrLine: {'line': b'  137 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(log_file_header);\n'}
+[2.504410] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.505479] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:140:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.505570] (radar_remap_cpp) StderrLine: {'line': b'  140 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(log_prefix);\n'}
+[2.505633] (-) TimerEvent: {}
+[2.505710] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.505778] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:140:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_log_prefix\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.505839] (radar_remap_cpp) StderrLine: {'line': b'  140 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(log_prefix);\n'}
+[2.505898] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.506899] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:143:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.506991] (radar_remap_cpp) StderrLine: {'line': b'  143 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(log_year_in_prefix);\n'}
+[2.507055] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.507119] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:143:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_log_year_in_prefix\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.507179] (radar_remap_cpp) StderrLine: {'line': b'  143 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(log_year_in_prefix);\n'}
+[2.507238] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.508339] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:147:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.508439] (radar_remap_cpp) StderrLine: {'line': b'  147 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(logbuflevel);\n'}
+[2.508506] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.508566] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:147:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_logbuflevel\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.508630] (radar_remap_cpp) StderrLine: {'line': b'  147 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(logbuflevel);\n'}
+[2.508687] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.509789] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:150:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.509882] (radar_remap_cpp) StderrLine: {'line': b'  150 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(logbufsecs);\n'}
+[2.509948] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.510010] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:150:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_logbufsecs\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.510071] (radar_remap_cpp) StderrLine: {'line': b'  150 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(logbufsecs);\n'}
+[2.510128] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.511225] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:154:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.511321] (radar_remap_cpp) StderrLine: {'line': b'  154 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(minloglevel);\n'}
+[2.511388] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.511449] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:154:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_minloglevel\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.511510] (radar_remap_cpp) StderrLine: {'line': b'  154 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(minloglevel);\n'}
+[2.511568] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.512746] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:158:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.512849] (radar_remap_cpp) StderrLine: {'line': b'  158 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(log_dir);\n'}
+[2.512946] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.513044] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:158:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_log_dir\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.513121] (radar_remap_cpp) StderrLine: {'line': b'  158 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(log_dir);\n'}
+[2.513183] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.514309] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:161:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.514401] (radar_remap_cpp) StderrLine: {'line': b'  161 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(logfile_mode);\n'}
+[2.514466] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.514526] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:161:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_logfile_mode\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.514587] (radar_remap_cpp) StderrLine: {'line': b'  161 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(logfile_mode);\n'}
+[2.514646] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.515784] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:165:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.515877] (radar_remap_cpp) StderrLine: {'line': b'  165 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(log_link);\n'}
+[2.515942] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.516003] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:165:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_log_link\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.516083] (radar_remap_cpp) StderrLine: {'line': b'  165 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(log_link);\n'}
+[2.516144] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.517217] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:167:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.517313] (radar_remap_cpp) StderrLine: {'line': b'  167 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(v);  // in vlog_is_on.cc\n'}
+[2.517379] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.517439] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:167:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_v\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLI\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.517499] (radar_remap_cpp) StderrLine: {'line': b'  167 | \x1b[01;31m\x1b[KDECLARE_int32\x1b[m\x1b[K(v);  // in vlog_is_on.cc\n'}
+[2.517557] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.518631] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:169:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.518724] (radar_remap_cpp) StderrLine: {'line': b'  169 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(vmodule);  // also in vlog_is_on.cc\n'}
+[2.518788] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.518848] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:169:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_vmodule\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.518909] (radar_remap_cpp) StderrLine: {'line': b'  169 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(vmodule);  // also in vlog_is_on.cc\n'}
+[2.518966] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.520057] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:172:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.520151] (radar_remap_cpp) StderrLine: {'line': b'  172 | \x1b[01;31m\x1b[KDECLARE_uint32\x1b[m\x1b[K(max_log_size);\n'}
+[2.520216] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.520276] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:172:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_max_log_size\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLU\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.520342] (radar_remap_cpp) StderrLine: {'line': b'  172 | \x1b[01;31m\x1b[KDECLARE_uint32\x1b[m\x1b[K(max_log_size);\n'}
+[2.520401] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.521478] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:175:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.521576] (radar_remap_cpp) StderrLine: {'line': b'  175 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(stop_logging_if_full_disk);\n'}
+[2.521646] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.521706] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:175:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_stop_logging_if_full_disk\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.521767] (radar_remap_cpp) StderrLine: {'line': b'  175 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(stop_logging_if_full_disk);\n'}
+[2.521825] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.522949] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:178:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.523046] (radar_remap_cpp) StderrLine: {'line': b'  178 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(log_utc_time);\n'}
+[2.523111] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.523171] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:178:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_log_utc_time\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.523231] (radar_remap_cpp) StderrLine: {'line': b'  178 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(log_utc_time);\n'}
+[2.523289] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.524415] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:181:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.524508] (radar_remap_cpp) StderrLine: {'line': b'  181 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(logmailer);\n'}
+[2.524572] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.524632] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:181:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_logmailer\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.524692] (radar_remap_cpp) StderrLine: {'line': b'  181 | \x1b[01;31m\x1b[KDECLARE_string\x1b[m\x1b[K(logmailer);\n'}
+[2.524749] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.525823] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:183:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGLOG_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.525914] (radar_remap_cpp) StderrLine: {'line': b'  183 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(symbolize_stacktrace);\n'}
+[2.525979] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.526040] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/glog/flags.h:183:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLAGS_symbolize_stacktrace\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[KfLB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.526100] (radar_remap_cpp) StderrLine: {'line': b'  183 | \x1b[01;31m\x1b[KDECLARE_bool\x1b[m\x1b[K(symbolize_stacktrace);\n'}
+[2.526157] (radar_remap_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.536714] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:122:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[2.536870] (radar_remap_cpp) StderrLine: {'line': b'  122 | }\n'}
+[2.536938] (radar_remap_cpp) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.537000] (radar_remap_cpp) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.580556] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Points_subscriber::command_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.580707] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:148:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.580788] (radar_remap_cpp) StderrLine: {'line': b'  148 |                 for (int i = 0; \x1b[01;35m\x1b[Ki < msg->data.size() - 2\x1b[m\x1b[K; i += 3) {\n'}
+[2.580851] (radar_remap_cpp) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.581004] (radar_remap_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:158:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::map<int, cv::Point_<float> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.581080] (radar_remap_cpp) StderrLine: {'line': b'  158 |                 for (int i = 0; \x1b[01;35m\x1b[Ki < cars_position.size()\x1b[m\x1b[K; i++) {\n'}
+[2.581142] (radar_remap_cpp) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.605763] (-) TimerEvent: {}
+[2.706024] (-) TimerEvent: {}
+[2.806287] (-) TimerEvent: {}
+[2.906570] (-) TimerEvent: {}
+[3.006862] (-) TimerEvent: {}
+[3.107124] (-) TimerEvent: {}
+[3.207382] (-) TimerEvent: {}
+[3.307645] (-) TimerEvent: {}
+[3.407936] (-) TimerEvent: {}
+[3.508183] (-) TimerEvent: {}
+[3.608439] (-) TimerEvent: {}
+[3.708676] (-) TimerEvent: {}
+[3.808941] (-) TimerEvent: {}
+[3.909177] (-) TimerEvent: {}
+[4.009453] (-) TimerEvent: {}
+[4.109718] (-) TimerEvent: {}
+[4.209983] (-) TimerEvent: {}
+[4.310248] (-) TimerEvent: {}
+[4.410519] (-) TimerEvent: {}
+[4.510788] (-) TimerEvent: {}
+[4.611047] (-) TimerEvent: {}
+[4.711302] (-) TimerEvent: {}
+[4.811588] (-) TimerEvent: {}
+[4.839631] (radar_remap_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:76: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o] Error 1\n'}
+[4.839812] (radar_remap_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/points_subscriber.dir/all] Error 2\n'}
+[4.839911] (radar_remap_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.841694] (radar_remap_cpp) CommandEnded: {'returncode': 2}
+[4.906950] (radar_remap_cpp) JobEnded: {'identifier': 'radar_remap_cpp', 'rc': 2}
+[4.911646] (-) TimerEvent: {}
+[4.917442] (-) EventReactorShutdown: {}

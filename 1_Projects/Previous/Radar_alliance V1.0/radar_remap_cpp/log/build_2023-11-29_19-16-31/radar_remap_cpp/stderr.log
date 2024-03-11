@@ -1,0 +1,74 @@
+[01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/src/points_subscriber.cpp:[m[K In member function ‘[01m[Kvoid Points_subscriber::command_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lisii/Documents/Github-repos/TransferStation/1_Projects/Current/radar_remap_cpp/src/points_subscriber.cpp:92:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   92 |         for (auto i = 0; [01;35m[Ki < msg->data.size() - 1[m[K; i++)
+      |                          [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `main':
+points_subscriber.cpp:(.text+0x17d): undefined reference to `cv::FileStorage::FileStorage(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x195): undefined reference to `cv::FileStorage::isOpened() const'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x1ee): undefined reference to `cv::FileStorage::operator[](char const*) const'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x224): undefined reference to `cv::FileStorage::operator[](char const*) const'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x249): undefined reference to `cv::FileStorage::release()'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x2c6): undefined reference to `cv::resize(cv::_InputArray const&, cv::_OutputArray const&, cv::Size_<int>, double, double, int)'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x321): undefined reference to `cv::namedWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x397): undefined reference to `cv::resizeWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::Size_<int> const&)'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x47a): undefined reference to `cv::FileStorage::~FileStorage()'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x5f1): undefined reference to `cv::FileStorage::~FileStorage()'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `void cv::operator>><cv::Mat_<float> >(cv::FileNode const&, cv::Mat_<float>&)':
+points_subscriber.cpp:(.text+0x677): undefined reference to `cv::read(cv::FileNode const&, cv::Mat&, cv::Mat const&)'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `__static_initialization_and_destruction_0(int, int)':
+points_subscriber.cpp:(.text+0x7a2): undefined reference to `cv::imread(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x7bd): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x83e): undefined reference to `cv::imread(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/usr/bin/ld: points_subscriber.cpp:(.text+0x859): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::MatConstIterator::MatConstIterator(cv::Mat const*)':
+points_subscriber.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0xa5): undefined reference to `cv::Mat::empty() const'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0xfa): undefined reference to `cv::error(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, int)'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0x12d): undefined reference to `cv::Mat::total() const'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0x15b): undefined reference to `cv::MatConstIterator::seek(int const*, bool)'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::MatConstIterator::operator++()':
+points_subscriber.cpp:(.text._ZN2cv16MatConstIteratorppEv[_ZN2cv16MatConstIteratorppEv]+0x8c): undefined reference to `cv::MatConstIterator::seek(long, bool)'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::MatExpr::~MatExpr()':
+points_subscriber.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x1e): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x2e): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x3e): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::~Mat_()':
+points_subscriber.cpp:(.text._ZN2cv4Mat_IfED2Ev[_ZN2cv4Mat_IfED5Ev]+0x18): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `RobotLocationSolve::remap(std::vector<cv::Point_<float>, std::allocator<cv::Point_<float> > >)':
+points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x132): undefined reference to `cv::operator*(cv::Mat const&, cv::Mat const&)'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x17a): undefined reference to `cv::operator*(cv::Mat const&, cv::Mat const&)'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x466): undefined reference to `cv::circle(cv::_InputOutputArray const&, cv::Point_<int>, int, cv::Scalar_<double> const&, int, int, int)'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x51a): undefined reference to `cv::circle(cv::_InputOutputArray const&, cv::Point_<int>, int, cv::Scalar_<double> const&, int, int, int)'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x58e): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE[_ZN18RobotLocationSolve5remapESt6vectorIN2cv6Point_IfEESaIS3_EE]+0x5c5): undefined reference to `cv::waitKey(int)'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::Mat_()':
+points_subscriber.cpp:(.text._ZN2cv4Mat_IfEC2Ev[_ZN2cv4Mat_IfEC5Ev]+0x18): undefined reference to `cv::Mat::Mat()'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::Mat_(int, int)':
+points_subscriber.cpp:(.text._ZN2cv4Mat_IfEC2Eii[_ZN2cv4Mat_IfEC5Eii]+0x29): undefined reference to `cv::Mat::Mat(int, int, int)'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::operator=(cv::Mat_<float>&&)':
+points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEOS1_[_ZN2cv4Mat_IfEaSEOS1_]+0x2c): undefined reference to `cv::Mat::operator=(cv::Mat&&)'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::Mat_(cv::Mat const&)':
+points_subscriber.cpp:(.text._ZN2cv4Mat_IfEC2ERKNS_3MatE[_ZN2cv4Mat_IfEC5ERKNS_3MatE]+0x1d): undefined reference to `cv::Mat::Mat()'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEC2ERKNS_3MatE[_ZN2cv4Mat_IfEC5ERKNS_3MatE]+0x59): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::operator=(cv::Mat const&)':
+points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x38): undefined reference to `cv::Mat::empty() const'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x89): undefined reference to `cv::Mat::operator=(cv::Mat const&)'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0xd8): undefined reference to `cv::Mat::reshape(int, int, int const*) const'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0xfe): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x126): undefined reference to `cv::Mat::empty() const'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x18e): undefined reference to `cv::error(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, int)'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x1e3): undefined reference to `cv::Mat::convertTo(cv::_OutputArray const&, int, double, double) const'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSERKNS_3MatE[_ZN2cv4Mat_IfEaSERKNS_3MatE]+0x220): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::release()':
+points_subscriber.cpp:(.text._ZN2cv4Mat_IfE7releaseEv[_ZN2cv4Mat_IfE7releaseEv]+0x18): undefined reference to `cv::Mat::release()'
+/usr/bin/ld: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o: in function `cv::Mat_<float>::operator=(cv::Mat&&)':
+points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0x38): undefined reference to `cv::Mat::empty() const'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0x89): undefined reference to `cv::Mat::operator=(cv::Mat&&)'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0xdf): undefined reference to `cv::Mat::reshape(int, int, int const*) const'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0xee): undefined reference to `cv::Mat::operator=(cv::Mat&&)'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0xfa): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0x158): undefined reference to `cv::Mat::convertTo(cv::_OutputArray const&, int, double, double) const'
+/usr/bin/ld: points_subscriber.cpp:(.text._ZN2cv4Mat_IfEaSEONS_3MatE[_ZN2cv4Mat_IfEaSEONS_3MatE]+0x192): undefined reference to `cv::Mat::~Mat()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:159：points_subscriber] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/points_subscriber.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,26 @@
+[0.018s] Invoking command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect': /usr/bin/cmake --build /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect -- -j16 -l16
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target car_detect[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/car_detect.dir/src/Yolov5.cpp.o[0m
+[3.913s] [100%] [32m[1mLinking CXX executable car_detect[0m
+[4.309s] [100%] Built target car_detect
+[4.317s] Invoked command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect' returned '0': /usr/bin/cmake --build /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect -- -j16 -l16
+[4.351s] Invoking command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect': /usr/bin/cmake --install /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect
+[4.356s] -- Install configuration: ""
+[4.356s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/ament_index/resource_index/package_run_dependencies/car_detect
+[4.356s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/ament_index/resource_index/parent_prefix_path/car_detect
+[4.356s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/ament_prefix_path.sh
+[4.356s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/ament_prefix_path.dsv
+[4.356s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/path.sh
+[4.356s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/environment/path.dsv
+[4.356s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.bash
+[4.356s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.sh
+[4.357s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.zsh
+[4.357s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/local_setup.dsv
+[4.357s] -- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/package.dsv
+[4.357s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/ament_index/resource_index/packages/car_detect
+[4.357s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/cmake/car_detectConfig.cmake
+[4.357s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/cmake/car_detectConfig-version.cmake
+[4.357s] -- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/share/car_detect/package.xml
+[4.357s] -- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/lib/car_detect/car_detect
+[4.358s] -- Set runtime path of "/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/install/car_detect/lib/car_detect/car_detect" to ""
+[4.360s] Invoked command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect' returned '0': /usr/bin/cmake --install /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/car_detect/build/car_detect

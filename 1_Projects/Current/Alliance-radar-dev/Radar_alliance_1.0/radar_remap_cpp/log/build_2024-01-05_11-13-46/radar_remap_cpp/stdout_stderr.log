@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target points_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o[0m
+[01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kglog: No such file or directory
+    8 | #include [01;31m[K<glog>[m[K
+      |          [01;31m[K^~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:76: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/points_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

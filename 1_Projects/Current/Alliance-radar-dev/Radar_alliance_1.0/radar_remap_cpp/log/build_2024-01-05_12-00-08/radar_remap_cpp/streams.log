@@ -1,0 +1,19 @@
+[0.019s] Invoking command in '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp': /usr/bin/cmake --build /workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target points_subscriber[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o[0m
+[2.574s] [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:[m[K In member function ‘[01m[Kvoid Points_subscriber::command_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.574s] [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:241:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ was not declared in this scope; did you mean ‘[01m[KLogger[m[K’?
+[2.574s]   241 |             [01;31m[Klogger[m[K(Logger::file,Logger::debug,"/workspaces/DockerExample/cpp.log");
+[2.574s]       |             [01;31m[K^~~~~~[m[K
+[2.574s]       |             [32m[KLogger[m[K
+[2.574s] [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:247:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.574s]   247 |                 for (int i = 0; [01;35m[Ki < msg->data.size() - 2[m[K; i += 3) {
+[2.574s]       |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.579s] [01m[K/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/src/points_subscriber.cpp:280:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ was not declared in this scope; did you mean ‘[01m[KLogger[m[K’?
+[2.580s]   280 |             [01;31m[Klogger[m[K.ERRORS(errors);
+[2.580s]       |             [01;31m[K^~~~~~[m[K
+[2.580s]       |             [32m[KLogger[m[K
+[4.852s] gmake[2]: *** [CMakeFiles/points_subscriber.dir/build.make:76: CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o] Error 1
+[4.852s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/points_subscriber.dir/all] Error 2
+[4.852s] gmake: *** [Makefile:146: all] Error 2
+[4.853s] Invoked command in '/workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp' returned '2': /usr/bin/cmake --build /workspaces/DockerExample/Radar_alliance V1.0/radar_remap_cpp/build/radar_remap_cpp -- -j12 -l12

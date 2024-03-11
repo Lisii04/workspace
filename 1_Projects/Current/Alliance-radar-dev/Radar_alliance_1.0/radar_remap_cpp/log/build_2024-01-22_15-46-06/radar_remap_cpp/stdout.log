@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target points_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/points_subscriber.dir/src/points_subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable points_subscriber[0m
+[100%] Built target points_subscriber
+-- Install configuration: ""
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/launch
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/launch/cpp.launch.py
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/package_run_dependencies/radar_remap_cpp
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/parent_prefix_path/radar_remap_cpp
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/path.sh
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/environment/path.dsv
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.bash
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.sh
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.zsh
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/local_setup.dsv
+-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.dsv
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/ament_index/resource_index/packages/radar_remap_cpp
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/cmake/radar_remap_cppConfig.cmake
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/cmake/radar_remap_cppConfig-version.cmake
+-- Up-to-date: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/share/radar_remap_cpp/package.xml
+-- Installing: /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/lib/radar_remap_cpp/points_subscriber
+-- Set runtime path of "/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance V1.0/radar_remap_cpp/install/radar_remap_cpp/lib/radar_remap_cpp/points_subscriber" to ""

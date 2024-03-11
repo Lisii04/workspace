@@ -1,0 +1,102 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="all_style.css">
+    <script src="modules/jquery-3.7.1.min.js"></script>
+</head>
+
+<body onload="load();">
+</body> 
+
+   
+<div class="navbar">
+    <a href="main.html">首页</a>
+    <a href="#">设置</a>
+</div>
+   
+<div id="main" class="row">
+    <div class="side">
+        <div class="side-button">
+            <a onclick=javascript:loadPictureTransform()>图片转换</a>
+            <a onclick=javascript:loadVideoTransform()>视频转换</a>
+            <a onclick=javascript:about()>框架文档</a>
+        </div>
+    </div>
+    <div class="main">
+        <div id="greet"></div>
+    </div>
+</div>
+
+<div id="picture_trans"></div>
+
+<div id="about"></div>
+
+<input id="status" class="status" value="1" type="text"/>
+   
+<!-- <div class="footer">
+<h5>1.0.0 Test.</h5>
+</div> -->
+
+<script>
+    function load(){
+        document.getElementById("main").style.display="flex";
+        document.getElementById("picture_trans").style.display="none";
+        document.getElementById("about").style.display="none";
+    }
+    function loadPictureTransform(){
+        document.getElementById("main").style.display="none";
+        document.getElementById("picture_trans").style.display="inline";
+        document.getElementById("about").style.display="none";
+    }
+    function loadVideoTransform(){
+        document.getElementById("main").style.display="none";
+        document.getElementById("picture_trans").style.display="none";
+        document.getElementById("about").style.display="none";
+    }
+    function about(){
+        document.getElementById("main").style.display="none";
+        document.getElementById("picture_trans").style.display="none";
+        document.getElementById("about").style.display="inline";
+    }
+</script>
+
+<script>
+    $("#picture_trans").load("subpages/picture_trans.html");
+    $("#greet").load("subpages/greet.html");
+    $("#about").load("subpages/about.html");
+</script>
+
+<script>
+    function Response(response) {
+        var status = document.getElementById('status');
+        status.value = response;
+    }
+
+    function getImportFilePath() {
+        pywebview.api.getImportFilePath().then(function(response){
+            document.getElementById('status').value = response;
+            document.getElementById('ImportFilePath').value = response;
+        }) 
+    }
+
+    function gifToPng() {
+        var fileImportPath = document.getElementById('ImportFilePath').value;
+        var fileExportPath = document.getElementById('ExportFilePath').value;
+        pywebview.api.gifToPng(fileImportPath,fileExportPath).then(showResponse)
+    }
+</script>
+
+<script>
+    window.addEventListener('status', function() {
+        var status = document.getElementById('status').value;
+        switch(status){
+            case "1":
+                break;
+            case "-1":
+                alert("未知错误");
+                break;
+            default:
+                alert(status);
+        }
+    })
+</script>

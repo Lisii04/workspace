@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            background: #2c3e50;
+        }
+
+        .container {
+            /* background: url("otuai.png") no-repeat; */
+            /* background-position: center; */
+            height: 100%;
+            width: 100%;
+            /* background-size: 100% cover; */
+        }
+
+         .login-wrapper {
+            background-color: #3e566e;
+            backdrop-filter: blur(10px);
+            width: 270px;
+            height: 100px;
+            border-radius: 15px;
+            padding: 20px 50px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 10px 10px 20px rgba(33, 44, 55, .3);
+
+        }
+
+        .header {
+            font-family: sans-serif;
+            font-size: 30px;
+            font-weight: lighter;
+            text-align: center;
+            line-height: 70px;
+            color: #fcfcfcd3;
+        }
+
+         .btn {
+            width: 100%;
+            flex: 1 1 auto;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            text-align: center;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+            transition: 0.3s;
+            background-image: linear-gradient(to right, #3077f1, #964df7);
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-wrapper">
+            <div class="header">出错了...</div>
+            <button onclick="window.location.href='../../login/'" class="btn">回首页</button>
+        </div>
+    </div>
+</body>
+
+</html>

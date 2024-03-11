@@ -1,0 +1,26 @@
+[0.604s] Invoking command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py': PYTHONPATH=/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/prefix_override:/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/radar_yolov5_py build --build-base /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build install --record /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/install.log --single-version-externally-managed
+[0.690s] Traceback (most recent call last):
+[0.690s]   File "/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/setup.py", line 7, in <module>
+[0.690s]     setup(
+[0.690s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/__init__.py", line 102, in setup
+[0.690s]     _install_setup_requires(attrs)
+[0.691s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/__init__.py", line 70, in _install_setup_requires
+[0.691s]     dist = MinimalDistribution(attrs)
+[0.691s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/__init__.py", line 52, in __init__
+[0.691s]     super().__init__(filtered)
+[0.691s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/dist.py", line 297, in __init__
+[0.691s]     for ep in metadata.entry_points(group='distutils.setup_keywords'):
+[0.691s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+[0.691s]     return SelectableGroups.load(eps).select(**params)
+[0.691s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load
+[0.691s]     ordered = sorted(eps, key=by_group)
+[0.691s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1019, in <genexpr>
+[0.691s]     dist.entry_points for dist in unique(distributions())
+[0.691s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 631, in entry_points
+[0.691s]     return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+[0.691s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 381, in _from_text_for
+[0.691s]     return cls(ep._for(dist) for ep in cls._from_text(text))
+[0.691s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 383, in _from_text
+[0.692s]     @classmethod
+[0.692s] KeyboardInterrupt
+[0.704s] Invoked command in '/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py' returned '-2': PYTHONPATH=/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/prefix_override:/workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/install/radar_yolov5_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/radar_yolov5_py build --build-base /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/build install --record /workspaces/TransferStation/1_Projects/Current/Alliance-radar-dev/Radar_alliance_1.0/radar_yolov5_py/build/radar_yolov5_py/install.log --single-version-externally-managed
