@@ -12,3 +12,6 @@ _deps
 install
 build
 *.mp4
+*.log
+log
+.onnx
