@@ -3,7 +3,7 @@ import numpy as np
 import torch
 from models import LeNet5
 
-classes={0:'0',1:'1',2:'2',3:'3',4:'4',5:'5',6:'6',7:'7',8:'8',9:'9','10':'A'}
+classes={0:'0',1:'1',2:'2',3:'3',4:'4',5:'5',6:'6',7:'7',8:'8',9:'9',10:'A'}
 
 kernel=np.ones((1,1),np.uint8)
 img=cv2.imread("T4.png")

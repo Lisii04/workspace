@@ -14,7 +14,7 @@ from torchsummary import summary
 
 #常数和算法定义区
 transform=transforms.Compose(
-    [ToTensor(),
+    [ToTensor(),                                
     transforms.Resize((36,36)),
     transforms.RandomRotation((-10,10))
     ])
