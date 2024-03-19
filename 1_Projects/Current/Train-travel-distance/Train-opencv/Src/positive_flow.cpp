@@ -95,7 +95,7 @@ int lucas_kanade(const string &filename)
     goodFeaturesToTrack(old_gray, p0, 100, 0.25, 7, Mat(), 7, false, 0.04);
     // 创建用于绘图的掩模图像
     Mat mask = Mat::zeros(old_frame.size(), old_frame.type());
-    int display = 7018;
+    int display = 1;
     int counter = 0;
     double speed = 0;
     double total_distance = 0;
@@ -134,10 +134,20 @@ int lucas_kanade(const string &filename)
                     goodFeaturesToTrack(old_gray, p0, 100, 0.25, 7, Mat(), 7, false, 0.04);
                 }
                 double quality = 0.25;
+                bool quit = false;
                 while (p0.size() == 0)
                 {
                     quality -= 0.05;
                     goodFeaturesToTrack(old_gray, p0, 100, quality > 0 ? quality : 0.01, 7, Mat(), 7, false, 0.04);
+                    if (quality <= -1)
+                    {
+                        quit = true;
+                        break;
+                    }
+                }
+                if (quit)
+                {
+                    continue;
                 }
                 // 计算光流
                 vector<uchar> status;
