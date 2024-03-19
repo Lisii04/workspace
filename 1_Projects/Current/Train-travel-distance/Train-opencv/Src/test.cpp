@@ -13,7 +13,8 @@ cv::Mat ROI_extract(cv::Mat inputFrame, std::vector<cv::Point> points)
     std::vector<std::vector<cv::Point>> contours;
     std::vector<cv::Point> pts;
 
-    for (int i = 0; i < points.size(); i++) {
+    for (int i = 0; i < points.size(); i++)
+    {
         pts.push_back(points[i]);
     }
 
@@ -35,47 +36,56 @@ double getDistance(cv::Point pointO, cv::Point pointA)
 
 int main()
 {
-    int frame_count = 0;
-    std::queue<cv::Point2f> all_points;
+    try
+    {
+        int frame_count = 0;
+        std::queue<cv::Point2f> all_points;
 
-    cv::VideoCapture video;
-    video.open("../video.mp4");
-    while (true) {
-        cv::Mat frame;
-        video >> frame;
-        frame_count++;
-        std::cout << frame_count << "\n";
+        cv::VideoCapture video;
+        video.open("/workspaces/workspace/1_Projects/Current/Train-travel-distance/Train-opencv/video.mp4");
+        while (true)
+        {
+            cv::Mat frame;
+            video >> frame;
+            frame_count++;
+            std::cout << frame_count << "\n";
 
-        if (frame.empty()) {
-            break;
-        } else if (frame_count < 1200) {
-            continue;
+            if (frame.empty())
+            {
+                break;
+            }
+            else if (frame_count < 1200)
+            {
+                continue;
+            }
+
+            // 集中定义
+            cv::Mat Hsv, Hsv_green, bulr, thres, canny, pr_frame, pr_gray;
+
+            std::vector<cv::Point> points;
+            double max_X = frame.size().width;
+            double max_Y = frame.size().height;
+            points.push_back(cv::Point(max_X * (2.0 / 5.0), max_Y * (1.2 / 5.0))); // LD
+            points.push_back(cv::Point(max_X * (2.5 / 5.0), max_Y * (1.2 / 5.0))); // RD
+            points.push_back(cv::Point(max_X * (2.6 / 5.0), max_Y * (0.0 / 5.0))); // RU
+            points.push_back(cv::Point(max_X * (1.5 / 5.0), max_Y * (0.0 / 5.0))); // LU
+            cv::Mat Roi = ROI_extract(frame, points);
+
+            cv::Mat remap = cv::Mat::zeros(cv::Size(200, 400), CV_8UC1);
+            cv::Point2f AffinePoints[4] = {points[0], points[1], points[2], points[3]};                                                                   // 变化前的4个节点
+            cv::Point2f transformed_points[4] = {cv::Point(0, remap.rows), cv::Point(remap.cols, remap.rows), cv::Point(remap.cols, 0), cv::Point(0, 0)}; // 变化后的4个节点
+
+            cv::Mat Trans = cv::getPerspectiveTransform(AffinePoints, transformed_points);
+            cv::warpPerspective(frame, remap, Trans, cv::Size(remap.cols, remap.rows));
+
+            cv::imshow("1", remap);
+            cv::waitKey(0);
         }
-
-        //集中定义
-        cv::Mat Hsv, Hsv_green, bulr, thres, canny, pr_frame, pr_gray;
-
-        std::vector<cv::Point> points;
-        double max_X = frame.size().width;
-        double max_Y = frame.size().height;
-        points.push_back(cv::Point(max_X * (2.0 / 5.0), max_Y * (1.2 / 5.0))); // LD
-        points.push_back(cv::Point(max_X * (2.5 / 5.0), max_Y * (1.2 / 5.0))); // RD
-        points.push_back(cv::Point(max_X * (2.6 / 5.0), max_Y * (0.0 / 5.0))); // RU
-        points.push_back(cv::Point(max_X * (1.5 / 5.0), max_Y * (0.0 / 5.0))); // LU
-        cv::Mat Roi = ROI_extract(frame, points);
-
-        cv::Mat remap = cv::Mat::zeros(cv::Size(200, 400), CV_8UC1);
-        cv::Point2f AffinePoints[4] = { points[0], points[1], points[2], points[3] }; //变化前的4个节点
-        cv::Point2f transformed_points[4] = { cv::Point(0, remap.rows), cv::Point(remap.cols, remap.rows), cv::Point(remap.cols, 0), cv::Point(0, 0) }; //变化后的4个节点
-
-        cv::Mat Trans = cv::getPerspectiveTransform(AffinePoints, transformed_points);
-        cv::warpPerspective(frame, remap, Trans, cv::Size(remap.cols, remap.rows));
-
-        cv::imshow("1", remap);
-        cv::waitKey(0);
+    }
+    catch (const std::exception &e)
+    {
+        std::cerr << e.what() << '\n';
     }
 
-    std::cout << "Done"
-              << "\n";
     return 0;
 }

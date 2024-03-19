@@ -1,4 +1,8 @@
 {
     "cmake.configureOnOpen": false,
-    "cmake.sourceDirectory": "/workspaces/Train-travel-distance/Train-opencv"
+    "cmake.sourceDirectory": "/workspaces/workspace/1_Projects/Current/Train-travel-distance/Train-opencv",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "files.associations": {
+        "iostream": "cpp"
+    },
 }

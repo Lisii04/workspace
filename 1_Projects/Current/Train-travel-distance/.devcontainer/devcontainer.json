@@ -21,7 +21,7 @@
     },
     "runArgs": [
         "--network",
-        "host",
-        "--gpus=all"
+        "host"
+        // "--gpus=all"
     ]
 }

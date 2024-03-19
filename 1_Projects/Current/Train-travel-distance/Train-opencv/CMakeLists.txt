@@ -1,5 +1,5 @@
 # cmake needs this line
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.5)
 
 # Define project name
 project(Train-opencv)
@@ -15,7 +15,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 # Declare the executable target built from your sources
 add_executable(Train-opencv Src/positive_flow.cpp)
-# add_executable(Train-opencv chesscoard_capture.cpp)
+# add_executable(Train-opencv Src/test.cpp)
 
 # Link your application with OpenCV libraries
 target_link_libraries(Train-opencv PRIVATE ${OpenCV_LIBS})
